@@ -6,12 +6,14 @@ status: active
 aliases: [999-docs, 999-prefix-research, 9999-docs]
 tags: [drive, 999-prefix, research-archive, high-density]
 created: 2026-04-24
-updated: 2026-04-24
+updated: 2026-04-25
 source: google-drive:admin@albahah.app
 related:
   - "[[drive-catalog]]"
   - "[[ahmad-formal-assignments]]"
   - "[[research-initiatives-portfolio]]"
+  - "[[999-albaha-qms-bcp]]"
+  - "[[999-disability-care-empowerment-strategy]]"
 summary: >-
   Catalog of Ahmad's "999" / "9999" prefixed research docs — long-form
   comprehensive treatments (30k–1MB each) used as thinking substrate, not
@@ -36,7 +38,7 @@ Ahmad uses the `999` (occasionally `9999`) prefix to mark documents that are lon
 | `1huUZTvJ7Fg2AkiCg-vdLWZg2oUVxLnJt` | 999 منظومة رعاية … (PDF, earlier) | 2.5 MB | 2025-11-25 | Same topic, earlier PDF |
 | `1iC8AdwZStrwyGhGxzL-tujA-ws7hA3egIshgoioi5a4` | 999 إعادة بناء الرعاية الاجتماعية — نحو التمكين | 24k | 2025-12-23 | Rebuild social care toward empowerment |
 | `1oTXk7UBKrqgFDVl3_R7pg_58S665Y8-2xWszxxxAalY` | 999 تنمية المهارات لذوي الاحتياجات الخاصة | 319k | 2025-12-23 | Skill development for special needs |
-| `1EZHHi5I3n476DSkhPoBg78-1Z1C4lUj4nx9iC9uIWMc` | 999 نظام إدارة جودة العمليات والامتثال لمركز التأهيل بالباحة + قياس رضا المستفيدين + استمرارية الأعمال | 61k | 2026-02-22 | QMS + beneficiary-satisfaction + BCP — Al-Baha center |
+| `1EZHHi5I3n476DSkhPoBg78-1Z1C4lUj4nx9iC9uIWMc` | 999 نظام إدارة جودة العمليات والامتثال لمركز التأهيل بالباحة + قياس رضا المستفيدين + استمرارية الأعمال | 61k | 2026-02-22 | QMS + beneficiary-satisfaction + BCP — Al-Baha center → **distilled** at [[999-albaha-qms-bcp]] |
 | `1sgdawDigC4wn_8FyfmTR21Xq_nnzu96VGKnqZ_aoBsw` | 999 تحقيق التميز المؤسسي والابتكار — أنسنة الخدمات التقنية في مراكز التأهيل + منظومات البحث العلمي | 53k | 2026-03-28 | Institutional excellence + innovation |
 | `1z4GxUGvvfpelVRFmqWS8vTB0aLQwWEj-B0yxKXuER_w` | 999 تنسيق Markdown — موضوع شامل عن عمليات المركز وحوكمتها والجودة والرقمنة وصفر ورق | 272k | 2026-03-28 | Center ops + governance + quality + digital + zero-paper (Markdown format) |
 | `1WyNRUlcGNxrS81-TUNcOm83j1oa1ACiLRTbNRbhzDnE` | 999 موضوع شامل — عمليات المركز وحوكمتها والجودة والرقمنة وصفر ورق | 137k | 2026-01-03 | Earlier Gdoc version of above |

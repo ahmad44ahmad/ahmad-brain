@@ -15,11 +15,12 @@ tags:
   - governance
   - decision-support
 created: 2026-04-24
-updated: 2026-04-24
+updated: 2026-04-25
 source: local-repo:C:\dev\basira\src\modules\leadership-compass\
 related:
   - "[[basira]]"
   - "[[basira-sovereign-decks]]"
+  - "[[999-albaha-qms-bcp]]"
 summary: >-
   Strategic decision surface inside Basira for senior leadership (مساعد التنمية,
   المدير العام, and above). Seven tabs, shipped on v2 on 2026-04-22. Not a

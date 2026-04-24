@@ -16,7 +16,7 @@ tags:
   - al-baha-pilot
   - governance
 created: 2026-04-24
-updated: 2026-04-24
+updated: 2026-04-25
 source: local-repo:C:\dev\basira\
 related:
   - "[[basira-leadership-compass]]"
@@ -29,6 +29,7 @@ related:
   - "[[research-initiatives-portfolio]]"
   - "[[ahmad-formal-assignments]]"
   - "[[drive-catalog]]"
+  - "[[999-albaha-qms-bcp]]"
 summary: >-
   Ahmad's flagship digital-transformation system (بصيرة / "Zero Paper") for
   Saudi comprehensive rehabilitation centers. Vite 6 + React + TypeScript local

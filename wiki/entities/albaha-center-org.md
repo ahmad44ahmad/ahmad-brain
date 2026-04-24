@@ -14,7 +14,7 @@ tags:
   - org-chart
   - hrsd
 created: 2026-04-24
-updated: 2026-04-24
+updated: 2026-04-25
 valid_from: 2026-04-23
 learned_at: 2026-04-23
 confidence: high
@@ -23,6 +23,7 @@ related:
   - "[[albaha-regional-admin]]"
   - "[[bandar-alzahrani]]"
   - "[[khalid-mutr]]"
+  - "[[999-albaha-qms-bcp]]"
 summary: >-
   Current heads of each department and sub-unit at مركز التأهيل الشامل بمنطقة
   الباحة as of 2026-04-23, dictated by Ahmad. Supersedes the older PDF org

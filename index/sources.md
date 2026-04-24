@@ -8,16 +8,17 @@ created: 2026-04-24
 updated: 2026-04-25
 summary: >-
   Auto-generated index. Regenerate via `.claude/skills/regenerate-indexes/generate.py`.
-  Count: 13 entries.
+  Count: 14 entries.
 ---
 
 # Sources Index
 
-Auto-generated 2026-04-25. 13 entries. Regenerate with `/regenerate-indexes` skill.
+Auto-generated 2026-04-25. 14 entries. Regenerate with `/regenerate-indexes` skill.
 
 
 | id | title | source | summary |
 |---|---|---|---|
+| [[999-albaha-qms-bcp]] | 999 — Al-Baha Center Integrated QMS + Compliance + Benefici… | drive:1EZHHi5I3n476DSkhPoBg78-1Z1C4lUj4nx9iC9uIWMc | English distillation of the Al-Baha Comprehensive Rehab Center integrated master doc covering QMS (ISO 9001:2015), comp… |
 | [[999-disability-care-empowerment-strategy]] | 999 — Disability Care + Empowerment Strategy (stitched 7-do… | drive:1byOQjDIbvL8HFBMsJtrxQRh4LEIuM5Jh3tfdbHJMCDM | Ahmad's master thinking-substrate doc (1.5M chars, Drive-labelled "500-page rehab-center comprehensive"). Actually a st… |
 | [[al-baha-center-policies]] | Al-Baha Comprehensive Rehab Center — Policies, Procedures &… | drive-folder:1zfL_SKlyny6uoRSFoiz6ML44nP6OK1m5 | 24-file Drive folder — complete operational/regulatory reference for the Al-Baha Comprehensive Rehab Center. Department… |
 | [[drive-999-docs]] | Drive "999" High-Density Research Docs | google-drive:admin@albahah.app | Catalog of Ahmad's "999" / "9999" prefixed research docs — long-form comprehensive treatments (30k–1MB each) used as th… |

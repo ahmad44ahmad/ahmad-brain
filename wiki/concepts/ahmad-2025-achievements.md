@@ -15,7 +15,7 @@ tags:
   - al-qarni-endorsement
   - evidence-stack
 created: 2026-04-24
-updated: 2026-04-24
+updated: 2026-04-25
 valid_from: 2025-11-25
 learned_at: 2026-04-21
 confidence: high
@@ -26,6 +26,7 @@ related:
   - "[[ahmad-career-arc]]"
   - "[[basira]]"
   - "[[employment-archive]]"
+  - "[[999-albaha-qms-bcp]]"
 summary: >-
   Ten 2025 performance achievements processed and approved in the MHRSD
   achievement system by Ali Al-Qarni (employee ID 8479) between 2025-11-25
