@@ -97,6 +97,32 @@ Index of high-signal Drive files. Access via `mcp__claude_ai_Google_Drive__read_
 |---|---|---|---|---|
 | `1M69u6Hfh3eOzw2Bqh7KnUvxMfH4Rf5Y_MYv7WPjxIj4` | معايير مكافحة العدوى الدور الاجتماعية (مركز تأهيل الباحة) 2023 | sheet | 2026-04-15 | Infection-control standards for social rehab roles |
 
+## PST / Outlook work-email archive
+
+| fileId | title | mime | size | purpose |
+|---|---|---|---|---|
+| `1IbT2nc4Mj4GDNV6yCzUdweHnKfqt6Rac` | backup22222 (1).pst | pst | 2.3 GB | Raw PST export of Ahmad's HRSD Outlook mailbox (Oct 2023 – Mar 2026) |
+| `1p6N8nfYqHZnmE1i553iW_trqM3z5hmhY` | sent.mbox | mbox | 841 MB | **SENT folder as mbox — Ahmad's outgoing messages, the high-signal subset he cares about most**. Parseable via Python `mailbox` module, no license needed. |
+| `1d1pd_8OTvb3kFPEPMj1RPud3D0XKn99X` | pst-summary.json | json | 42 KB | Structured extraction summary (metadata-only) |
+| `1_TnZf6lAs4M0ZABjry8li916zaCmKGcV` | pst_extract.py | py | 9.5 KB | Aspose.Email extraction script (eval license, caps 50/folder) |
+| `1z_cj5HVKhrZu4encg2esfLlBZ7koA8qWOPfozxk_lK8` | pst-analysis-detailed.md | gdoc | 13 KB | Previous Claude session's analysis — **already ingested into vault at `10-Projects/hrsd-work/sources/pst-analysis-2026-04-21.md`** |
+
+### PST folder hierarchy (parent folders)
+
+| folderId | title |
+|---|---|
+| `1a1g8_1MXirMZP59Z237gCie989syxBGq` | pst. export النسخة الاحتياطية من بريد العمل (top-level PST folder) |
+| `1-PIYAfhCJzb0I0xMFzYqPt18elGmjGNG` | ملفات Outlook |
+| `1kgb9aBtiaf_gFT1_oDQ9Lq4Atu8ilcp0` | ملف بيانات Outlook |
+| `1Lv_1MpcFfv70l21bkBxslccriJlEvv2q` | pst-export |
+| `1sMlLdFXW9e_9Yu2m3xduO2HFc3O1-UBS` | Per-message .eml extractions (numbered files: 544.eml, 569.eml, 999.eml, 1244.eml, 1500.eml, 1698.eml, 1822.eml, etc.) |
+
+**Note:** PST captures 2023-10 → 2026-03. Ahmad's voice 2026-04-24 claims ministry email since ~2014 — older archives may exist elsewhere; not yet located.
+
+## "999" high-density research docs
+
+See dedicated catalog: [[999-docs-catalog]]. Primary folder: `1_-6Nw7KaSws7meKdg5TqIqql_PCLe0U3`. Secondary: `1emSX-om-05Brv3d8wYApzMqb4ocdlrHb` (999HRSD-all).
+
 ## MHRSD templates
 
 | fileId | title | mime | purpose |

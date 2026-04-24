@@ -48,7 +48,16 @@ Canonical list of every named entity in this vault. Regenerate when adding/remov
 | File | Purpose |
 |---|---|
 | `30-Resources/drive-catalog.md` | Index of Ahmad's Google Drive (admin@albahah.app) |
+| `30-Resources/999-docs-catalog.md` | High-density "999"-prefixed research archive (70-100+ docs) |
 | `30-Resources/ai-models/PROMPT-FORGE.md` | Prompt-engineering intake template |
+
+## Career + HRSD anchors
+
+| File | Purpose |
+|---|---|
+| `20-Areas/career/formal-assignments.md` | Ahmad's 6 formal ministry assignments (Quality, Strategic Partnerships, CSR, Home Healthcare, Disability, Non-gov Rehab Committee) |
+| `20-Areas/career/ministry-era-timeline.md` | Ministry evolution MOSA → MLSD → HRSD + Majid Al-Qasabi inflection |
+| `10-Projects/hrsd-work/sources/pst-analysis-2026-04-21.md` | PST mailbox analysis — 2,172 inbox + 606 contacts + themes |
 
 ## Meta (`90-Meta/`)
 
