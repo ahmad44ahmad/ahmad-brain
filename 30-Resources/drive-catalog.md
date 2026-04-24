@@ -1,0 +1,112 @@
+---
+type: resource
+status: active
+track: personal
+lang: en
+created: 2026-04-24
+updated: 2026-04-24
+source: google-drive-admin@albahah.app
+tags: [drive-catalog, external-sources, index]
+---
+
+# Google Drive Catalog — admin@albahah.app
+
+Index of high-signal Drive files. Access via `mcp__claude_ai_Google_Drive__read_file_content` using `fileId`. Do NOT copy content into vault unless extracting canonical facts — Drive is authoritative.
+
+**Ownership:** `admin@albahah.app` (Google Workspace domain `albahah.app`).
+**Primary shared drive:** `0AHoXVBzYZYctUk9PVA` (most files live here).
+**Claude-exported memory-mirror folder:** `1DXAyPq6IGfQc416zsZkz5YcVGOaxQ_Cq` (memory files exported 2026-04-21 — do not re-export).
+
+## Basira — reference docs
+
+| fileId | title | mime | modified | purpose |
+|---|---|---|---|---|
+| `1DCzQ2QLAoyHx5CUu5hSvPrWVrdTwIBLJ` | الدليل_التعريفي_والتشغيلي_لنظام_بصيرة_v2.pdf | pdf | 2026-04-22 | Basira v2 operational + introduction manual |
+| `1MC8sNg-Vo_CXyuu6xoujOaS07l19gITJ` | الدليل المرجعي الشامل لنظام بصيرة (Basira) — v1.0 | pdf | 2026-03-06 | Basira master reference manual (central OS) |
+| `1Fypqh2-CS1kLPJBeGKm55iyLdrXZhv9c6Hn7CKwD-aE` | بصيرة، الوثيقة المرجعية | presentation | 2026-03-28 | Basira reference deck |
+
+## Basira — v3 architecture
+
+| fileId | title | mime | modified | purpose |
+|---|---|---|---|---|
+| `11a6mp1TVlGZQm9mVYVCwxSp1fl2bBy1W` | basira-v3-technical-design.docx | docx | 2026-03-28 | Basira v3 technical design |
+| `1_jAX-p7fRXpzyIKbDLAVRgRw3W44fvQ_` | basira-v3-security-addendum.docx | docx | 2026-03-28 | v3 security addendum |
+| `1SFJopD-fk2No1h7S2S_uKBItS_LsB3sRvo2UR4pg6hg` | Basira_v3_Empowerment_Architecture | presentation | 2026-04-15 | v3 empowerment architecture deck |
+| `1_0SEva5GCH4jfoikpyKS_G0cTZTXkXIoEZ61ek3CWe8` | basira-v2-presentation | presentation | 2026-03-28 | Previous v2 deck |
+| `15eF20xoOZiCis73uh1AV2cdxg5glkvPyYk3ZROcOtDY` | basira-executive-memo | gdoc | 2025-12-09 | Executive memo |
+
+## Basira — pitch + outreach (2026-04)
+
+| fileId | title | mime | modified | purpose |
+|---|---|---|---|---|
+| `1nC5Rxrv4WnOZX5N59HOMth498r5b4PkqdQFAgi4GwUI` | تقديم تطبيق بصيرة للتحول الرقمي | gdoc | 2026-04-21 | Basira digital-transformation pitch |
+| `1i3CmwK2MeBSx_S2wCJywpZ4IbOWQyE0RuIKy-mYU2Vs` | Basira_Pitch_GM_AlBaha.md | gdoc | 2026-04-15 | Pitch to Regional GM (Abu Faisal) |
+| `1Dq4IJHJ_Sw9HzzQP5IOhN21ucG0heWsBpQqF1-9y-5s` | Basira_Pitch_GM_AlBaha (1).md | gdoc | 2026-04-15 | Pitch v2 |
+| `1MahT-xv7uDSHAsAHnzWyoapjlZmJugAPny2QvQsZCVk` | Basira_Video_Voiceover_AR.md | gdoc | 2026-04-15 | Voiceover script (AR) |
+| `1kh87apLczzlWlMiZOnS-zoNI7-3Gw28R` | نظام_بصيرة_يتوقع_الطوارئ_الطبية_قبل_وقوعها.m4a | audio | 2026-04-15 | Voice brief — Basira predictive emergencies |
+| `12fYMjwZyquFpTISkT53LhPjvkOYpBURXUZXW-yHgEPA` | رابط مركز القيادة (بصيرة) وكود التضمين | gdoc | 2026-03-06 | Command-center embed link + code |
+
+## Basira — cybersecurity alignment
+
+| fileId | title | mime | modified | purpose |
+|---|---|---|---|---|
+| `1zft3Do3LdrbBZYKcJfMq0sEOCGFt_2uk` | خطة موائمة تطبيق بصيرة مع لوائح و سياسات الامن السيبراني الجديدة 2026م | folder | 2026-03-13 | Cybersecurity alignment folder (NCA/CSCC) |
+
+## HRSD / Al-Baha — institutional context
+
+| fileId | title | mime | modified | purpose |
+|---|---|---|---|---|
+| `18JnPhsAyp46hV2JHokS-zUtBCjZQLEQrJAJFetQHXgU` | إعداد ملف إحاطة استراتيجي للمقابلة القيادية | gdoc | 2026-04-23 | Strategic-briefing file (Khalid Al-Zahrani leadership thesis) |
+| `1lo_3Qynf-v9-cqVi8_Z1H6CiuWISStaIpceqcCSmujI` | الإدارة العامّة للموارد البشرية والتنمية الاجتماعية بمنطقة الباحة | gdoc | 2026-04-23 | Al-Baha regional HRSD admin |
+| `1L3kGlLjaNZmU_scGDtW14rWky3x-XBZH63VwYy9Zaoc` | مركز التأهيل الشامل بمنطقة الباحة | gdoc | 2026-04-23 | Al-Baha comprehensive rehab center |
+| `1algCD_yPzxbx6N8w3o62HEwdJJbJ_7eRwTJEI-1Uw3E` | مركز-التأهيل-الشامل-بالباحة | gdoc | 2026-04-23 | Alternate file (verify vs. above) |
+| `1ZM8-w-qPCzfM64tSPpgRsRkqPhBcRmrb91IOBG2Ciwc` | تقرير إنجازات إدارة مركز التأهيل الشامل بالباحة | gdoc | 2025-05-24 | Center's achievements report |
+| `1P61KWmsCCoyxGRt3zQE2NbqtyW7im2Ev-yIKhQvfVC0` | دليل نظام إدارة الجودة المتكامل (QMS) — مركز التأهيل الشامل بالباحة | gdoc | 2026-03-06 | Integrated QMS manual |
+| `1YiR7hKUmVG6TT7QvLwsG1z-y0xPldpkNGb1S4_-dcGA` | دليل شامل لتطوير نظام قياس رضا المستفيدين ذوي الإعاقة الفكرية | presentation | 2026-04-22 | Beneficiary-satisfaction measurement deck |
+
+## PT modeling — research studies (2026-04-08 → 2026-04-09)
+
+| fileId | title | mime | size | purpose |
+|---|---|---|---|---|
+| `1_M6w7AG-YtUGvp8myVVa_NqfoX2hF7rttqOFgP7o_N0` | PT_Model_Study1_Gap_Analysis.md | gdoc | 14k | Gap analysis (current/ideal PT services) |
+| `1VNjQXNkYm8W5YQV829mbiYWj0HY5xh5TuqCW_W1s-44` | PT_Model_Study2_Best_Practices.md | gdoc | 20k | Best practices review |
+| `10hN91mpwxQNQP_me7944dTdZQHXoMNQr_t5Ls52Dj7A` | PT_Model_Study3_Development_Proposals.md | gdoc | 22k | Development proposals |
+| `1aFXj0e3F_tC5pbvwHa6Ixx4faq4nCGhqUxC86aVtAww` | PT_Model_Study1_Gap_Analysis.md (v2) | gdoc | 9k | Shorter revision |
+| `1zXCjFpXhP70W_KUwXp2s3QJlaGcvWODuwveGmL_1Eyg` | PT_Model_Study2_Best_Practices.md (v2) | gdoc | 7k | Shorter revision |
+| `1jLwQ5WrVf7rR2ZRZcCAIBVSY22CPHYWrC7v-vayRhsM` | PT_Model_Study3_Development_Proposals.md (v2) | gdoc | 10k | Shorter revision |
+| `19YYpE-9wNQG6QUwDYcA_qw4Zaj2-LioIE7YCec-SOQ8` | تحسين وثيقة تأهيل ذوي الإعاقة | gdoc | 2026-02-21 | Disability rehab doc improvement |
+| `1m4CTg_wwLj5jZuWWmbC_0rYbuNdPkuoa` | تأهيل وتدريب وتوظيف الأشخاص ذوي الإعاقة | pdf | — | Disability rehab/training/employment (shared) |
+
+## PT modeling — folders
+
+| folderId | title | purpose |
+|---|---|---|
+| `1KSvpYpSM3LTmFjh-vQmmUfZ_axEf-rsf` | علاج طبيعي - هوية الوزارة | Old MHRSD PT identity folder (2022) |
+| `1AgU47hlNrV7LO7EETKySBW0Akh_-CAnk` | (PT_Model_Study*.md parent) | PT modeling study folder |
+
+## TTS / Habibi-TTS
+
+| fileId | title | mime | modified | purpose |
+|---|---|---|---|---|
+| `1H4OJH2lk-OIcD1XFmKWAq-49221mKFoe37Go4p3K390` | توليد نصوص لتدريب نموذج TTS | gdoc | 2025-05-13 | TTS training text generation |
+| `1Qvh5gq6Aw8sHXFNLY-p3Uz1deXH5I5F38qf98YFb-wA` | كتابة مقاطع صوتية للتدريب | gdoc | 2025-05-09 | Training audio-clip writing |
+
+## Quality / infection-control
+
+| fileId | title | mime | modified | purpose |
+|---|---|---|---|---|
+| `1M69u6Hfh3eOzw2Bqh7KnUvxMfH4Rf5Y_MYv7WPjxIj4` | معايير مكافحة العدوى الدور الاجتماعية (مركز تأهيل الباحة) 2023 | sheet | 2026-04-15 | Infection-control standards for social rehab roles |
+
+## MHRSD templates
+
+| fileId | title | mime | purpose |
+|---|---|---|---|
+| `1bruQTIqJHUmrf-s3W5d_Sbn4PKVE4W8A` | 202010_MHRSD_WordTamplate_Design.docx | docx | MHRSD Word template (official) |
+| `1f492cT0aCSfDqYpH7RG_J-utL5zLieAg` | 202010_MHRSD_قالب محضر الاجتماع_wdoc.docx | docx | MHRSD meeting-minutes template |
+
+## Catalog maintenance
+
+- Add new high-signal Drive files here when encountered.
+- Update `modified` when a file is re-read and changes are confirmed.
+- Don't copy content into vault — read on demand via Drive MCP using `fileId`.
+- If a Drive file generates structured facts worth keeping offline, extract them into `10-Projects/<track>/sources/<filename>.md` with `source: <fileId>` frontmatter and a clean fact-list.

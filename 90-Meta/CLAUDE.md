@@ -5,95 +5,101 @@ track: personal
 lang: en
 created: 2026-04-24
 updated: 2026-04-24
-tags: [vault-rules, operating-manual]
+tags: [vault-rules, operating-manual, llm-first]
 ---
 
-# Ahmad-Brain Vault — Operating Manual (for Claude)
+# Vault Operating Manual (LLM-first)
 
-This file is the operating manual for **this Obsidian vault**. Read it first whenever you open this directory in Claude Code. It is intentionally short. The long user-level rules live in `~/.claude/CLAUDE.md` and `~/.claude/projects/C--Users-aass1/memory/`.
+**Ahmad will never open this vault.** The vault is my long-term store. Every note is for me. Design accordingly.
 
-## What this vault is
+## Consumption model
 
-The deep store for Ahmad's second brain — projects, people, decisions, sources, daily notes. The Claude memory system at `~/.claude/projects/C--Users-aass1/memory/` remains the **hot cache** (profile, feedback rules, glossary). This vault is everything else.
+1. Ahmad prompts me in Claude Code.
+2. I grep the vault + memory to gather needed facts.
+3. I reason and reply.
+4. I write new facts / updated facts back into the vault.
 
-Rule of thumb:
-- If a fact must be loaded into every conversation → memory.
-- If a fact is queried on demand → vault.
+No human-friendly prose. No "nice to have" diagrams. Every note optimised for:
+- **Token efficiency** — facts per token high
+- **Grep-ability** — canonical strings, consistent spelling, tag-heavy
+- **Atomicity** — one entity per file, one decision per file, one event per file
+- **Provenance** — every claim links to source (Drive fileId / URL / voice-msg date)
+- **Freshness** — `updated:` frontmatter field must reflect last verification
 
-## Folder contract
-
-| Folder | Purpose | What goes in |
-|---|---|---|
-| `00-Inbox/` | Raw capture | Anything, briefly. Nothing stays > 7 days. Move to a real folder or delete. |
-| `10-Projects/` | Active, deadline-bound | basira / habibi-tts / pt-modeling / hrsd-work |
-| `20-Areas/` | Ongoing standards, no end date | pt-practice, quality-excellence, career, personal |
-| `30-Resources/` | Reference to reuse | arabic-gov-style, ai-models, supabase-react, obsidian-itself |
-| `40-Archive/` | Done/dropped — NEVER deleted | Anything that was in 10/20/30 and is no longer active |
-| `50-People/` | One file per person | Stable IDs, governance layer, colleagues, family if relevant |
-| `60-Daily/` | One file per day, `YYYY-MM-DD.md` | Only create when actually used |
-| `90-Meta/` | Vault rules, templates | This file, rules.md, templates/ |
-
-**Move, don't copy.** Archive is a directory, not a tag. A project that ends goes into `40-Archive/` with its full tree.
-
-## Frontmatter contract (REQUIRED on every note)
+## Frontmatter schema (authoritative)
 
 ```yaml
 ---
-type: project | area | resource | person | daily | decision | source | meeting | meta
-status: active | paused | done | archived
+type: project | area | resource | person | daily | decision | source | event | meeting | meta | fact
+status: active | paused | done | archived | superseded
 track: basira | tts | pt | hrsd | career | personal
 lang: ar | en
-created: YYYY-MM-DD
-updated: YYYY-MM-DD
-tags: []
+created: YYYY-MM-DD          # first observed / written
+updated: YYYY-MM-DD          # last verified
+source: <id-or-url>          # optional — drive-fileId, voice-msg-ts, session-id
+supersedes: <filename>       # optional — if this replaces older note
+related: [<filename>, ...]   # optional — explicit graph edges
+tags: [<kebab-case>, ...]    # required; keep under 6
 ---
 ```
 
 Rules:
-- Every field except `tags` is required.
-- `type` and `track` are the two most queried fields. Get them right.
-- `updated` = last meaningful edit (not every typo fix).
-- **One language per note.** If a note needs both Arabic and English, split it into two files and link them via `[[...]]`.
-- Arabic notes: filenames in English/transliteration for cross-platform safety (e.g., `ali-alqarni.md` not `علي-القرني.md`). Title inside the file is in Arabic.
+- `related:` uses bare filenames (no `.md`, no folder). I resolve at query time.
+- `source:` preferred over prose "per Ahmad's voice msg". Use Drive IDs where possible.
+- If two notes describe the same entity, one must have `supersedes:` the other.
 
-## Link conventions
+## Folder semantics (LLM-oriented)
 
-- Use `[[wiki-links]]` not markdown links for intra-vault references.
-- Always link people by their file in `50-People/`: `[[ali-alqarni]]`.
-- Projects link to people who govern them. People files link back to projects they touch.
-- Don't create a new person file for a one-mention name — put them in `30-Resources/people-to-watch.md` until a second mention.
+| Folder | Contents | Retrieval pattern |
+|---|---|---|
+| `00-Inbox/` | Raw unstructured dumps | I cook during next pass |
+| `10-Projects/<track>/` | Active-project canonical facts | Grep by track + type |
+| `10-Projects/<track>/decisions/` | One file per decision (dated) | Chronological query |
+| `10-Projects/<track>/events/` | Time-stamped events | Build timelines |
+| `10-Projects/<track>/sources/` | Drive-doc extractions | Evidence citations |
+| `20-Areas/<domain>/` | Ongoing-standards facts | Fallback if no matching project |
+| `30-Resources/` | Reference material, drive-catalog | External-doc lookup |
+| `40-Archive/` | Superseded/done — never deleted | Only queried on `WHERE status=archived` |
+| `50-People/` | One file per human entity | ID by filename stem |
+| `60-Daily/` | `YYYY-MM-DD.md` — session logs | Timeline / recency |
+| `90-Meta/` | Vault rules, schemas, index | Loaded first when entering vault |
 
-## What Claude should do in this vault
+## Write rules
 
-**Primary jobs:**
-1. **Capture** — when Ahmad dumps context, write it to `00-Inbox/` with correct frontmatter.
-2. **Cook** — turn inbox raw into structured notes in the right folder. Preserve the raw source link.
-3. **Connect** — add `[[wiki-links]]` between related notes when they clearly relate.
-4. **Query** — use frontmatter + Dataview to answer Ahmad's questions without reading every file.
-5. **Audit** — weekly, surface notes with missing/stale frontmatter and notes in `00-Inbox/` older than 7 days.
+1. **Fact files over narrative**: `فاتن = مديرة الفرع النسائي` is one line of frontmatter plus one sentence, not a page.
+2. **Never duplicate**. If a fact exists elsewhere, link via `related:` instead.
+3. **Never overwrite a user-edited file**: check mtime; if < 10 min, save as `_v2.md`. This applies even though Ahmad claims he won't touch the vault — safety net.
+4. **Name atomic files** by entity + date when temporal: `2026-04-22-basira-handover-routing.md`.
+5. **Shrink memory after migration**: when a `~/.claude/.../memory/foo.md` file's content moves here, replace memory file with one-line pointer. History preserved, duplication avoided.
+6. **Update `90-Meta/index.md`** whenever a new canonical entity is created.
 
-**Never:**
-- Overwrite a user-edited file (check mtime — if < 10 minutes, save as `*_v2.md`).
-- Delete anything from `40-Archive/`.
-- Mix languages in one file.
-- Create a new folder without updating this CLAUDE.md.
-- Add CBAHI references, personalization, or Tamkeen/Masarrah/Basira into PT modeling notes. See `~/.claude/projects/C--Users-aass1/memory/feedback_pt_project_rules.md`.
+## Query patterns I use
 
-## Memory ↔ vault sync
+- "Who approves Basira?" → grep `50-People/` for `tags: basira-sponsor` or `basira-recipient` or `formal-owner`
+- "What's in Drive about Basira v3?" → Read `30-Resources/drive-catalog.md`, filter by `project: basira`, Read via Drive MCP
+- "When did Al-Qarni step back?" → grep `50-People/ali-alqarni.md` for date keywords
+- "What's the current state of the vault?" → Read `90-Meta/index.md`
 
-The canonical pointer is `~/.claude/projects/C--Users-aass1/memory/MEMORY.md`. When a memory file is migrated into the vault:
-1. Write the new file in the vault with full frontmatter.
-2. Shrink the memory file to a one-line pointer: `See [[vault/path]]`.
-3. Update `MEMORY.md` index entry.
+## Memory ↔ vault boundary
 
-Do not delete memory files. They are the history of the decision to migrate.
+- **Memory (`~/.claude/projects/C--Users-aass1/memory/`)** = always-loaded hot cache. Keep at ~20 small files: user profile, feedback rules, language policy, vault pointer, glossary, critical flags.
+- **Vault (`C:\dev\ahmad-brain\`)** = on-demand store. Everything else.
+- Migration direction = memory → vault. Never the reverse.
 
-## Verification before saying "done"
+## External knowledge sources (authoritative list)
 
-For any vault task, check the user-visible outcome:
-- File exists at the path I claimed.
-- Frontmatter parses (has all required fields).
-- Links resolve (no red `[[broken]]`).
-- If I made a claim like "I moved X", grep for the old path to confirm it's gone.
+| Source | Access via | Purpose |
+|---|---|---|
+| Google Drive (admin@albahah.app) | `mcp__claude_ai_Google_Drive__*` tools | Ahmad's Basira / HRSD / quality documents |
+| Local Basira repo | `C:\dev\basira\` | Basira app code |
+| Habibi-TTS | `C:\Users\aass1\habibi-tts-project\` | TTS training |
+| Desktop staging | `C:\Users\aass1\Desktop\` | PDFs, decks mid-work |
 
-See `~/.claude/projects/C--Users-aass1/memory/feedback_final_step_failures.md` for why this matters.
+Catalog in `30-Resources/drive-catalog.md`.
+
+## Self-audit (run weekly on Friday evening when next active)
+
+1. Any file in `00-Inbox/` older than 7 days → cook or delete.
+2. Any note missing `updated:` field → stamp with last-known date.
+3. Any note with no `related:` links → evaluate if it's a dead-end (often fine) or missing an edge.
+4. Check `90-Meta/index.md` is current.
