@@ -5,7 +5,7 @@ type: moc
 status: active
 tags: [index, auto-generated, timeline]
 created: 2026-04-24
-updated: 2026-04-24
+updated: 2026-04-25
 summary: >-
   Reverse-chronological feed of ADRs and session logs. 3 entries.
 ---
