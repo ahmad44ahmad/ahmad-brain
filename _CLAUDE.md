@@ -23,7 +23,7 @@ related: [[0001-vault-architecture]]
 
 ## Absolutes
 
-- **Language:** English only. No Arabic content in vault files. If a source is Arabic, preserve it verbatim in `raw/` and write the English synthesis in `wiki/`.
+- **Language:** English is the default for prose, analysis, headings, and structure. Arabic is permitted only as data: `aliases:` values, proper nouns inline, verbatim quotes in blockquotes, untranslatable governmental terms with one-time English gloss. No running Arabic prose. Arabic-heavy sources preserved verbatim in `raw/` with `-ar` suffix; the `wiki/` distillation is English with Arabic quotes as needed. See [[0002-language-policy-and-sources-folder]] for the full policy.
 - **Format:** Markdown only. No docx, xlsx, pdf, or plugin-specific syntax.
 - **Frontmatter:** Every note has YAML frontmatter matching the schema below. No exceptions.
 - **Atomicity:** Medium-density wiki pages (500–2000 words). Not Zettelkasten fragments, not encyclopaedia dumps.
@@ -67,7 +67,8 @@ deciders: [ahmad, claude]
 | `wiki/projects/` | Basira, habibi-tts, pt-modeling, hrsd-work, etc. | Append + edit |
 | `wiki/concepts/` | Mental models, frameworks, doctrines (CRPD, EFQM, disability-compass) | Append + edit |
 | `wiki/entities/` | Organisations, policies, locations, regulations (MHRSD, CRC Al-Baha) | Append + edit |
-| `wiki/synthesis/` | Cross-cutting essays, retrospectives, thesis-style pieces | Append + edit |
+| `wiki/sources/` | Distilled external-source notes — one per source (PST, mbox, Drive folder, interview). `source:` frontmatter mandatory. | Append + edit |
+| `wiki/synthesis/` | Cross-cutting original essays, retrospectives, MOCs | Append + edit |
 | `decisions/` | ADRs (NNNN-slug.md), MADR-style | **Append only.** New ADR to supersede. |
 | `log/` | `YYYY-MM-DD.md`, one per active day | **Append only** within a day's file. |
 | `index/` | Regeneratable MOCs (people, projects, timeline, open-questions) | Overwrite OK. |
@@ -114,7 +115,7 @@ Custom vault skills (planned, Phase C+): `/reconcile`, `/lint`, `/log-session`, 
 
 - Overwrite a file in `raw/`.
 - Edit an accepted ADR body (only status/superseded-by).
-- Mix languages in one file.
+- Write running prose in Arabic (English prose only; Arabic as data per [[0002-language-policy-and-sources-folder]]).
 - Use PARA / nested folders / numeric prefixes.
 - Create a wikilink to a non-existent id — create the stub note first.
 - Hold Arabic text outside `raw/`.
