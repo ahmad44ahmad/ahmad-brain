@@ -5,7 +5,10 @@ track: personal
 lang: ar
 created: 2026-04-17
 updated: 2026-04-24
-tags: ['talk', 'dialogue', 'ahmad-brain']
+tags:
+  - talk
+  - dialogue
+  - ahmad-brain
 ---
 
 # بين أحمد وكلود — نصّ موسَّع

@@ -66,14 +66,14 @@ tags: ['launchpad', 'opus-4.7', 'ahmad-brain']
 
 ## 3. نقاط للتصحيح (في الإعدادات والبنية)
 
-| البند | الحالي | التصحيح المقترح | الأولوية |
-|---|---|---|---|
-| Arabic في Terminal | معكوس الأحرف | الحلّ الكامل يتطلّب wrapper؛ الحلّ الجزئي: افتح المخرجات الطويلة في VS Code | متوسطة |
-| Statusline hints | regex-based | ترقية إلى embedding-based عند Level 2 Personalization | منخفضة |
-| `.claude/settings.json` permissions | `Bash(*)` مفتوحة | قيّد إلى `Bash(git:*)` + `Bash(npm:*)` + `Bash(node:*)` إن كانت الجلسة تُشارَك | متوسطة |
-| Aspose license | تنتهي 2026-05-21 | تذكير في `schedule` skill قبل أسبوع | منخفضة |
-| IBM Plex Arabic | فشل | تنزيل من npm: `@ibm/plex-sans-arabic` | منخفضة |
-| theme في WT | افتراضي | scheme ذات تباين أعلى (#0B0B0B بدل #000) لتحسين subpixel للعربي | اختياري |
+| البند                               | الحالي           | التصحيح المقترح                                                                | الأولوية |
+| ----------------------------------- | ---------------- | ------------------------------------------------------------------------------ | -------- |
+| Arabic في Terminal                  | معكوس الأحرف     | الحلّ الكامل يتطلّب wrapper؛ الحلّ الجزئي: افتح المخرجات الطويلة في VS Code    | متوسطة   |
+| Statusline hints                    | regex-based      | ترقية إلى embedding-based عند Level 2 Personalization                          | منخفضة   |
+| `.claude/settings.json` permissions | `Bash(*)` مفتوحة | قيّد إلى `Bash(git:*)` + `Bash(npm:*)` + `Bash(node:*)` إن كانت الجلسة تُشارَك | متوسطة   |
+| Aspose license                      | تنتهي 2026-05-21 | تذكير في `schedule` skill قبل أسبوع                                            | منخفضة   |
+| IBM Plex Arabic                     | فشل              | تنزيل من npm: `@ibm/plex-sans-arabic`                                          | منخفضة   |
+| theme في WT                         | افتراضي          | scheme ذات تباين أعلى (#0B0B0B بدل #000) لتحسين subpixel للعربي                | اختياري  |
 
 ---
 
