@@ -1,6 +1,7 @@
 .obsidian/workspace*
 .obsidian/cache
 .obsidian/app.json.bak
+.obsidian/hotkeys.json.bak
 .trash/
 *.tmp
 ~$*
