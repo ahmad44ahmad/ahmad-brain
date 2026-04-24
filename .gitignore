@@ -7,3 +7,9 @@
 ~$*
 .DS_Store
 Thumbs.db
+# Obsidian-UI artifacts (Ahmad never opens Obsidian; any Untitled.* or
+# root-level YYYY-MM-DD.md is auto-created junk, not legitimate content)
+/Untitled.canvas
+/Untitled*.base
+/Untitled.md
+/*.canvas
