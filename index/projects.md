@@ -22,5 +22,5 @@ Auto-generated 2026-04-24. 6 entries. Regenerate with `/regenerate-indexes` skil
 | [[basira-leadership-compass]] | Basira — Leadership Compass (بوصلة القيادة) | active | Strategic decision surface inside Basira for senior leadership (مساعد التنمية, المدير العام, and above). Seven tabs, sh… |
 | [[basira-sovereign-decks]] | Basira — Three Audience-Tiered Sovereign Decks | active | Three carefully stratified HTML presentation decks for the Basira handover, each tailored to a distinct audience tier —… |
 | [[habibi-tts]] | Habibi-TTS — F5-TTS Saudi Arabic Voice Model | active | Ahmad's TTS project — F5-TTS fine-tuned on Saudi Arabic. Training on Modal with A100 GPUs. Uses diacritized (tashkeel) … |
-| [[hrsd-work]] | HRSD Work — Ahmad's Ministry Supervisor Role | active | Ahmad's active ministry role — PT Services Supervisor for Al-Baha region (credential base أخصائي علاج طبيعي) + Quality … |
+| [[hrsd-work]] | HRSD Work — Ahmad's Ministry Supervisor Role | active | Ahmad's active ministry role. Credential base أخصائي علاج طبيعي (PT Specialist, permanent). Current position مشرف خدمات… |
 | [[pt-modeling]] | PT Services Modelling — 36 MHRSD Centers | active | Ahmad's PT-services modelling project for 36 MHRSD Comprehensive Rehabilitation Centers across Saudi Arabia. Three stru… |
