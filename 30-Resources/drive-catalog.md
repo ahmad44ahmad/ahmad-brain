@@ -121,7 +121,17 @@ Index of high-signal Drive files. Access via `mcp__claude_ai_Google_Drive__read_
 
 ## "999" high-density research docs
 
-See dedicated catalog: [[999-docs-catalog]]. Primary folder: `1_-6Nw7KaSws7meKdg5TqIqql_PCLe0U3`. Secondary: `1emSX-om-05Brv3d8wYApzMqb4ocdlrHb` (999HRSD-all).
+See dedicated catalog: [[999-docs-catalog]]. Primary folder: `1_-6Nw7KaSws7meKdg5TqIqql_PCLe0U3` (= Research-Initiatives-Projects folder, see below). Secondary: `1emSX-om-05Brv3d8wYApzMqb4ocdlrHb` (999HRSD-all).
+
+## Priority-Memory Drive folders (the 3 chosen as permanent memory)
+
+| Priority | fileId | title | file count | vault anchor |
+|---|---|---|---|---|
+| 1 | `1jAEfGLHsjA8O3eqhQF7b8gvm6P_qay3G` | انجازاتي و التحديات ارشيفي الوظيفي | 26 | [[employment-archive]] |
+| 2 | `1zfL_SKlyny6uoRSFoiz6ML44nP6OK1m5` | تفريغ النصوص لسياسات و الاجراءات و الأدلة الارشادية بالمركز | 24 | [[center-policies-digest]] |
+| 3 | `1_-6Nw7KaSws7meKdg5TqIqql_PCLe0U3` | ابحاثي مبادرات مشاريع | 37 | [[research-initiatives-portfolio]] |
+
+For the other 65 folders Gemini has summarized, see [[drive-folders-master-index]].
 
 ## MHRSD templates
 

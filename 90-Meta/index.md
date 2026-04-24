@@ -57,8 +57,12 @@ Canonical list of every named entity in this vault. Regenerate when adding/remov
 |---|---|
 | `20-Areas/career/formal-assignments.md` | Ahmad's 6 formal ministry assignments (Quality, Strategic Partnerships, CSR, Home Healthcare, Disability, Non-gov Rehab Committee) |
 | `20-Areas/career/ministry-era-timeline.md` | Ministry evolution MOSA → MLSD → HRSD + Majid Al-Qasabi inflection |
+| `20-Areas/career/employment-archive.md` | **Priority-1 Drive folder** — career archive 26 files: admin-court overtime case, civil-service regs, Power Platform achievements |
+| `20-Areas/career/research-initiatives-portfolio.md` | **Priority-3 Drive folder** — 37 files: أمان مستدام (6.26M SAR), مبادرة تمكين, رضا المستفيدين, الإحسان قبل المعيار. Also = 999-docs hub. |
 | `10-Projects/hrsd-work/sources/pst-analysis-2026-04-21.md` | PST mailbox analysis — 2,172 inbox + 606 contacts + themes |
 | `10-Projects/hrsd-work/sources/sent-mbox-analysis-2026-04-24.md` | Sent mailbox analysis — 51 unique messages 2025-03→2026-02, confirmed emails, thematic clusters |
+| `10-Projects/hrsd-work/sources/center-policies-digest.md` | **Priority-2 Drive folder** — 24 files: nurse/psych/speech/PT/dental department modeling, admission forms 2024, org chart |
+| `30-Resources/drive-folders-master-index.md` | Master index of 68 Drive folders (Gemini-summarized) — retrieval map |
 
 ## Meta (`90-Meta/`)
 
