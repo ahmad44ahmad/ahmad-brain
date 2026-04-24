@@ -104,7 +104,12 @@ Under `.claude/skills/`:
 - `json-canvas` — JSON Canvas spec for structured graphs
 - `defuddle` — web clipping into clean markdown
 
-Custom vault skills (planned, Phase C+): `/reconcile`, `/lint`, `/log-session`, `/regenerate-indexes`.
+Custom vault skills under `.claude/skills/`:
+
+- `regenerate-indexes` — rebuild `index/*.md` from current wiki frontmatter (built 2026-04-24).
+- `lint` — validate frontmatter keys, `type:` values, link-field shape, and wikilink resolution. Companion `normalize_wikilinks.py --apply` repairs common shape issues (built 2026-04-24).
+- `reconcile` — detect deterministic semantic drift: date integrity, ADR supersede-chain reciprocity, id/alias collisions, stale drafts, duplicate tags (built 2026-04-24).
+- `log-session` — not yet built; a deterministic scaffold has low ROI, deferred until a hook-based automation case justifies it.
 
 ## Memory ↔ vault boundary
 
@@ -123,9 +128,9 @@ Custom vault skills (planned, Phase C+): `/reconcile`, `/lint`, `/log-session`, 
 
 ## Self-audit (on explicit trigger, not scheduled)
 
-- **`/lint`** — validate every `wiki/` note has required frontmatter + resolvable `[[links]]`.
-- **`/reconcile`** — flag contradictions (two notes asserting opposite claims about the same id).
-- **`/regenerate-indexes`** — rebuild `index/*.md` from current wiki frontmatter.
+- **`/lint`** — validate every note has required frontmatter + resolvable `[[links]]` + canonical link-field shape. Run: `python .claude/skills/lint/lint.py`.
+- **`/reconcile`** — flag deterministic drift: date integrity, ADR supersede-chain reciprocity, id/alias collisions, stale drafts, duplicate tags. Run: `python .claude/skills/reconcile/reconcile.py`.
+- **`/regenerate-indexes`** — rebuild `index/*.md` from current wiki frontmatter. Run: `python .claude/skills/regenerate-indexes/generate.py`.
 
 ## Provenance
 

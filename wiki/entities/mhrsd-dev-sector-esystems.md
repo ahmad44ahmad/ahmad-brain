@@ -14,7 +14,7 @@ tags:
   - development-sector
   - basira-integration
 created: 2026-04-24
-updated: 2026-04-23
+updated: 2026-04-24
 valid_from: 2026-04-23
 learned_at: 2026-04-23
 confidence: medium
