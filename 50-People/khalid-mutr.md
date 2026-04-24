@@ -30,3 +30,12 @@ tags: ['center-director', 'al-baha-center', 'basira-recipient']
 ## Provenance
 
 Ahmad's voice message 2026-04-23 during Basira pitch preparation after reviewing the sovereign walkthrough video.
+
+## Name correction + confirmed contact (from [[sent-mbox-analysis-2026-04-24]])
+
+- **Full name (corrected):** خالد مطر **الزهراني** (Khalid Mutr Al-Zahrani) — family name was previously unknown; mbox confirms `k.m.alzahrani003@hrsd.gov.sa`.
+- **Kunya observed in PST analysis:** أبو أسامة (Abu Usama — son named Usama).
+- **Email:** `k.m.alzahrani003@hrsd.gov.sa`
+- **Send volume:** 1 direct message (2026-01-18 — year-end 2025 financial closing + reconciliation report forward). Pre-dates his promotion to center director (~2026-04).
+- **DO NOT confuse** with [[khalid-alzahrani]] (خالد بن صالح — Regional GM, أبو فيصل). Different people, both family Al-Zahrani.
+

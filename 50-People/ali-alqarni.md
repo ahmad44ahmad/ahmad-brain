@@ -51,3 +51,10 @@ Direct manager (or approval authority) at مركز التأهيل الشامل �
 
 - Job title not yet captured — likely center director or quality/admin director. Confirm with Ahmad when relevant.
 - Email address: not captured in the PST sample (Exchange-internal format).
+
+## Confirmed contact (from [[sent-mbox-analysis-2026-04-24]])
+
+- **Email:** `a.a.alqarni010@hrsd.gov.sa`
+- **Send volume:** 19 unique messages from Ahmad over 2025-03 → 2025-12
+- Primary recipient of Ahmad's formal memos, drafts, and quality-file correspondence during Al-Qarni's tenure as center manager.
+

@@ -58,6 +58,7 @@ Canonical list of every named entity in this vault. Regenerate when adding/remov
 | `20-Areas/career/formal-assignments.md` | Ahmad's 6 formal ministry assignments (Quality, Strategic Partnerships, CSR, Home Healthcare, Disability, Non-gov Rehab Committee) |
 | `20-Areas/career/ministry-era-timeline.md` | Ministry evolution MOSA → MLSD → HRSD + Majid Al-Qasabi inflection |
 | `10-Projects/hrsd-work/sources/pst-analysis-2026-04-21.md` | PST mailbox analysis — 2,172 inbox + 606 contacts + themes |
+| `10-Projects/hrsd-work/sources/sent-mbox-analysis-2026-04-24.md` | Sent mailbox analysis — 51 unique messages 2025-03→2026-02, confirmed emails, thematic clusters |
 
 ## Meta (`90-Meta/`)
 
