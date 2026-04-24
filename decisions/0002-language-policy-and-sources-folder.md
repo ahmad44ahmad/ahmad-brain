@@ -3,20 +3,27 @@ id: 0002-language-policy-and-sources-folder
 title: Language Policy Refinement + wiki/sources/ Folder
 type: decision
 status: accepted
-aliases: [adr-0002, bilingual-policy, sources-subdir]
-tags: [architecture, adr, amendment, language-policy]
+aliases:
+  - adr-0002
+  - bilingual-policy
+  - sources-subdir
+tags:
+  - architecture
+  - adr
+  - amendment
+  - language-policy
 created: 2026-04-24
 updated: 2026-04-24
 supersedes:
 superseded-by:
-amends: [[0001-vault-architecture]]
-deciders: [ahmad, claude]
-summary: >-
-  Amends ADR-0001. Softens "English only" to "English prose, Arabic allowed
-  as data values (proper nouns, titles, aliases, verbatim quotes)". Adds
-  wiki/sources/ as 6th wiki subfolder for distilled external-source notes,
-  so sources stay flat at 2 levels instead of nested 3 levels under projects.
-related: [[0001-vault-architecture]]
+amends:
+  - - 0001-vault-architecture
+deciders:
+  - ahmad
+  - claude
+summary: Amends ADR-0001. Softens "English only" to "English prose, Arabic allowed as data values (proper nouns, titles, aliases, verbatim quotes)". Adds wiki/sources/ as 6th wiki subfolder for distilled external-source notes, so sources stay flat at 2 levels instead of nested 3 levels under projects.
+related:
+  - - 0001-vault-architecture
 ---
 
 # ADR-0002 — Language Policy Refinement + `wiki/sources/`
