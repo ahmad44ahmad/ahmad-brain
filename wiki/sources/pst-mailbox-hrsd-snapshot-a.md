@@ -30,8 +30,9 @@ summary: >-
   Second PST archive of Ahmad's HRSD mailbox, extracted 2026-04-24 from a
   2025-06-15 Outlook snapshot. 3,659 messages across 5 folders. Dovetails
   with (not overlaps) pst-mailbox-hrsd. Drafts folder reaches back to
-  2015-10-19 (MOSA era, 23200@mosa.gov.sa) and 2019 (MLSD era TABS@mlsd).
-  Full FTS5 index at D:\pst-archive-a\search\messages.sqlite.
+  2015-10-19 (MOSA era, 23200@mosa.gov.sa — Ahmad's own employee ID).
+  Full FTS5 index at D:\pst-archive-a\search\messages.sqlite. Superseded
+  as primary query surface by [[pst-mailbox-hrsd-merged]].
 ---
 
 # PST Mailbox Snapshot A — 2025-06-15

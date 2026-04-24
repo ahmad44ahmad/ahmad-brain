@@ -16,11 +16,12 @@ related:
   - "[[hamed-alruwaili]]"
   - "[[khalid-alzahrani]]"
 summary: >-
-  2.3 GB PST of Ahmad's HRSD Outlook mailbox covering 2023-10 → 2026-03 only
-  (not the 7-8 years Ahmad expected). Aspose.Email eval-license sampling
-  returned 50/folder. Real totals: 2172 inbox, 154 sent, 606 total contacts.
-  Themes: deputy-minister invites, quality/excellence, rehab workshops,
-  HR ops, digital transformation.
+  2.2 GB PST of Ahmad's HRSD Outlook mailbox covering 2025-03 → 2026-03
+  (inbox/sent) with deleted items reaching back to 2019 (MLSD era).
+  2,582 messages full-indexed. Real totals: 2172 inbox, 154 sent, 606
+  total contacts. Dovetails with snapshot PST-A (2023-11 → 2025-01).
+  Primary query surface is now the merged archive
+  [[pst-mailbox-hrsd-merged]].
 ---
 
 # PST Analysis — Ahmad's HRSD Work Mailbox (sampled 2026-04-21)
