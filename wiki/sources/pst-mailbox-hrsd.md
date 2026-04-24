@@ -27,16 +27,17 @@ summary: >-
 
 ## Provenance
 
-- **Raw PST:** `backup22222 (1).pst` (2.3 GB) → Drive fileId `1IbT2nc4Mj4GDNV6yCzUdweHnKfqt6Rac` in folder `1a1g8_1MXirMZP59Z237gCie989syxBGq` ("pst. export النسخة الاحتياطية من بريد العمل")
-- **Full SENT folder** as mbox: `sent.mbox` (841 MB) → Drive fileId `1p6N8nfYqHZnmE1i553iW_trqM3z5hmhY`
-- **Extraction script:** `pst_extract.py` → Drive fileId `1_TnZf6lAs4M0ZABjry8li916zaCmKGcV`
-- **Summary JSON:** `pst-summary.json` → Drive fileId `1d1pd_8OTvb3kFPEPMj1RPud3D0XKn99X`
-- **Individual .eml extractions:** in Drive folder `1sMlLdFXW9e_9Yu2m3xduO2HFc3O1-UBS` (numbered files like 544.eml, 569.eml, 999.eml, 1244.eml, 1500.eml, 1698.eml, 1822.eml)
-- **Sampling cap:** Aspose.Email evaluation license — **50 items per folder**. Real totals below.
+- **Raw PST:** `D:\backup22222 (1).pst` (2.2 GB) → Drive fileId `1IbT2nc4Mj4GDNV6yCzUdweHnKfqt6Rac` in folder `1a1g8_1MXirMZP59Z237gCie989syxBGq` ("pst. export النسخة الاحتياطية من بريد العمل"). Exported to mbox at `D:\pst-archive\raw\` on 2026-04-21 and indexed into FTS5 SQLite at `D:\pst-archive\search\messages.sqlite` (README: `D:\pst-archive\README.md`).
+- **Full SENT folder** as mbox: `sent.mbox` (803 MB) → Drive fileId `1p6N8nfYqHZnmE1i553iW_trqM3z5hmhY` (superseded by the full mbox set under `D:\pst-archive\raw\`).
+- **Extraction script:** `pst_extract.py` → Drive fileId `1_TnZf6lAs4M0ZABjry8li916zaCmKGcV` (superseded locally by `C:\Users\aass1\.claude\plans\pst_export_mbox.py`).
+- **Summary JSON:** `pst-summary.json` → Drive fileId `1d1pd_8OTvb3kFPEPMj1RPud3D0XKn99X`.
+- **Individual .eml extractions:** Drive folder `1sMlLdFXW9e_9Yu2m3xduO2HFc3O1-UBS` (numbered files like 544.eml, 569.eml, 999.eml, 1244.eml, 1500.eml, 1698.eml, 1822.eml).
+- **Companion archive:** [[pst-mailbox-hrsd-snapshot-a]] — dovetails with this one (different date range, ~no overlap, reaches back to 2015 in Drafts). Cross-archive diff via `C:\Users\aass1\.claude\plans\pst_archive_diff.py`.
+- **Sampling cap note:** the initial 2026-04-21 sampled analysis used an Aspose evaluation license (50 items per folder). Subsequent full extraction under the licensed Aspose key produced the complete 2,582-message index in `D:\pst-archive\search\`. Numbers below reflect the sampled analysis; real folder totals are 2,172 inbox / 154 sent / 146 deleted / 105 drafts / 234 calendar / 261 contacts / 345 recipient-cache / 5 sync.
 
 ## Scope
 
-**Ahmad's active HRSD employment 2023-10-12 → 2026-03-01** (the PST backup's date range). Ahmad's voice claim of "7-8 years using ministry email since ~2014" implies this PST is a recent backup, not the full historical archive. Older messages likely not captured here — ask Ahmad if he has an older archive.
+**Ahmad's active HRSD employment 2023-10-12 → 2026-03-01** (the PST backup's date range). Ahmad's voice claim of "7-8 years using ministry email since ~2014" is now **partially verified** via the sibling snapshot [[pst-mailbox-hrsd-snapshot-a]] — PST-A's Drafts folder reaches back to 2015-10-19 (MOSA era, `23200@mosa.gov.sa`) and PST-C's own Deleted folder has MLSD-era items from 2019-04-25 (`TABS@mlsd.gov.sa`). Pre-2023 coverage is Drafts/Deleted fragmentary, not full inbox/sent — the latter likely lives in the OneDrive Google Takeout mbox (4.2 GB, currently cloud-only).
 
 Confirmed by extraction:
 - Sender of ~118 outgoing/draft messages: "Ahmad A. Alshahri"

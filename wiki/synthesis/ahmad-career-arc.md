@@ -95,15 +95,17 @@ Documented in the drafts-folder message **"حديثٌ من القلب للموا
 
 Context: filed alongside the achievements documentation. **Treatment rule (Ahmad's instruction):** reference only — bullet points with the source file — do not expand, paraphrase, or editorialise the content. These exist as on-file challenges, not narrative material.
 
-## The 2020 meeting that is NOT in this PST
+## The 2020 meeting — status updated 2026-04-24
 
-Ahmad recalls a 2020 meeting with the Kingdom-level PT Services Supervisor (female) and the Al-Baha regional PT Supervisor. **Confirmed absent after the full-license PST scan (2026-04-21).** The earliest email in the analysed mailbox is 2022-08-08. Possible explanations:
+Ahmad recalls a 2020 meeting with the Kingdom-level PT Services Supervisor (female) and the Al-Baha regional PT Supervisor. Earlier sessions concluded it was "not recoverable" from the PST then analysed. The 2026-04-24 extraction of a second PST snapshot ([[pst-mailbox-hrsd-snapshot-a]]) partially revised that conclusion:
 
-- The meeting predates this mailbox (lived in a different account / export, since purged).
-- The message was deleted before the 2026-03-14 backup.
-- The attachment lives in a different archive (OneDrive / Google Drive).
+- PST-A's Drafts folder reaches back to **2015-10-19** and contains **40 draft items from 2020**.
+- PST-C's Deleted folder has **MLSD-era items from 2019** and small 2020 traffic.
+- The active **inbox / sent** traffic from 2020 is still missing from both PSTs (PST-A inbox starts 2023-11-13; PST-C inbox starts 2025-03-02).
 
-**Do NOT assert this event from this PST.** It is not there. Note it as an outstanding retrieval target for older archives.
+The 2020 meeting may exist as a draft or deleted item — a targeted FTS5 search against both archives (`D:\pst-archive\` and `D:\pst-archive-a\`) for keywords like `مشرف العلاج الطبيعي`, `الكينجدم`, `نهى`, or specific supervisor names is the next step. The full inbox/sent from 2020 is more likely in the still-offline Google Takeout mbox.
+
+**Rule stays in effect:** do not assert the event as verified until a matching message is actually found in one of the archives. But the search space is now concrete.
 
 ## PST mailbox coverage actually available
 
