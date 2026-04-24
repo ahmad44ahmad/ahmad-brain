@@ -8,7 +8,10 @@ tags: [al-baha-center, policies, procedures, organisational-structure, priority-
 created: 2026-04-24
 updated: 2026-04-24
 source: drive-folder:1zfL_SKlyny6uoRSFoiz6ML44nP6OK1m5
-related: [[employment-archive]], [[research-initiatives-portfolio]], [[pst-mailbox-hrsd]]
+related:
+  - "[[employment-archive]]"
+  - "[[research-initiatives-portfolio]]"
+  - "[[pst-mailbox-hrsd]]"
 summary: >-
   24-file Drive folder — complete operational/regulatory reference for the
   Al-Baha Comprehensive Rehab Center. Department modeling (psych, speech,

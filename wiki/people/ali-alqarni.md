@@ -8,7 +8,13 @@ tags: [person, hrsd, al-baha-center, former-manager, 2025-achievements-endorser]
 created: 2026-04-22
 updated: 2026-04-24
 source: pst-analysis:2026-04-21, sent-mbox:2026-04-24, voice-msg:2026-04-22
-related: [[khalid-mutr]], [[khalid-alzahrani]], [[sent-mbox-hrsd]], [[pst-mailbox-hrsd]], [[employment-archive]], [[ahmad-formal-assignments]]
+related:
+  - "[[khalid-mutr]]"
+  - "[[khalid-alzahrani]]"
+  - "[[sent-mbox-hrsd]]"
+  - "[[pst-mailbox-hrsd]]"
+  - "[[employment-archive]]"
+  - "[[ahmad-formal-assignments]]"
 summary: >-
   Ahmad's direct manager at Al-Baha Comprehensive Rehab Center during
   2024–early 2026. Endorsed 10 of Ahmad's 2025 performance achievements

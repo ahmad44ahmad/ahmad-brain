@@ -8,7 +8,11 @@ tags: [research, initiatives, crpd, vision-2030, iso-9001, efqm, priority-3, bas
 created: 2026-04-24
 updated: 2026-04-24
 source: drive-folder:1_-6Nw7KaSws7meKdg5TqIqql_PCLe0U3
-related: [[ahmad-formal-assignments]], [[drive-999-docs]], [[employment-archive]], [[al-baha-center-policies]]
+related:
+  - "[[ahmad-formal-assignments]]"
+  - "[[drive-999-docs]]"
+  - "[[employment-archive]]"
+  - "[[al-baha-center-policies]]"
 summary: >-
   37-file Drive folder = intellectual signature of Ahmad as integrated-systems
   engineer. CRPD-driven transition from medical/care model to social/rights
@@ -70,6 +74,6 @@ Without this folder, Claude can retrieve Ahmad's facts but not Ahmad's voice.
 ## Gaps
 
 - [ ] Per-file enumeration of all 37 files (currently Gemini-thematic-summary only).
-- [ ] Link each initiative to its stakeholders in [[50-People]] (Al-Ghamdi for Aman Mustadam + Ihsan-before-Measure; Al-Qahtani for Tamkeen; regional GM for Satisfaction pilot).
+- [ ] Link each initiative to its stakeholders: [[ismail-alghamdi]] for Aman Mustadam + Ihsan-before-Measure; [[nasser-alqahtani]] for Tamkeen; [[khalid-alzahrani]] for the Satisfaction pilot.
 - [ ] Dates of each initiative's launch + current status (many undated).
 - [ ] Cross-link to **[[basira]]** when that hub note is created — Basira is the digital layer across all four initiatives.

@@ -8,7 +8,13 @@ tags: [pst, exchange, mailbox, hrsd-email, metadata-only, sampled]
 created: 2026-04-21
 updated: 2026-04-24
 source: drive:1z_cj5HVKhrZu4encg2esfLlBZ7koA8qWOPfozxk_lK8
-related: [[sent-mbox-hrsd]], [[mhrsd-era-timeline]], [[ahmad-formal-assignments]], [[ali-alqarni]], [[hamed-alruwaili]], [[khalid-alzahrani]]
+related:
+  - "[[sent-mbox-hrsd]]"
+  - "[[mhrsd-era-timeline]]"
+  - "[[ahmad-formal-assignments]]"
+  - "[[ali-alqarni]]"
+  - "[[hamed-alruwaili]]"
+  - "[[khalid-alzahrani]]"
 summary: >-
   2.3 GB PST of Ahmad's HRSD Outlook mailbox covering 2023-10 → 2026-03 only
   (not the 7-8 years Ahmad expected). Aspose.Email eval-license sampling

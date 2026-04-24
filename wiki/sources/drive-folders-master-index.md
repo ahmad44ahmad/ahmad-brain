@@ -8,7 +8,11 @@ tags: [drive, master-index, 68-folders, retrieval-map, gemini]
 created: 2026-04-24
 updated: 2026-04-24
 source: drive:1gPVb0n30I2t4erUUJkbSEO3YhGjV_ynOEfy7H2clj6c
-related: [[drive-catalog]], [[employment-archive]], [[al-baha-center-policies]], [[research-initiatives-portfolio]]
+related:
+  - "[[drive-catalog]]"
+  - "[[employment-archive]]"
+  - "[[al-baha-center-policies]]"
+  - "[[research-initiatives-portfolio]]"
 summary: >-
   Master index of Ahmad's 68 Drive folders. Source = Gemini-narrated Google
   Doc where Ahmad asked Gemini to summarise each folder (324k chars, 3917

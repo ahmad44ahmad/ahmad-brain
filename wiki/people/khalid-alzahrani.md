@@ -8,7 +8,12 @@ tags: [person, hrsd, al-baha-regional-gm, development-sector, basira-sponsor, st
 created: 2026-04-22
 updated: 2026-04-24
 source: voice-msg:2026-04-22, voice-msg:2026-04-23, desktop-pdf
-related: [[ali-alqarni]], [[khalid-mutr]], [[nuwaira]], [[ismail-alghamdi]], [[sent-mbox-hrsd]]
+related:
+  - "[[ali-alqarni]]"
+  - "[[khalid-mutr]]"
+  - "[[nuwaira]]"
+  - "[[ismail-alghamdi]]"
+  - "[[sent-mbox-hrsd]]"
 summary: >-
   Director-General of Al-Baha Regional HRSD Admin + Assistant for Development
   Sector (concurrent, 2026-04). Kunya أبو فيصل. Identity-merged 2026-04-23

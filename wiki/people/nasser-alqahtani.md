@@ -8,7 +8,9 @@ tags: [person, hrsd, wakil, rehab-ministry, formal-owner, basira-copy-recipient]
 created: 2026-04-22
 updated: 2026-04-24
 source: voice-msg:2026-04-23
-related: [[ismail-alghamdi]], [[nasser-alqahtani]]
+related:
+  - "[[ismail-alghamdi]]"
+  - "[[nasser-alqahtani]]"
 summary: >-
   Current وكيل الوزارة للتأهيل والتوجيه الاجتماعي at MHRSD as of 2026.
   Replaced Dr. Abdullah Al-Wuhaibi. Formal domain owner of Basira's use-case

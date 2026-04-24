@@ -8,7 +8,9 @@ tags: [mhrsd, career-arc, timeline, historical-framing]
 created: 2026-04-24
 updated: 2026-04-24
 source: voice-msg:2026-04-24
-related: [[ahmad-formal-assignments]], [[pst-mailbox-hrsd]]
+related:
+  - "[[ahmad-formal-assignments]]"
+  - "[[pst-mailbox-hrsd]]"
 summary: >-
   Ahmad's employer ministry has changed names three times (MOSA → MLSD →
   HRSD) during his tenure. Correct framing of any document requires

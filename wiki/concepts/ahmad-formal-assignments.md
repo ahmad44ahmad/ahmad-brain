@@ -8,7 +8,10 @@ tags: [career, formal-assignments, hrsd, scope, cross-cutting]
 created: 2026-04-24
 updated: 2026-04-24
 source: voice-msg:2026-04-24
-related: [[mhrsd-era-timeline]], [[pst-mailbox-hrsd]], [[sent-mbox-hrsd]]
+related:
+  - "[[mhrsd-era-timeline]]"
+  - "[[pst-mailbox-hrsd]]"
+  - "[[sent-mbox-hrsd]]"
 summary: >-
   Six formal cross-cutting assignments Ahmad has held inside MHRSD,
   beyond his credential title (PT specialist). Each has PST/sent-mbox

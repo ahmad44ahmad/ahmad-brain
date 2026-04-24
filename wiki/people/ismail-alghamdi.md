@@ -8,7 +8,10 @@ tags: [person, mhrsd, assistant-minister, martabat-mumtaza, quality-ga, basira-p
 created: 2026-04-22
 updated: 2026-04-24
 source: voice-msg:2026-04-22, ministry-research
-related: [[nasser-alqahtani]], [[khalid-alzahrani]], [[research-initiatives-portfolio]]
+related:
+  - "[[nasser-alqahtani]]"
+  - "[[khalid-alzahrani]]"
+  - "[[research-initiatives-portfolio]]"
 summary: >-
   Assistant Minister for Shared Services at MHRSD (مرتبة ممتازة —
   senior to Deputy Minister rank). Ex-Chairman of Mobily, ex-Microsoft

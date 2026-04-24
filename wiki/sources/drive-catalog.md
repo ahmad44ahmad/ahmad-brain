@@ -8,7 +8,10 @@ tags: [drive, external-sources, file-catalog, admin-albahah]
 created: 2026-04-24
 updated: 2026-04-24
 source: google-drive:admin@albahah.app
-related: [[drive-folders-master-index]], [[drive-999-docs]], [[pst-mailbox-hrsd]]
+related:
+  - "[[drive-folders-master-index]]"
+  - "[[drive-999-docs]]"
+  - "[[pst-mailbox-hrsd]]"
 summary: >-
   High-signal Drive file catalog for admin@albahah.app workspace. Indexed by
   domain (Basira v2/v3 / pitch / HRSD Al-Baha / PT modeling / TTS / QMS /

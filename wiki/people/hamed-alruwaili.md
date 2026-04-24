@@ -8,7 +8,8 @@ tags: [person, hrsd, central-hq, hr-forum]
 created: 2026-04-22
 updated: 2026-04-24
 source: pst-analysis:2026-04-21
-related: [[pst-mailbox-hrsd]]
+related:
+  - "[[pst-mailbox-hrsd]]"
 summary: >-
   HRSD senior (ustadh prefix) who leads/coordinates ملتقى الموارد البشرية
   في المناطق (HR-in-Regions forum). Observed in PST calendar via dedicated

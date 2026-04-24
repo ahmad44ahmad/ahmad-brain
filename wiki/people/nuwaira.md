@@ -8,7 +8,9 @@ tags: [person, hrsd, al-baha-regional, social-supervision, basira-cc]
 created: 2026-04-22
 updated: 2026-04-24
 source: voice-msg:2026-04-23
-related: [[khalid-alzahrani]], [[khalid-mutr]]
+related:
+  - "[[khalid-alzahrani]]"
+  - "[[khalid-mutr]]"
 summary: >-
   مديرة الإشراف الاجتماعي at Al-Baha regional HRSD admin (أم عبد الملك).
   Oversees branches, women's section, and multiple centers. Required CC

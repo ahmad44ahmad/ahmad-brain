@@ -8,7 +8,9 @@ tags: [project, pt-modelling, mhrsd, 36-centers, disability, physiopp]
 created: 2026-04-24
 updated: 2026-04-24
 source: drive-studies:2026-04-08, 2026-04-09
-related: [[ahmad-formal-assignments]], [[drive-catalog]]
+related:
+  - "[[ahmad-formal-assignments]]"
+  - "[[drive-catalog]]"
 summary: >-
   Ahmad's PT-services modelling project for 36 MHRSD Comprehensive
   Rehabilitation Centers across Saudi Arabia. Three structured studies

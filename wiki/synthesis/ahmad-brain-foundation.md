@@ -8,7 +8,12 @@ tags: [foundation, charter, ahmad-claude-operating-charter, three-tracks, integr
 created: 2026-04-17
 updated: 2026-04-24
 source: voice-msg+drive-folder
-related: [[ahmad-formal-assignments]], [[research-initiatives-portfolio]], [[prompt-forge]], [[vault-operating-manual]], [[0001-vault-architecture]]
+related:
+  - "[[ahmad-formal-assignments]]"
+  - "[[research-initiatives-portfolio]]"
+  - "[[prompt-forge]]"
+  - "[[vault-operating-manual]]"
+  - "[[0001-vault-architecture]]"
 summary: >-
   English distillation of Ahmad's 7 foundational thinking documents
   (original Arabic preserved verbatim at raw/drive/ahmad-brain-foundation/).

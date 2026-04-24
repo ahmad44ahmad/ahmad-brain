@@ -8,7 +8,8 @@ tags: [prompt-engineering, claude-workflow, intake-template, method]
 created: 2026-04-17
 updated: 2026-04-24
 source: ahmad-workflow
-related: [[vault-operating-manual]]
+related:
+  - "[[vault-operating-manual]]"
 summary: >-
   Ahmad's canonical intake-prompt template for substantive Claude tasks.
   Format-2 — engineered context packet (goal, constraints, deliverable,

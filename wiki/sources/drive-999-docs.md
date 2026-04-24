@@ -8,7 +8,10 @@ tags: [drive, 999-prefix, research-archive, high-density]
 created: 2026-04-24
 updated: 2026-04-24
 source: google-drive:admin@albahah.app
-related: [[drive-catalog]], [[ahmad-formal-assignments]], [[research-initiatives-portfolio]]
+related:
+  - "[[drive-catalog]]"
+  - "[[ahmad-formal-assignments]]"
+  - "[[research-initiatives-portfolio]]"
 summary: >-
   Catalog of Ahmad's "999" / "9999" prefixed research docs — long-form
   comprehensive treatments (30k–1MB each) used as thinking substrate, not

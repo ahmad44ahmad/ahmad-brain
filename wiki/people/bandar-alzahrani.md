@@ -8,7 +8,9 @@ tags: [person, hrsd, al-baha-center, community-rehab, draft-stub]
 created: 2026-04-24
 updated: 2026-04-24
 source: pst-analysis:2026-04-21, voice-msg:2026-04-23
-related: [[khalid-alzahrani]], [[pst-mailbox-hrsd]]
+related:
+  - "[[khalid-alzahrani]]"
+  - "[[pst-mailbox-hrsd]]"
 summary: >-
   Colleague, head of وحدة التأهيل المجتمعي at Al-Baha Comprehensive Rehab
   Center. Reportedly the phone-call interlocutor whose conversation preceded

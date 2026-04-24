@@ -8,7 +8,11 @@ tags: [career, employment, admin-court, civil-service-regs, power-platform, prio
 created: 2026-04-24
 updated: 2026-04-24
 source: drive-folder:1jAEfGLHsjA8O3eqhQF7b8gvm6P_qay3G
-related: [[ahmad-formal-assignments]], [[mhrsd-era-timeline]], [[pst-mailbox-hrsd]], [[sent-mbox-hrsd]]
+related:
+  - "[[ahmad-formal-assignments]]"
+  - "[[mhrsd-era-timeline]]"
+  - "[[pst-mailbox-hrsd]]"
+  - "[[sent-mbox-hrsd]]"
 summary: >-
   26-file Drive folder — Ahmad's complete employment archive. Three pillars
   legal/admin challenge over Cabinet Decision 142 (overtime allowance),

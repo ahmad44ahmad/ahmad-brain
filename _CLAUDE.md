@@ -10,7 +10,8 @@ summary: >-
   Authoritative vault rules. LLM-only consumer (Claude). English + markdown.
   Karpathy LLM Wiki pattern + Kepano skills + MADR decisions.
   Auto-loaded by every Claude Code session in this directory.
-related: [[0001-vault-architecture]]
+related:
+  - "[[0001-vault-architecture]]"
 ---
 
 # Vault Operating Manual

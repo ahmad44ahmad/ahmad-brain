@@ -8,7 +8,12 @@ tags: [sent-mbox, outbox, metadata-only, parsed, hrsd-email]
 created: 2026-04-24
 updated: 2026-04-24
 source: drive:1p6N8nfYqHZnmE1i553iW_trqM3z5hmhY
-related: [[pst-mailbox-hrsd]], [[ali-alqarni]], [[khalid-alzahrani]], [[khalid-mutr]], [[ahmad-formal-assignments]]
+related:
+  - "[[pst-mailbox-hrsd]]"
+  - "[[ali-alqarni]]"
+  - "[[khalid-alzahrani]]"
+  - "[[khalid-mutr]]"
+  - "[[ahmad-formal-assignments]]"
 summary: >-
   Python-mailbox parse of 802 MB sent.mbox. 51 unique messages after dedup
   (raw 154). Date range 2025-03-03 → 2026-02-23 (1 year). Top recipient

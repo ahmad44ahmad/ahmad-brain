@@ -8,7 +8,11 @@ tags: [person, hrsd, al-baha-center, center-director, basira-recipient]
 created: 2026-04-22
 updated: 2026-04-24
 source: voice-msg:2026-04-23, drive-folder:1jAEfGLHsjA8O3eqhQF7b8gvm6P_qay3G
-related: [[ali-alqarni]], [[khalid-alzahrani]], [[nuwaira]], [[sent-mbox-hrsd]]
+related:
+  - "[[ali-alqarni]]"
+  - "[[khalid-alzahrani]]"
+  - "[[nuwaira]]"
+  - "[[sent-mbox-hrsd]]"
 summary: >-
   New director of Al-Baha Comprehensive Rehab Center (took over ~2026-04,
   replaces Al-Qarni). Kunya أبو أسامة. Confirmed email k.m.alzahrani003@hrsd.gov.sa.
