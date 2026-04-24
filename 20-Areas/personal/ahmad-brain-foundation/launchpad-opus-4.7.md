@@ -1,3 +1,13 @@
+---
+type: resource
+status: active
+track: personal
+lang: ar
+created: 2026-04-17
+updated: 2026-04-24
+tags: ['launchpad', 'opus-4.7', 'ahmad-brain']
+---
+
 # نقطة الانطلاق مع Claude Opus 4.7
 
 > ملف تأسيسي — كيف نتعامل مع تغيير النموذج (Opus 4.6 → **Opus 4.7 / 1M context**) بطريقة تجعل عملك القادم **متوافقًا ومُستغلًا لقدراته الجديدة**، لا مجرد استمرار بالنمط القديم.

@@ -1,3 +1,13 @@
+---
+type: resource
+status: active
+track: personal
+lang: ar
+created: 2026-04-17
+updated: 2026-04-24
+tags: ['tracks', 'three-tracks', 'ahmad-brain']
+---
+
 # حالة المسارات الثلاثة — 2026-04-17
 
 ## المسار 1 — بصيرة (Basira)

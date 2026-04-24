@@ -1,3 +1,13 @@
+---
+type: resource
+status: active
+track: personal
+lang: ar
+created: 2026-04-17
+updated: 2026-04-24
+tags: ['findings', 'audit', 'ahmad-brain']
+---
+
 # نتائج الجولة الاستكشافية — 2026-04-17
 
 ## 1. البيئة الحالية

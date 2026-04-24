@@ -1,3 +1,13 @@
+---
+type: resource
+status: active
+track: personal
+lang: en
+created: 2026-04-17
+updated: 2026-04-24
+tags: ['prompt-engineering', 'claude', 'template']
+---
+
 # PROMPT-FORGE — engineered intake template (Format 2)
 
 > **Not stored in memory.** This is a workflow reference for Claude.

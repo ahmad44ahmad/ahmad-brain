@@ -1,3 +1,13 @@
+---
+type: resource
+status: active
+track: personal
+lang: en
+created: 2026-04-17
+updated: 2026-04-24
+tags: ['charter', 'mission', 'ahmad-brain']
+---
+
 # OPERATING CHARTER — Ahmad + Claude
 ## مراكز التأهيل الشامل | Saudi Arabia | Rights-Based Rehabilitation
 
