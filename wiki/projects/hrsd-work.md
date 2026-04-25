@@ -34,6 +34,7 @@ related:
   - "[[al-baha-quality-project-2024]]"
   - "[[mhrsd-2025-kpi-portfolio]]"
   - "[[ahmad-engineering-substrate]]"
+  - "[[al-baha-ic-archive]]"
 summary: >-
   Ahmad's active ministry role. Credential base أخصائي علاج طبيعي (PT Specialist,
   permanent). Current position مشرف خدمات العلاج الطبيعي بمنطقة الباحة plus head

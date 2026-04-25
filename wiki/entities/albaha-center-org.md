@@ -29,6 +29,7 @@ related:
   - "[[mhrsd-2025-kpi-portfolio]]"
   - "[[overtime-grievance-case]]"
   - "[[aman-mustadam-initiative]]"
+  - "[[al-baha-ic-archive]]"
   - "[[drive-vault-coverage-audit]]"
 summary: >-
   Current heads of each department and sub-unit at مركز التأهيل الشامل بمنطقة

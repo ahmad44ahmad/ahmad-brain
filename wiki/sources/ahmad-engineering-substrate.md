@@ -139,7 +139,7 @@ JSONL #61 contains a complete economic feasibility study for *«أزهار ال�
 
 Three documents in #60 are clearly out-of-scope for the engineering substrate but on-scope for other vault notes:
 
-- **BICSL-RC infection-control trainer manual** — covered by Phase F-7's planned `al-baha-ic-archive` (note not yet authored; will resolve as a wikilink after F-7).
+- **BICSL-RC infection-control trainer manual** — covered by [[al-baha-ic-archive]] (Phase F-7).
 - **Center org chart** — anchors [[albaha-center-org]] (already authored, F-1).
 - **Supervisory-visits governance manual** — anchors a future Phase F-8 note `mhrsd-supervisory-visit-instruments` from audit §F-8.2 (not yet authored; will resolve as a wikilink after F-8).
 
