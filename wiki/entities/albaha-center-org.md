@@ -25,6 +25,8 @@ related:
   - "[[bandar-alzahrani]]"
   - "[[khalid-mutr]]"
   - "[[999-albaha-qms-bcp]]"
+  - "[[al-baha-quality-project-2024]]"
+  - "[[mhrsd-2025-kpi-portfolio]]"
   - "[[drive-vault-coverage-audit]]"
 summary: >-
   Current heads of each department and sub-unit at مركز التأهيل الشامل بمنطقة

@@ -6,11 +6,12 @@ status: active
 aliases: ["د. ناصر القحطاني", "ناصر القحطاني", "وكيل التأهيل والتوجيه الاجتماعي"]
 tags: [person, hrsd, wakil, rehab-ministry, formal-owner, basira-copy-recipient]
 created: 2026-04-22
-updated: 2026-04-24
+updated: 2026-04-25
 source: voice-msg:2026-04-23
 related:
   - "[[ismail-alghamdi]]"
-  - "[[nasser-alqahtani]]"
+  - "[[mhrsd-leadership]]"
+  - "[[mhrsd-2025-kpi-portfolio]]"
 summary: >-
   Current وكيل الوزارة للتأهيل والتوجيه الاجتماعي at MHRSD as of 2026.
   Replaced Dr. Abdullah Al-Wuhaibi. Formal domain owner of Basira's use-case

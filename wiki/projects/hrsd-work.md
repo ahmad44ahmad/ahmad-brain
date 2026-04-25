@@ -16,7 +16,7 @@ tags:
   - quality-department
   - career
 created: 2026-04-24
-updated: 2026-04-24
+updated: 2026-04-25
 source: employment-contract+pst
 related:
   - "[[mhrsd-leadership]]"
@@ -31,6 +31,8 @@ related:
   - "[[employment-archive]]"
   - "[[al-baha-center-policies]]"
   - "[[basira]]"
+  - "[[al-baha-quality-project-2024]]"
+  - "[[mhrsd-2025-kpi-portfolio]]"
 summary: >-
   Ahmad's active ministry role. Credential base أخصائي علاج طبيعي (PT Specialist,
   permanent). Current position مشرف خدمات العلاج الطبيعي بمنطقة الباحة plus head

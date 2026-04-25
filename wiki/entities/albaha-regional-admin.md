@@ -27,6 +27,7 @@ related:
   - "[[khalid-alzahrani]]"
   - "[[nuwaira]]"
   - "[[basira]]"
+  - "[[mhrsd-2025-kpi-portfolio]]"
   - "[[drive-vault-coverage-audit]]"
 summary: >-
   Organisational structure of the General Administration for HRSD at Al-Baha

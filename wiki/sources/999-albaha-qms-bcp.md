@@ -31,6 +31,8 @@ confidence: high
 source: drive:1EZHHi5I3n476DSkhPoBg78-1Z1C4lUj4nx9iC9uIWMc
 related:
   - "[[999-albaha-qms-bcp-ar]]"
+  - "[[al-baha-quality-project-2024]]"
+  - "[[mhrsd-2025-kpi-portfolio]]"
   - "[[drive-999-docs]]"
   - "[[999-disability-care-empowerment-strategy]]"
   - "[[basira]]"
