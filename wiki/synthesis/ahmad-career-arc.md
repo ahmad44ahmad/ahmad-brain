@@ -22,6 +22,7 @@ related:
   - "[[hrsd-work]]"
   - "[[pst-mailbox-hrsd]]"
   - "[[sent-mbox-hrsd]]"
+  - "[[ahmad-engineering-substrate]]"
 summary: >-
   A single ~14-year career arc inside MHRSD (2011+), not multiple competing
   identities. Credential base (PT Specialist, permanent) + role progression

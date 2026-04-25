@@ -35,6 +35,7 @@ related:
   - "[[aman-mustadam-initiative]]"
   - "[[999-institutional-excellence-innovation]]"
   - "[[999-zero-paper-master]]"
+  - "[[ahmad-engineering-substrate]]"
 summary: >-
   Ahmad's flagship digital-transformation system (بصيرة / "Zero Paper") for
   Saudi comprehensive rehabilitation centers. Vite 6 + React + TypeScript local

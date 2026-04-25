@@ -31,6 +31,7 @@ related:
   - "[[mhrsd-2025-kpi-portfolio]]"
   - "[[aman-mustadam-initiative]]"
   - "[[999-institutional-excellence-innovation]]"
+  - "[[ahmad-engineering-substrate]]"
 summary: >-
   Ten 2025 performance achievements processed and approved in the MHRSD
   achievement system by Ali Al-Qarni (employee ID 8479) between 2025-11-25
