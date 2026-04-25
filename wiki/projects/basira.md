@@ -30,6 +30,8 @@ related:
   - "[[ahmad-formal-assignments]]"
   - "[[drive-catalog]]"
   - "[[999-albaha-qms-bcp]]"
+  - "[[empowerment-thesis-corpus]]"
+  - "[[empowerment-vocabulary]]"
 summary: >-
   Ahmad's flagship digital-transformation system (بصيرة / "Zero Paper") for
   Saudi comprehensive rehabilitation centers. Vite 6 + React + TypeScript local

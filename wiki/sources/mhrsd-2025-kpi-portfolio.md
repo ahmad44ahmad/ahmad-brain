@@ -38,6 +38,7 @@ related:
   - "[[mhrsd-2025-kpi-portfolio-ar]]"
   - "[[999-albaha-qms-bcp]]"
   - "[[al-baha-quality-project-2024]]"
+  - "[[empowerment-vocabulary]]"
   - "[[ahmad-2025-achievements]]"
   - "[[mhrsd-leadership]]"
   - "[[mhrsd-dev-sector-esystems]]"

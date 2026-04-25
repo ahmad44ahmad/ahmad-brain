@@ -8,12 +8,12 @@ created: 2026-04-24
 updated: 2026-04-25
 summary: >-
   Auto-generated index. Regenerate via `.claude/skills/regenerate-indexes/generate.py`.
-  Count: 17 entries.
+  Count: 18 entries.
 ---
 
 # Sources Index
 
-Auto-generated 2026-04-25. 17 entries. Regenerate with `/regenerate-indexes` skill.
+Auto-generated 2026-04-25. 18 entries. Regenerate with `/regenerate-indexes` skill.
 
 
 | id | title | source | summary |
@@ -27,7 +27,8 @@ Auto-generated 2026-04-25. 17 entries. Regenerate with `/regenerate-indexes` ski
 | [[drive-folders-master-index]] | Drive Folders Master Index (68 folders, Gemini-summarised) | drive:1gPVb0n30I2t4erUUJkbSEO3YhGjV_ynOEfy7H2clj6c | Master index of Ahmad's 68 Drive folders. Source = Gemini-narrated Google Doc where Ahmad asked Gemini to summarise eac… |
 | [[drive-vault-coverage-audit]] | Drive ↔ Vault Coverage Audit + Phased Ingestion Plan | synthesis:vault-frontmatter-scan + drive-folders-gemini.jsonl + 999HRSD-all-mcp-enum | Authoritative coverage audit run 2026-04-25 mapping the 45-note vault against 68 Drive folders + indexed individual fil… |
 | [[employment-archive]] | Ahmad's Employment Archive — Achievements & Challenges (Dri… | drive-folder:1jAEfGLHsjA8O3eqhQF7b8gvm6P_qay3G | 26-file Drive folder — Ahmad's complete employment archive. Three pillars legal/admin challenge over Cabinet Decision 1… |
-| [[mhrsd-2025-kpi-portfolio]] | MHRSD 2025 KPI Portfolio — تعميم 28597 (Comprehensive Rehab… | drive-folder-jsonl:#5, gemini-summary:2026-04-24 |  |
+| [[empowerment-thesis-corpus]] | Empowerment Thesis Corpus — التمكين المستقبلي (3-Tier Matur… | drive-folder-jsonl:#11, gemini-summary:2026-04-24 | English distillation of the التمكين المستقبلي (Future Empowerment) Drive folder — JSONL #11, 15 files. Carries the expl… |
+| [[mhrsd-2025-kpi-portfolio]] | MHRSD 2025 KPI Portfolio — تعميم 28597 (Comprehensive Rehab… | drive-folder-jsonl:#5, gemini-summary:2026-04-24 | English distillation of the official 2025 KPI portfolio for MHRSD's 36 comprehensive rehabilitation centers, anchored b… |
 | [[pst-mailbox-hrsd]] | PST Mailbox Analysis — Ahmad's HRSD Work Email (2023-2026) | drive:1z_cj5HVKhrZu4encg2esfLlBZ7koA8qWOPfozxk_lK8 | 2.2 GB PST of Ahmad's HRSD Outlook mailbox covering 2025-03 → 2026-03 (inbox/sent) with deleted items reaching back to … |
 | [[pst-mailbox-hrsd-merged]] | PST Mailbox — Merged Archive (primary search surface, 2015-… | merged:D:\pst-archive\ + D:\pst-archive-a\ | Unified FTS5 search surface across ALL four locally-extractable HRSD PST snapshots. 4,816 deduplicated messages spannin… |
 | [[pst-mailbox-hrsd-snapshot-a]] | PST Mailbox Snapshot A — 2025-06-15 (covers 2023-11 → 2025-… | local:D:\My_Files\01_Documents\999 15 6 2025\backup.pst | Second PST archive of Ahmad's HRSD mailbox, extracted 2026-04-24 from a 2025-06-15 Outlook snapshot. 3,659 messages acr… |

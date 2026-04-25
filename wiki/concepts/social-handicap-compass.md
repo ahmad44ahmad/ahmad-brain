@@ -17,7 +17,7 @@ tags:
   - crpd
   - launchpad
 created: 2026-04-24
-updated: 2026-04-24
+updated: 2026-04-25
 valid_from: 2026-04-21
 learned_at: 2026-04-23
 confidence: high
@@ -27,6 +27,8 @@ related:
   - "[[basira-leadership-compass]]"
   - "[[pt-modeling]]"
   - "[[ahmad-2025-achievements]]"
+  - "[[empowerment-vocabulary]]"
+  - "[[empowerment-thesis-corpus]]"
 summary: >-
   Ahmad's central frame, introduced in the 2026-04-21 Opus-4.7 launchpad and
   operationalised by 2026-04-23. His work is not medical/clinical/procedural —

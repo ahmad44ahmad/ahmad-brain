@@ -6,7 +6,7 @@ status: active
 aliases: ["علي عوض عوض القرني", "علي القرني", "Ali A. Alqarni", "أبو خالد"]
 tags: [person, hrsd, al-baha-center, former-manager, 2025-achievements-endorser]
 created: 2026-04-22
-updated: 2026-04-24
+updated: 2026-04-25
 source: pst-analysis:2026-04-21, sent-mbox:2026-04-24, voice-msg:2026-04-22
 related:
   - "[[khalid-mutr]]"
@@ -15,6 +15,8 @@ related:
   - "[[pst-mailbox-hrsd]]"
   - "[[employment-archive]]"
   - "[[ahmad-formal-assignments]]"
+  - "[[empowerment-thesis-corpus]]"
+  - "[[empowerment-vocabulary]]"
 summary: >-
   Ahmad's direct manager at Al-Baha Comprehensive Rehab Center during
   2024–early 2026. Endorsed 10 of Ahmad's 2025 performance achievements

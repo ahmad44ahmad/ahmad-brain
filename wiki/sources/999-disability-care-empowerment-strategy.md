@@ -31,6 +31,8 @@ related:
   - "[[ahmad-formal-assignments]]"
   - "[[social-handicap-compass]]"
   - "[[research-initiatives-portfolio]]"
+  - "[[empowerment-thesis-corpus]]"
+  - "[[empowerment-vocabulary]]"
 summary: >-
   Ahmad's master thinking-substrate doc (1.5M chars, Drive-labelled "500-page
   rehab-center comprehensive"). Actually a stitched portfolio of seven
