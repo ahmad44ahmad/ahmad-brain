@@ -152,7 +152,7 @@ For the substantive thesis these phrases serve, see [[empowerment-thesis-corpus]
 
 - **«السلامة ثنائية العميل»** / variant **«نموذج السلامة ثنائي العميل»** — dual-client safety. [[999-institutional-excellence-innovation]] uses *السلامة ثنائية العميل* (8 hits); [[999-zero-paper-master]] uses the variant inflection *نموذج السلامة ثنائي العميل* (18 hits, line 60: *«إذا أُصيب الموظف في ظهره، فلن يستطيع نقل النزيل بأمان، وقد يسقط النزيل معه.»*). Same concept under both forms. Reframes safety as a symmetric human relation: a staff member injured in a behavioural crisis will burn out and under-care, so designing for one side without the other is structurally incomplete. Cross-ref [[aman-mustadam-initiative]].
 
-- **«خوارزمية الإحسان»** — Algorithm of Ihsan / Benevolence. [[999-institutional-excellence-innovation]] — *تذكير مقدمي الرعاية بالتفضيلات الشخصية الدقيقة للمستفيد لحفظ كرامته وتقليل العبء الذهني على الموظفين.* Basira's beneficiary-preference reminder layer; one sentence doubles as product design principle and ethical frame. The clearest naming of how Saudi-Islamic ethical vocabulary (إحسان) gets encoded into system behaviour. Cross-ref [[basira]], [[basira-leadership-compass]]. **⚠️ Terminology conflict** — [[999-zero-paper-master]] canonises *«ملف الكرامة»* (Dignity File, see Basira-product domain below) for what looks like the same Basira humanisation surface. Two possibilities: (a) competing names for one feature, (b) ملف الكرامة is the data store and خوارزمية الإحسان is the alerting algorithm reading from it. Open question for Ahmad; vault preserves both forms until resolved.
+- **«خوارزمية الإحسان»** (historical, superseded) — Algorithm of Ihsan / Benevolence. [[999-institutional-excellence-innovation]] — *تذكير مقدمي الرعاية بالتفضيلات الشخصية الدقيقة للمستفيد لحفظ كرامته وتقليل العبء الذهني على الموظفين.* Basira's beneficiary-preference reminder layer; one sentence doubles as product design principle and ethical frame. **✅ Resolved 2026-04-25 (Ahmad)**: same Basira feature as *ملف الكرامة* (Basira-product domain below). *خوارزمية الإحسان* is the historical/internal name for the AI engine underneath; *ملف الكرامة* is the canonical user-facing name Ahmad settled on, chosen because *الكرامة* (dignity) better expresses the design intent than *إحسان* (benevolence) — the latter implies asymmetric charity, the former implies inherent dignity. Future references should use *ملف الكرامة*; *خوارزمية الإحسان* preserved here as historical-artefact vocabulary anchoring F-5.1's verbatim citations. Cross-ref [[basira]], [[basira-leadership-compass]].
 
 ---
 
@@ -180,7 +180,7 @@ For the substantive thesis these phrases serve, see [[empowerment-thesis-corpus]
 
 - **«مصدراً واحداً للحقيقة»** / Single Source of Truth. [[999-zero-paper-master]] line 122. Imported English data-engineering term; Gemini preserves the parenthetical English. Anchors the Master Record's design philosophy.
 
-- **«ملف الكرامة»** (Dignity File) — Basira's signature humanisation module. [[999-zero-paper-master]] line 296 (28 hits, 4 dedicated sections). Documents preferred-name, sensory tolerances, *«سجل الحسنات»* (below), personality type, dignity-preserving care notes. Anchors the dignity-preservation strategy as a documented file rather than an algorithmic alert. **⚠️ Terminology conflict** with *«خوارزمية الإحسان»* (Design-principle domain above) — possibly same feature, possibly distinct; flagged for Ahmad. Cross-ref [[basira]].
+- **«ملف الكرامة»** (Dignity File) — Basira's signature humanisation module. **Canonical name** (resolved 2026-04-25). [[999-zero-paper-master]] line 296 (28 hits, 4 dedicated sections). Documents preferred-name, sensory tolerances, *«سجل الحسنات»* (below), personality type, dignity-preserving care notes. Same Basira feature previously named *«خوارزمية الإحسان»* (see Design-principle domain) — Ahmad upgraded the user-facing name from *إحسان* (benevolence) to *الكرامة* (dignity) because the former implies asymmetric charity, the latter implies inherent dignity. The AI engine underneath is what *خوارزمية الإحسان* originally named; *ملف الكرامة* is the surface presented to caregivers. Use *ملف الكرامة* in current/future writing. Cross-ref [[basira]].
 
 - **«سجل الحسنات»** (Merit Ledger / Good-Deeds Registry) — sub-feature of ملف الكرامة. [[999-zero-paper-master]] line 82 (12 hits). Logs daily small achievements as positive feedback for caregivers and family. Saudi-Islamic register (*حسنات*) is deliberate; pre-empts the Western policy-import critique.
 
@@ -196,7 +196,7 @@ For the substantive thesis these phrases serve, see [[empowerment-thesis-corpus]
 
 ### Phrases — empowerment surfaces
 
-- **«مساعد الظل»** (Shadow Assistant / Development Coach) — per-employee mediator role for PWD workers. [[999-zero-paper-master]] line 814 (22 hits, 2 dedicated sections). Frames the role as *«مهندس علاقات مهنية»* (professional-relationships engineer), not personal aide. Cited deployment ratio: 1 coach per 13 employees. **Open question for Ahmad**: is مساعد الظل a Basira product surface, an MHRSD national-policy proposal, or an Al-Baha pilot? Both framings appear in the doc.
+- **«مساعد الظل»** (Shadow Assistant / Development Coach) — per-employee mediator role for PWD workers. [[999-zero-paper-master]] line 814 (22 hits, 2 dedicated sections). Frames the role as *«مهندس علاقات مهنية»* (professional-relationships engineer), not personal aide. Cited deployment ratio: 1 coach per 13 employees. **🚫 Deprecated 2026-04-25 (Ahmad)**: not advancing as a live initiative. Ahmad acknowledged it as a charming idea but decided not to use it. Preserved here as historical-vocabulary artefact only — do not propose مساعد الظل in any forward-looking Basira/MHRSD pitch or document.
 
 - **«فخ الإعانة»** (Disability-Allowance Trap) — argument-shape vocabulary for the structural employment-disincentive: PWD workers fear losing the 4,000 SAR monthly stipend if formally employed. [[999-zero-paper-master]] line 962 (paraphrased). In the same register-class as *هدر رأس المال البشري* (Critique domain) — names a fiscal-structural pathology rather than a coined unit-phrase.
 
@@ -289,14 +289,19 @@ Three Ahmad-orbit phrases already have homes:
 - **Authority for the lexicon:** verbatim Gemini quotations of underlying Ahmad-authored documents. Gemini preserves Ahmad's coinages inside « » guillemets; this note inherits that convention.
 - **Re-run trigger:** when a new Drive folder surfaces vocabulary, append rather than re-derive.
 
+## Resolved (do not re-litigate)
+
+- **«ملف الكرامة» vs «خوارزمية الإحسان»** ✅ resolved 2026-04-25 (Ahmad voice memo). Same Basira feature; *ملف الكرامة* is the canonical user-facing name; *خوارزمية الإحسان* is the historical name for the AI engine underneath. Use *ملف الكرامة* going forward.
+- **«مساعد الظل»** 🚫 deprecated 2026-04-25 (Ahmad). Not advancing. Preserve as historical vocabulary; do not propose in forward-looking pitches.
+- **«البوصلة» framing** — clarified 2026-04-25 (Ahmad). The Compass framing is **ethical (أخلاقية), not creedal/doctrinal (عقائدية)**. Do not classify as religious-doctrinal; classify as moral-philosophical / KPI-philosophy. (Deployment status inside Basira still open — see below.)
+
 ## Open questions
 
-1. **«ملف الكرامة» vs «خوارزمية الإحسان»** (added F-5.3) — competing names for what looks like the same Basira humanisation surface. F-5.1 canonises خوارزمية الإحسان; F-5.3 canonises ملف الكرامة. Possibilities: (a) same feature, (b) data-store vs alerting-algorithm. Vault preserves both pending Ahmad's resolution.
-2. **«صفر ورق» vs «صفرية الورق»** (added F-5.3) — both forms valid in their respective registers (registered MHRSD initiative vs design-doctrine). Lexicon records both; do not collapse.
-3. **«مساعد الظل» status** (added F-5.3) — Basira product surface, MHRSD national policy, or Al-Baha pilot? F-5.3 carries both framings.
-4. **«مكاني بينكم» origin** (added F-5.3) — possibly an external MHRSD campaign in flight; verify before treating as Ahmad-coined.
-5. **«الريادة الاستباقية»** — listed in [[drive-vault-coverage-audit]] §3.3 as a Vision phrase, but **literal string not found** in JSONL. Closest hits: *الاستباقية والكفاءة العالية* (#37), *التمكين الاستباقي* (#37), *الريادة السعودية* (#11). Hypothesis: audit-side paraphrase blending *الريادة السعودية* + *التمكين الاستباقي*. Dropped from this lexicon; ask Ahmad before canonising.
-6. **«هدر رأس المال البشري»** is argued, not coined as a unit-phrase. Reliable across folders but always split across two clauses. Kept here as argument-shape.
-7. **Goffman attribution.** JSONL #7 supplies the English gloss "Total Institutions" but not date/citation. Inferred 1961 *Asylums* from common knowledge; verify from underlying source document (File 13 — *إعادة بناء الرعاية الاجتماعية*).
-8. **«نموذج أولي استراتيجي»** is FOR Ali Al-Qarni's management at Al-Baha. Memory records Al-Qarni stepped back Q1 2026; phrase preserved as historical-artefact vocabulary, not live operational descriptor.
-9. **Vocabulary growth.** This lexicon is current through F-5.3. Phase F-6 (engineering substrate) is likely to surface 3–5 more pre-Basira engineering coinages. Append rather than restructure.
+1. **«صفر ورق» vs «صفرية الورق»** (F-5.3) — both forms valid in their respective registers (registered MHRSD initiative-name vs design-doctrine register). Lexicon records both; do not collapse.
+2. **«البوصلة» deployment status** — is the 4-dimension success-criteria framework actually deployed inside Basira v2, or still a doctrinal/philosophical proposal? F-5.3 reads as if deployed; Ahmad's clarification confirmed the framing is ethical-philosophical but did not address deployment. Verify against the Basira codebase.
+3. **«مكاني بينكم» origin** (F-5.3) — possibly an external MHRSD campaign in flight; verify before treating as Ahmad-coined.
+4. **«الريادة الاستباقية»** — listed in [[drive-vault-coverage-audit]] §3.3 as a Vision phrase, but **literal string not found** in JSONL. Closest hits: *الاستباقية والكفاءة العالية* (#37), *التمكين الاستباقي* (#37), *الريادة السعودية* (#11). Hypothesis: audit-side paraphrase blending *الريادة السعودية* + *التمكين الاستباقي*. Dropped from this lexicon; ask Ahmad before canonising.
+5. **«هدر رأس المال البشري»** is argued, not coined as a unit-phrase. Reliable across folders but always split across two clauses. Kept here as argument-shape.
+6. **Goffman attribution.** JSONL #7 supplies the English gloss "Total Institutions" but not date/citation. Inferred 1961 *Asylums* from common knowledge; verify from underlying source document (File 13 — *إعادة بناء الرعاية الاجتماعية*).
+7. **«نموذج أولي استراتيجي»** is FOR Ali Al-Qarni's management at Al-Baha. Memory records Al-Qarni stepped back Q1 2026; phrase preserved as historical-artefact vocabulary, not live operational descriptor.
+8. **Vocabulary growth.** This lexicon is current through F-5.3 + 2026-04-25 resolutions. Phase F-6 (engineering substrate) is likely to surface 3–5 more pre-Basira engineering coinages. Append rather than restructure.

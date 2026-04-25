@@ -93,7 +93,7 @@ The single most distinctive product-design coinage in the doc. Appears 28× acro
 
 Sub-feature *«سجل الحسنات»* (Merit Ledger / Good-Deeds Registry, 12 hits) logs daily small achievements as positive feedback for caregivers and family. The Saudi-Islamic register (*حسنات*) is deliberate and indigenous — pre-empts the Western policy-import critique applied to Pay-for-Success and similar imports.
 
-**Open question (flagged for Ahmad).** F-5.1 canonises *«خوارزمية الإحسان»* as Basira's beneficiary-preference humanisation feature; F-5.3 canonises *«ملف الكرامة»* for what looks like the same surface. Two possibilities: (a) they are competing names for the same feature; (b) ملف الكرامة is the data store and خوارزمية الإحسان is the alerting algorithm reading from it. Vault should not silently pick one. See [[empowerment-vocabulary]] §Basira-product for the conflict pair.
+**Resolved 2026-04-25 (Ahmad voice memo).** Same Basira feature. *ملف الكرامة* is the canonical user-facing name; *خوارزمية الإحسان* is the historical name for the AI engine underneath that drives it. Ahmad upgraded the surface name from *إحسان* (benevolence — implies asymmetric charity) to *الكرامة* (dignity — implies inherent dignity) because the latter better expresses the design intent. Use *ملف الكرامة* in current/future writing; *خوارزمية الإحسان* is historical-vocabulary anchoring F-5.1's verbatim citations. See [[empowerment-vocabulary]] §Resolved.
 
 ## بوصلة (Compass) — 4-dimension success criteria
 
@@ -106,7 +106,7 @@ A standalone section (lines 720–764) proposing a wholesale replacement of the 
 
 > *«لقد حدث انقلاب كامل في مفهوم النجاح. نحن ننتقل من "مقياس الخدمات" إلى "مقياس الأثر الإنساني".»* — line 724; the Compass-section opening. Complements *من طغيان الكم إلى حوكمة الأثر* from the master portfolio and inverts the *طغيان المؤشرات الكمية* / *صفر حوادث* anti-pattern from [[empowerment-vocabulary]] §Critique.
 
-Live status unclear — the doc reads as if the Compass is deployed inside Basira, but no other vault note confirms this. Treat as **doctrinal proposal until verified**.
+Framing clarified 2026-04-25 (Ahmad): the Compass is **ethical (أخلاقية), not creedal/doctrinal (عقائدية)** — moral-philosophical KPI redesign, not a religious-doctrine proposal. Deployment status inside Basira v2 remains open — verify against the codebase before stating implementation status.
 
 ## مساعد الظل (Shadow Assistant / Development Coach)
 
@@ -114,7 +114,7 @@ A dedicated employment-empowerment mechanism (lines 814–858 + 4579–4612, 22 
 
 > *«التحدي الحقيقي ليس توظيف الشخص ذي الإعاقة، بل الاستدامة والتكيف. هنا يأتي دور "مساعد الظل" ليس كمرافق شخصي دائم، بل كـ "مهندس علاقات مهنية" يضمن نجاح الدمج.»* — line 818.
 
-Deployment ratio cited: 1 coach per 13 employees (line 4581). **Open question (flagged for Ahmad)**: is مساعد الظل (a) a Basira product surface, (b) an MHRSD national-policy proposal, or (c) an Al-Baha-internal pilot? Line 814 frames it as a "national strategy mechanism" but line 4581 reads as a deployable model. Status unclear.
+Deployment ratio cited: 1 coach per 13 employees (line 4581). **🚫 Deprecated 2026-04-25 (Ahmad)**: not advancing as a live initiative — Ahmad acknowledged it as a charming idea but explicitly decided not to use it. Preserve as historical vocabulary; do not propose مساعد الظل in any forward-looking Basira/MHRSD pitch.
 
 The doc also names *«فخ الإعانة»* (Disability-Allowance Trap) — the structural employment-disincentive: PWD workers fear losing the 4,000 SAR monthly stipend if formally employed. Argument-shape vocabulary in the same register as *هدر رأس المال البشري* from [[empowerment-vocabulary]] §Critique.
 
@@ -166,12 +166,16 @@ These are minor; not worth a revision pass on the audit. Recorded here so future
 - **No external-source attribution survives the export.** Some footnote-style citation markers exist as square " " markers but no specific source attributions; same Gemini-citation-marker problem as F-5.1.
 - **No sensitive content detected.** No litigation, no third-party PII, no credentials.
 
+## Resolved (2026-04-25 voice memo)
+
+1. **ملف الكرامة vs خوارزمية الإحسان** ✅ same feature; *ملف الكرامة* canonical, *خوارزمية الإحسان* historical name for AI engine underneath.
+2. **بوصلة framing** ✅ ethical-philosophical (أخلاقية), not creedal (عقائدية).
+3. **مساعد الظل** 🚫 deprecated; not advancing.
+
 ## Open questions
 
-1. **ملف الكرامة vs خوارزمية الإحسان** — same Basira feature under two names, or distinct sub-systems? F-5.1 and F-5.3 each canonise their own name. Vault flags both forms in [[empowerment-vocabulary]] until Ahmad resolves.
-2. **بوصلة status** — is the 4-dimension success-criteria framework deployed inside Basira, or still a doctrinal proposal? The doc reads as if deployed; nothing else confirms.
-3. **مساعد الظل status** — Basira product surface, MHRSD national policy, or Al-Baha pilot? The doc carries both framings.
-4. **مكاني بينكم origin** — possibly an external MHRSD campaign already in flight; verify.
+1. **بوصلة deployment status** — framing resolved (ethical, not creedal) but whether the 4-dimension Compass is wired into Basira v2 KPIs or still proposal-only is unverified. Check codebase.
+2. **مكاني بينكم origin** — possibly an external MHRSD campaign already in flight; verify before treating as Ahmad-coined.
 
 ## Provenance
 
