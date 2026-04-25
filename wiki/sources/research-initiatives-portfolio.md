@@ -15,6 +15,7 @@ related:
   - "[[al-baha-center-policies]]"
   - "[[empowerment-thesis-corpus]]"
   - "[[empowerment-vocabulary]]"
+  - "[[aman-mustadam-initiative]]"
   - "[[basira]]"
   - "[[drive-vault-coverage-audit]]"
 summary: >-

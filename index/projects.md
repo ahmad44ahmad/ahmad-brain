@@ -8,16 +8,17 @@ created: 2026-04-24
 updated: 2026-04-25
 summary: >-
   Auto-generated index. Regenerate via `.claude/skills/regenerate-indexes/generate.py`.
-  Count: 6 entries.
+  Count: 7 entries.
 ---
 
 # Projects Index
 
-Auto-generated 2026-04-25. 6 entries. Regenerate with `/regenerate-indexes` skill.
+Auto-generated 2026-04-25. 7 entries. Regenerate with `/regenerate-indexes` skill.
 
 
 | id | title | status | summary |
 |---|---|---|---|
+| [[aman-mustadam-initiative]] | أمان مستدام (Sustainable Safety) — National Disability-Incl… | active |  |
 | [[basira]] | Basira — Digital-Transformation System for Rehabilitation C… | active | Ahmad's flagship digital-transformation system (بصيرة / "Zero Paper") for Saudi comprehensive rehabilitation centers. V… |
 | [[basira-leadership-compass]] | Basira — Leadership Compass (بوصلة القيادة) | active | Strategic decision surface inside Basira for senior leadership (مساعد التنمية, المدير العام, and above). Seven tabs, sh… |
 | [[basira-sovereign-decks]] | Basira — Three Audience-Tiered Sovereign Decks | active | Three carefully stratified HTML presentation decks for the Basira handover, each tailored to a distinct audience tier —… |

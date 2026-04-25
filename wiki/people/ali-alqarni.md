@@ -17,6 +17,7 @@ related:
   - "[[ahmad-formal-assignments]]"
   - "[[empowerment-thesis-corpus]]"
   - "[[empowerment-vocabulary]]"
+  - "[[overtime-grievance-case]]"
 summary: >-
   Ahmad's direct manager at Al-Baha Comprehensive Rehab Center during
   2024–early 2026. Endorsed 10 of Ahmad's 2025 performance achievements

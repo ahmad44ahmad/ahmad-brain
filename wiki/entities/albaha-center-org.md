@@ -27,6 +27,8 @@ related:
   - "[[999-albaha-qms-bcp]]"
   - "[[al-baha-quality-project-2024]]"
   - "[[mhrsd-2025-kpi-portfolio]]"
+  - "[[overtime-grievance-case]]"
+  - "[[aman-mustadam-initiative]]"
   - "[[drive-vault-coverage-audit]]"
 summary: >-
   Current heads of each department and sub-unit at مركز التأهيل الشامل بمنطقة
