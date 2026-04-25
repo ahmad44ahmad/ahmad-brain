@@ -17,7 +17,7 @@ summary: >-
 | date | type | id | title |
 |---|---|---|---|
 
-| 2026-04-25 | log | [[log-2026-04-25]] | Session Log — 2026-04-25 (session close) |
+| 2026-04-25 | log | [[log-2026-04-25]] | Session Log — 2026-04-25 |
 | 2026-04-24 | log | [[log-2026-04-24]] | Session Log — 2026-04-24 |
 | 2026-04-24 | decision | [[0002-language-policy-and-sources-folder]] | Language Policy Refinement + wiki/sources/ Folder |
 | 2026-04-24 | decision | [[0001-vault-architecture]] | Vault Architecture — LLM-Only Markdown Second Brain |
