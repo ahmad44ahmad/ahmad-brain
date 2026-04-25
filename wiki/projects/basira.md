@@ -34,6 +34,7 @@ related:
   - "[[empowerment-vocabulary]]"
   - "[[aman-mustadam-initiative]]"
   - "[[999-institutional-excellence-innovation]]"
+  - "[[999-zero-paper-master]]"
 summary: >-
   Ahmad's flagship digital-transformation system (بصيرة / "Zero Paper") for
   Saudi comprehensive rehabilitation centers. Vite 6 + React + TypeScript local
@@ -126,6 +127,8 @@ Shipped artefacts in the handover packet: Basira v2 operational manual (PDF, Dri
 Technical signals to pair with the evidence stack for senior audiences: **SROI 1:4.2** (social return on investment), **ISO 9001 100% alignment**, **11-document compliance packet** mapped to HRSD + NCA ECC-2:2024 + CSCC-1:2019, **100% audit trail**.
 
 MHRSD official designation for Basira in the achievement system: **مبادرة صفر ورق (Zero Paper)**, one of Ahmad's 2025 achievements approved 2025-12-03 by [[ali-alqarni]].
+
+For Basira's product anatomy as written-up in narrative form — 5-component architecture (Master Record / Rehab+Empowerment / Clinical / ملف الكرامة / Logistics), 3 strategic goals (أنسنة الرعاية / صفرية الورق / الحوكمة الاستباقية), and design-doctrine vocabulary (بوصلة, مساعد الظل, هندسة الكرامة) — see [[999-zero-paper-master]]. That doc is Gemini-synthesised and *describes* features as if deployed, so quote it in "as designed" mode rather than "as deployed". The evidence stack above is the institutional-claims source; F-5.1 ([[999-institutional-excellence-innovation]]) is the excellence-framework source; F-5.3 ([[999-zero-paper-master]]) is the product-architecture source.
 
 ## Open gaps
 

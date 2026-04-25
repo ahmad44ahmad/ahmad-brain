@@ -34,6 +34,7 @@ related:
   - "[[empowerment-thesis-corpus]]"
   - "[[empowerment-vocabulary]]"
   - "[[999-institutional-excellence-innovation]]"
+  - "[[999-zero-paper-master]]"
 summary: >-
   Ahmad's master thinking-substrate doc (1.5M chars, Drive-labelled "500-page
   rehab-center comprehensive"). Actually a stitched portfolio of seven
