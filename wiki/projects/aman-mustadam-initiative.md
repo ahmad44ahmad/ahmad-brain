@@ -38,6 +38,7 @@ related:
   - "[[empowerment-vocabulary]]"
   - "[[empowerment-thesis-corpus]]"
   - "[[999-albaha-qms-bcp]]"
+  - "[[999-institutional-excellence-innovation]]"
   - "[[999-disability-care-empowerment-strategy]]"
   - "[[al-baha-quality-project-2024]]"
   - "[[albaha-center-org]]"

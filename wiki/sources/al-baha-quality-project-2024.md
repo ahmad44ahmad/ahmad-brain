@@ -30,6 +30,7 @@ related:
   - "[[999-albaha-qms-bcp-ar]]"
   - "[[999-disability-care-empowerment-strategy]]"
   - "[[empowerment-vocabulary]]"
+  - "[[999-institutional-excellence-innovation]]"
   - "[[overtime-grievance-case]]"
   - "[[aman-mustadam-initiative]]"
   - "[[ahmad-2025-achievements]]"

@@ -33,6 +33,7 @@ related:
   - "[[research-initiatives-portfolio]]"
   - "[[empowerment-thesis-corpus]]"
   - "[[empowerment-vocabulary]]"
+  - "[[999-institutional-excellence-innovation]]"
 summary: >-
   Ahmad's master thinking-substrate doc (1.5M chars, Drive-labelled "500-page
   rehab-center comprehensive"). Actually a stitched portfolio of seven
@@ -196,3 +197,16 @@ The pivot from رعاية to تمكين is the single through-line of the portfo
 ## Provenance
 
 Read 2026-04-25 via Google Drive MCP `read_file_content` (output 1.5M chars saved to `C:\Users\aass1\.claude\projects\...\tool-results\`). Outline produced by subagent; distilled by main Claude into this source note. Drive fileId `1byOQjDIbvL8HFBMsJtrxQRh4LEIuM5Jh3tfdbHJMCDM`, last modified 2026-02-21 (updated significantly from its 2026-01-03 creation).
+
+## Addendum — fileId 1iC8AdwZ... fold (2026-04-25, F-5.2)
+
+Drive fileId `1iC8AdwZStrwyGhGxzL-tujA-ws7hA3egIshgoioi5a4` (title: *«999 إعادة بناء الرعاية الاجتماعية: نحو التمكين»*, 24 kB Gdoc, owner `admin@albahah.app`, created 2025-10-26, modified 2025-12-23) was audited 2026-04-25 per [[drive-vault-coverage-audit]] §4 Phase F-5.2 and resolved as **subsumed** by this master note — no separate distillation produced, no raw companion preserved.
+
+**Identity.** The Gdoc is the standalone version of **Doc E** in this portfolio's stitched seven — *«مشروع الأثر الإنساني المتجدد: من الرعاية إلى التمكين»*. All four parts map 1:1 to the master portfolio's Doc E (character range 701k → 721k). Every coined term already enumerated above — *مختبرات الممكن البشري*, *التوأم الرقمي للأثر الاجتماعي*, *نظام التشغيل الاجتماعي*, *مهندس مسارات حياة*, *قائد منظومة التمكين*, *المستثمر في الأثر الاجتماعي*, *دستور التمكين*, *الشجاعة المؤسسية*, *من طغيان الكم إلى حوكمة الأثر* — appears verbatim and in the same order. The *واحة التمكين* 18-month / 3-phase pilot, the 50% Pay-for-Success transition trigger, the $92,000 LTSS figure, and the Digital-Twin-as-contract-verification mechanic are all present and all already captured above. **Estimated distinct content ≈ 3-5%.** Likely also identical to *ملف 13 — إعادة بناء الرعاية الاجتماعية* referenced in JSONL #19.
+
+**Minor items the standalone adds (bibliographic only):**
+
+- An enumerated **24-source citation list** (references [1]–[24]): Goffman's *Total Institutions* (study.com); Sen's Capability Approach (IEP); Medicaid LTSS financial-eligibility modeling (PMC); Community-Based Recovery Models for serious mental illness (PMC); Clubhouse Model integration literature; Social Impact Bonds (Social Finance, Urban Institute, NCHH, Oxford GOLab humanitarian case); Digital Twins in healthcare (Duke Comp Health); SCIE adult-social-care transformation manifesto; ROI calculators for health-social-needs partnerships; Life Coach job-description frame (Upwork). These citations are implicit in the master's "1.5M chars" raw source but not enumerated at the Doc-E row above.
+- Three explicit comparison **tables** (old-vs-new KPI dimensions · digital-twin indicator catalog · leadership-role transformation) that this master note summarises narratively rather than tabulates.
+
+**Handling.** Both items are method-of-citation metadata, not new substantive claims. Per the audit's ≥30%-distinct threshold (3-5% estimated), the correct action is fold-only. **No raw companion preserved** at `raw/drive/` — the raw lineage of this content is covered by the master portfolio's raw source already; preserving a second copy would violate the *don't duplicate raw* hygiene rule of ADR-0001.

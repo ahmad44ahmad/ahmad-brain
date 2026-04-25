@@ -33,6 +33,7 @@ related:
   - "[[empowerment-thesis-corpus]]"
   - "[[empowerment-vocabulary]]"
   - "[[aman-mustadam-initiative]]"
+  - "[[999-institutional-excellence-innovation]]"
 summary: >-
   Ahmad's flagship digital-transformation system (بصيرة / "Zero Paper") for
   Saudi comprehensive rehabilitation centers. Vite 6 + React + TypeScript local

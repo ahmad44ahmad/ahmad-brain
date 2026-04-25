@@ -8,18 +8,19 @@ created: 2026-04-24
 updated: 2026-04-25
 summary: >-
   Auto-generated index. Regenerate via `.claude/skills/regenerate-indexes/generate.py`.
-  Count: 18 entries.
+  Count: 19 entries.
 ---
 
 # Sources Index
 
-Auto-generated 2026-04-25. 18 entries. Regenerate with `/regenerate-indexes` skill.
+Auto-generated 2026-04-25. 19 entries. Regenerate with `/regenerate-indexes` skill.
 
 
 | id | title | source | summary |
 |---|---|---|---|
 | [[999-albaha-qms-bcp]] | 999 — Al-Baha Center Integrated QMS + Compliance + Benefici… | drive:1EZHHi5I3n476DSkhPoBg78-1Z1C4lUj4nx9iC9uIWMc | English distillation of the Al-Baha Comprehensive Rehab Center integrated master doc covering QMS (ISO 9001:2015), comp… |
 | [[999-disability-care-empowerment-strategy]] | 999 — Disability Care + Empowerment Strategy (stitched 7-do… | drive:1byOQjDIbvL8HFBMsJtrxQRh4LEIuM5Jh3tfdbHJMCDM | Ahmad's master thinking-substrate doc (1.5M chars, Drive-labelled "500-page rehab-center comprehensive"). Actually a st… |
+| [[999-institutional-excellence-innovation]] | 999 — Institutional Excellence + Innovation (Humanising Tec… | drive:1sgdawDigC4wn_8FyfmTR21Xq_nnzu96VGKnqZ_aoBsw | English distillation of the third pillar of the Al-Baha 999-trilogy — a 53kB / 111kB-text Gemini/NotebookLM synthesis c… |
 | [[al-baha-center-policies]] | Al-Baha Comprehensive Rehab Center — Policies, Procedures &… | drive-folder:1zfL_SKlyny6uoRSFoiz6ML44nP6OK1m5 | 24-file Drive folder — complete operational/regulatory reference for the Al-Baha Comprehensive Rehab Center. Department… |
 | [[al-baha-quality-project-2024]] | Al-Baha Quality Project 2024 — Evidence Stack + Escalation … | drive-folder-jsonl:#2+#46, gemini-summary:2026-04-24 | English distillation of Ahmad's self-compiled evidence dossier covering the Al-Baha Quality Department's 2024 work — QM… |
 | [[drive-999-docs]] | Drive "999" High-Density Research Docs | google-drive:admin@albahah.app | Catalog of Ahmad's "999" / "9999" prefixed research docs — long-form comprehensive treatments (30k–1MB each) used as th… |

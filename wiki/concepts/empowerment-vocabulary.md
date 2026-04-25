@@ -14,6 +14,7 @@ tags:
   - critique-vocabulary
   - vision-vocabulary
   - procedural-vocabulary
+  - design-principle-vocabulary
   - thinking-substrate
   - empowerment-pivot
 created: 2026-04-25
@@ -36,6 +37,7 @@ related:
   - "[[three-tracks]]"
   - "[[overtime-grievance-case]]"
   - "[[aman-mustadam-initiative]]"
+  - "[[999-institutional-excellence-innovation]]"
   - "[[drive-vault-coverage-audit]]"
 summary: >-
   Single concept node holding the three vocabulary domains in Ahmad's
@@ -133,6 +135,20 @@ For the substantive thesis these phrases serve, see [[empowerment-thesis-corpus]
 - **«صناعة الأثر الإنساني»** — manufacturing human impact. JSONL #3, #7, #36. The precise inversion of *صناعة الاعتمادية* — same grammatical construction, opposite output.
 
 - **«مركز تكلفة» → «محرك للابتكار والنمو الاقتصادي»** — cost-centre → innovation-engine (frame-flip). JSONL #11 — *تحويل ملف الإعاقة من "مركز تكلفة" إلى "محرك للابتكار الوطني والنمو الاقتصادي".* The fiscal frame-flip; converts the disability portfolio from a ledger-line into an ROI case.
+
+---
+
+## Design-principle vocabulary (added 2026-04-25, F-5.1)
+
+**What it does.** A fourth register beyond critique/vision/procedural — names design patterns for technology built around dignity. Operationalised at the system level (not just the policy or governance level), specifying *how* humanisation is implemented in product surfaces and operational practice. Surfaced from [[999-institutional-excellence-innovation]] (Drive `1sgdawDigC4wn_...`).
+
+### Phrases
+
+- **«أنسنة الخدمات التقنية»** — humanising technical services. [[999-institutional-excellence-innovation]] (title-level). The umbrella design-principle. Two operational meanings: (1) *السلامة ثنائية العميل* (dual-client safety — beneficiary safety and staff safety as co-dependent rather than unidirectional), (2) embedding dignity-preservation patterns into technology surfaces. Cross-ref [[basira]], [[aman-mustadam-initiative]].
+
+- **«السلامة ثنائية العميل»** — dual-client safety. [[999-institutional-excellence-innovation]] — *سلامة المستفيد مرتبطة عضوياً بسلامة الموظف.* Reframes safety as a symmetric human relation: a staff member injured in a behavioural crisis will burn out and under-care, so designing for one side without the other is structurally incomplete. Cross-ref [[aman-mustadam-initiative]].
+
+- **«خوارزمية الإحسان»** — Algorithm of Ihsan / Benevolence. [[999-institutional-excellence-innovation]] — *تذكير مقدمي الرعاية بالتفضيلات الشخصية الدقيقة للمستفيد لحفظ كرامته وتقليل العبء الذهني على الموظفين.* Basira's beneficiary-preference reminder layer; one sentence doubles as product design principle and ethical frame. The clearest naming of how Saudi-Islamic ethical vocabulary (إحسان) gets encoded into system behaviour. Cross-ref [[basira]], [[basira-leadership-compass]].
 
 ---
 
