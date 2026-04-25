@@ -26,6 +26,8 @@ related:
   - "[[nasser-alqahtani]]"
   - "[[mhrsd-era-timeline]]"
   - "[[mhrsd-2025-kpi-portfolio]]"
+  - "[[mhrsd-risk-excellence-policies-2025]]"
+  - "[[beneficiary-rights-document]]"
   - "[[drive-vault-coverage-audit]]"
 summary: >-
   Verified organisational map of Saudi MHRSD as of April 2026 — minister +

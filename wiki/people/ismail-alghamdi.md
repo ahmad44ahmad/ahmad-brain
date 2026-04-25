@@ -12,6 +12,7 @@ related:
   - "[[nasser-alqahtani]]"
   - "[[khalid-alzahrani]]"
   - "[[research-initiatives-portfolio]]"
+  - "[[mhrsd-risk-excellence-policies-2025]]"
 summary: >-
   Assistant Minister for Shared Services at MHRSD (مرتبة ممتازة —
   senior to Deputy Minister rank). Ex-Chairman of Mobily, ex-Microsoft

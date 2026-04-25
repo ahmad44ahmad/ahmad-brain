@@ -141,7 +141,7 @@ Three documents in #60 are clearly out-of-scope for the engineering substrate bu
 
 - **BICSL-RC infection-control trainer manual** — covered by [[al-baha-ic-archive]] (Phase F-7).
 - **Center org chart** — anchors [[albaha-center-org]] (already authored, F-1).
-- **Supervisory-visits governance manual** — anchors a future Phase F-8 note `mhrsd-supervisory-visit-instruments` from audit §F-8.2 (not yet authored; will resolve as a wikilink after F-8).
+- **Supervisory-visits governance manual** — anchors [[mhrsd-supervisory-visit-instruments]] (Phase F-8.2).
 
 These three should each migrate to their proper home rather than being treated as engineering evidence.
 
