@@ -6,11 +6,12 @@ status: active
 aliases: ["نوير", "نوير الغامدي?", "أم عبدالملك", "umm-abdulmalik"]
 tags: [person, hrsd, al-baha-regional, social-supervision, basira-cc]
 created: 2026-04-22
-updated: 2026-04-24
+updated: 2026-04-25
 source: voice-msg:2026-04-23
 related:
   - "[[khalid-alzahrani]]"
   - "[[khalid-mutr]]"
+  - "[[albaha-regional-admin]]"
 summary: >-
   مديرة الإشراف الاجتماعي at Al-Baha regional HRSD admin (أم عبد الملك).
   Oversees branches, women's section, and multiple centers. Required CC
@@ -31,7 +32,7 @@ summary: >-
 
 **مديرة الإشراف الاجتماعي** — Director of Social Supervision at الإدارة العامة للموارد البشرية والتنمية الاجتماعية بمنطقة الباحة (Al-Baha Regional HRSD Admin).
 
-**Reports to:** Assistant Director-General for Development Sector (per the regional org chart, pending migration as `[[albaha-regional-admin-org]]`).
+**Reports to:** Assistant Director-General for Development Sector (per the regional org chart at [[albaha-regional-admin]]).
 
 **Direct oversight:**
 - وحدة الإشراف على الفروع (Branches Supervision Unit)

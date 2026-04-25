@@ -16,14 +16,16 @@ tags:
   - governance
   - basira-routing
 created: 2026-04-24
-updated: 2026-04-24
+updated: 2026-04-25
 confidence: high
+source: research:2026-04-22, voice-msg:2026-04-23
 related:
   - "[[hrsd-work]]"
   - "[[basira]]"
   - "[[ismail-alghamdi]]"
   - "[[nasser-alqahtani]]"
   - "[[mhrsd-era-timeline]]"
+  - "[[drive-vault-coverage-audit]]"
 summary: >-
   Verified organisational map of Saudi MHRSD as of April 2026 — minister +
   assistant minister (مرتبة ممتازة) + seven deputy ministers — with appointment

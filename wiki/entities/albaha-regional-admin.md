@@ -15,10 +15,11 @@ tags:
   - governance
   - basira-routing
 created: 2026-04-24
-updated: 2026-04-24
+updated: 2026-04-25
 valid_from: 2026-04-23
 learned_at: 2026-04-23
 confidence: high
+source: voice-msg:2026-04-23, drive:1lo_3Qynf-v9-cqVi8_Z1H6CiuWISStaIpceqcCSmujI
 related:
   - "[[hrsd-work]]"
   - "[[albaha-center-org]]"
@@ -26,6 +27,7 @@ related:
   - "[[khalid-alzahrani]]"
   - "[[nuwaira]]"
   - "[[basira]]"
+  - "[[drive-vault-coverage-audit]]"
 summary: >-
   Organisational structure of the General Administration for HRSD at Al-Baha
   region — the regional level that supervises the Comprehensive Rehabilitation

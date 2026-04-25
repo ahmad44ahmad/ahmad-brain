@@ -30,6 +30,7 @@ learned_at: 2026-04-25
 confidence: high
 source: drive:1EZHHi5I3n476DSkhPoBg78-1Z1C4lUj4nx9iC9uIWMc
 related:
+  - "[[999-albaha-qms-bcp-ar]]"
   - "[[drive-999-docs]]"
   - "[[999-disability-care-empowerment-strategy]]"
   - "[[basira]]"
@@ -49,8 +50,7 @@ summary: >-
   standalone BCP binder). This is the methodological scaffolding beneath the
   Basira Leadership Compass evidence stack and the ISO 9001 2025 achievement.
   Provenance is a 2026-02-22 Gemini/NotebookLM synthesis over an underlying
-  corpus of center guides. Arabic verbatim preserved at
-  raw/drive/999-albaha-qms-bcp-ar.md.
+  corpus of center guides. Arabic verbatim at [[999-albaha-qms-bcp-ar]].
 ---
 
 # 999 — Al-Baha QMS / Compliance / Satisfaction / BCP
@@ -61,7 +61,7 @@ A 120 kB Arabic Google Doc (Drive fileId `1EZHHi5I...`, owner `admin@albahah.app
 
 > 999 نظام إدارة جودة العمليات والامتثال لمركز التأهيل بالباحة ، وقياس رضا المستفيدين و استمرارية الأعمال
 
-It is **not a primary authored binder**. The body carries dense numeric citation markers (`599`, `800`, `496`, …) clustered at sentence ends in NotebookLM/Gemini style — it is an LLM-assisted synthesis over an underlying corpus of Al-Baha center guides (the two key ones it names are *دليل تطوير نظام قياس رضا المستفيدين* and *دليل "صوتك مسموع"*). Verbatim Arabic body preserved at `raw/drive/999-albaha-qms-bcp-ar.md` (id: `999-albaha-qms-bcp-ar`) per ADR-0002 Amendment 3; this note is the English distillation.
+It is **not a primary authored binder**. The body carries dense numeric citation markers (`599`, `800`, `496`, …) clustered at sentence ends in NotebookLM/Gemini style — it is an LLM-assisted synthesis over an underlying corpus of Al-Baha center guides (the two key ones it names are *دليل تطوير نظام قياس رضا المستفيدين* and *دليل "صوتك مسموع"*). Verbatim Arabic body preserved at [[999-albaha-qms-bcp-ar]] per ADR-0002 Amendment 3; this note is the English distillation.
 
 ## Why this note exists
 
@@ -211,5 +211,5 @@ If this doc is cited into the Leadership Compass evidence stack, the three flagg
 - **Owner:** `admin@albahah.app` (Al-Baha center workspace)
 - **Parent folder:** `1_-6Nw7KaSws7meKdg5TqIqql_PCLe0U3`
 - **Provenance class:** Gemini/NotebookLM synthesis over an underlying Arabic corpus of Al-Baha center guides.
-- **Arabic verbatim:** `raw/drive/999-albaha-qms-bcp-ar.md` (211 kB, immutable).
+- **Arabic verbatim:** [[999-albaha-qms-bcp-ar]] (211 kB, immutable).
 - **Distilled:** 2026-04-25.

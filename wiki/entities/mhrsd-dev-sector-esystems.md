@@ -14,15 +14,17 @@ tags:
   - development-sector
   - basira-integration
 created: 2026-04-24
-updated: 2026-04-24
+updated: 2026-04-25
 valid_from: 2026-04-23
 learned_at: 2026-04-23
 confidence: medium
+source: voice-msg:2026-04-23
 related:
   - "[[hrsd-work]]"
   - "[[basira]]"
   - "[[mhrsd-leadership]]"
   - "[[nasser-alqahtani]]"
+  - "[[drive-vault-coverage-audit]]"
 summary: >-
   Inventory of MHRSD's Development Sector (قطاع التنمية) electronic systems —
   umbrella portal plus four major sub-systems plus two supporting systems.

@@ -14,6 +14,7 @@ related:
   - "[[research-initiatives-portfolio]]"
   - "[[999-albaha-qms-bcp]]"
   - "[[999-disability-care-empowerment-strategy]]"
+  - "[[drive-vault-coverage-audit]]"
 summary: >-
   Catalog of Ahmad's "999" / "9999" prefixed research docs — long-form
   comprehensive treatments (30k–1MB each) used as thinking substrate, not
@@ -26,7 +27,8 @@ summary: >-
 Ahmad uses the `999` (occasionally `9999`) prefix to mark documents that are long-form comprehensive treatments — "deep extraction signal". Approximately 70–100 such documents exist; the ones surfaced by keyword search are below.
 
 **Primary hub folder:** `1_-6Nw7KaSws7meKdg5TqIqql_PCLe0U3` — most 999-prefixed Google Docs live here. Same folder as Ahmad's Research-Initiatives-Projects collection, which is why `[[research-initiatives-portfolio]]` and this catalog overlap.
-**Secondary hub:** `1emSX-om-05Brv3d8wYApzMqb4ocdlrHb` — `999HRSD-all` folder (likely HRSD-specific subset).
+
+> **Catalog correction (2026-04-25, F-1):** `1emSX-om-05Brv3d8wYApzMqb4ocdlrHb` (`999HRSD-all`) was previously listed here as the "secondary 999 doc hub". The 2026-04-25 Drive MCP enumeration disproves this — the folder contains **19 font files (HRSD/Bukra/Effra/Hacen brand kit), zero documents**. Reclassified as a brand-asset duplicate (it's the fifth copy of essentially the same fonts on the same Drive). Removed from any "research-doc hub" enumeration. See [[drive-vault-coverage-audit]] §2.4.
 
 ## Core 999 docs identified (first-pass 2026-04-24)
 
@@ -64,6 +66,6 @@ Ahmad's operating pattern: 999-prefixed docs are "long-form thinking containers"
 
 ## Deferred work
 
-- [ ] Enumerate the full `999HRSD-all` folder (`1emSX-om-05Brv3d8wYApzMqb4ocdlrHb`) — likely 20+ more docs.
+- [x] ~~Enumerate the full `999HRSD-all` folder~~ — done 2026-04-25; turned out to be a font kit, not docs. See `wiki/sources/drive-vault-coverage-audit` §2.4.
 - [ ] Exhaustive scan of the primary hub folder — current list is keyword-search; may miss docs.
 - [ ] When Ahmad requests a specific topic, distil the relevant 999 doc's top-level outline into a companion `wiki/sources/999-<slug>.md` so future queries don't re-read the 1MB doc.

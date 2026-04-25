@@ -22,6 +22,12 @@ VAULT = Path(r"C:\dev\ahmad-brain")
 ROOTS = [VAULT / "wiki", VAULT / "decisions", VAULT / "log"]
 # Top-level vault notes that must also be indexed (e.g. _CLAUDE.md).
 ROOT_FILES = [VAULT / "_CLAUDE.md"]
+# raw/drive/ holds Arabic-source companions per ADR-0002 Amendment 3 — they
+# share id-slug stems with their wiki/sources/ distillations and are legitimate
+# wikilink targets, but the raw/ side is immutable (ADR-0001) and uses older
+# pre-canonical frontmatter shapes. Treat as link-resolution-only: contribute
+# ids to known_ids so wiki-side wikilinks resolve, skip body/shape validation.
+LINK_TARGET_ROOTS = [VAULT / "raw" / "drive"]
 
 CODE_FENCE_RE = re.compile(r"```.*?```", re.DOTALL)
 INLINE_CODE_RE = re.compile(r"`[^`\n]*`")
@@ -174,6 +180,17 @@ def main() -> int:
                 all_notes.append((p, raw_fm, body))
 
     known_ids = extract_all_ids(all_notes)
+
+    # Link-resolution-only roots: contribute ids to known_ids without validating bodies
+    for root in LINK_TARGET_ROOTS:
+        if not root.exists():
+            continue
+        for p in sorted(root.rglob("*.md")):
+            text = p.read_text(encoding="utf-8", errors="replace")
+            raw_fm, _ = split_frontmatter(text)
+            nid = parse_id(raw_fm)
+            if nid:
+                known_ids.setdefault(nid, p)
 
     # Duplicates
     id_paths: dict[str, list[Path]] = defaultdict(list)
