@@ -6,7 +6,7 @@ status: active
 aliases: [drive-index, google-drive-inventory]
 tags: [drive, external-sources, file-catalog, admin-albahah]
 created: 2026-04-24
-updated: 2026-04-24
+updated: 2026-05-06
 source: google-drive:admin@albahah.app
 related:
   - "[[drive-folders-master-index]]"
@@ -106,6 +106,64 @@ Index of high-signal Drive files. Access via Drive MCP using `fileId`. Do **not*
 | fileId | title | mime | modified | purpose |
 |---|---|---|---|---|
 | `1M69u6Hfh3eOzw2Bqh7KnUvxMfH4Rf5Y_MYv7WPjxIj4` | معايير مكافحة العدوى الدور الاجتماعية (مركز تأهيل الباحة) 2023 | sheet | 2026-04-15 | Infection-control standards for social rehab roles |
+| `1Aotj-DojfPcDp5kQ27qBZAK8RHARxlcr` | مكافحة العدوى (folder) | folder | 2025-06 | **Main IC archive** (~50+ surface files, 275+ total). Distilled in [[al-baha-ic-archive]]; full file IDs map there. |
+| `1S9kiCOA7ly53vOGs0_XWTvfEOSaAtDKr` | مكافحة العدوى الباحة (subfolder) | folder | 2024-07 | Al-Baha-specific IC subfolder. |
+| `17YL1Ptr9D3UvJlQZZNFhPSwUoTjyaLCO` | مشروع مكافحة عدوى 2025 (subfolder) | folder | 2025-05 | 2025 IC project subfolder. |
+| `195-oFa2oq4hif6gTH0IoWNnaQJ3sVrPGyuGBsRudjY0` | دليل مكافحة العدوى الشامل - مركز التأهيل الشامل | gdoc | 2026-03-06 | Ahmad's comprehensive IC manual for the center. |
+| `1G3h_GN9ekhMNndw3YdOc0lAAB_M7z0dK118D3FdYdlE` | BICSL-RC | gslides | 2026-01-22 | Main BICSL-RC training deck (62MB). |
+| `15dIalCf44GvyQ4ByBr605KGAaKyTtrnK` | National-Guide-Auditors-Infection-Control-Version-5.pdf | pdf | 2025-04-27 | Saudi national IC auditors guide v5 (6.6MB) — primary external reference. |
+
+## KPIs — 2025 + 2026 portfolios (ingested 2026-05-06)
+
+### Folders
+
+| folderId | title | files | vault anchor |
+|---|---|---:|---|
+| `1XKgEOSSv0WZ_cBDSQwsMf0EX43IK69RQ` | 2026 health-KPI bag (social homes + rehab + juvenile/orphan forms) | 4 | [[mhrsd-2026-kpi-health-social-homes]] |
+| `15QqqRFepgtDYRZYwmEH9JnVU4ATIZa7s` | المؤشرات الطبية (master-index folder #13) — social KPIs 2024+2025 + master scorecard + operational deck | 16 | [[mhrsd-2025-kpi-master-scorecard]] (+ [[mhrsd-2025-kpi-portfolio]]) |
+
+### High-signal files
+
+| fileId | title | mime | modified | purpose | vault distillation |
+|---|---|---|---|---|---|
+| `13Xiy_6Hbv4zc4JjM9n8LEz7vBApaUQXC20Dor-uKQwA` | مؤشرات عام 2025 (سلامة المستفيدين) | sheet | 2026-02-21 | **Canonical 2025 master scorecard** — 8 departments, weights total 100% | [[mhrsd-2025-kpi-master-scorecard]] |
+| `1uNkJBYHyQ9rsa5phfX4WjQldjOhDyYxyAg76eN1bK2M` | مؤشرات الأداء الصحية للدور الاجتماعية 2026م | sheet | 2026-03-28 | 2026 health KPIs for social homes — 43 indicators, flat dashboard | [[mhrsd-2026-kpi-health-social-homes]] |
+| `1IA-AKsL69HJCrMF2kqe1NSmVVvgChSIqn0Tb67BvGvI` | نموذج جمع بيانات مؤشرات الأداء الصحية 2026 - مراكز التأهيل ودور المسنين | gdoc | 2026-03-28 | 2026 data-collection form (rehab centers + elderly homes) | not distilled — companion form |
+| `1uj75CYmbuFwfeXVS_KI0w8bsjXGCMQAVuxcG0cnyNB4` | نموذج جمع بيانات مؤشرات الأداء الصحية 2026 - دور الأحداث ودور الأيتام | gdoc | 2026-03-28 | 2026 data-collection form (juvenile + orphan homes) | not distilled — companion form |
+| `1YjGqFi-T5CUqp9jc7JxosA7bS9uXQbIc` | مؤشرات عام 2025 (سلامة المستفيدين).xlsx | xlsx | 2026-03-28 | Original .xlsx of the 2025 master scorecard | duplicate of `13Xiy_…` |
+| `145cKwo4bpobfO3bQoRMDHQveHpTwXBm9i2hfsKfyEmc` | القسم الاجتماعي (مؤشر الزيارات/التقارير التتبعية) 2025م | sheet | 2026-02-21 | Social-section visits + follow-up tracker | not yet distilled (oversize) |
+| `19snZbkpUutTXiysArbXGTPToN6IhZGk7bD46hycyH9c` | نماذج مؤشرات الاداء للعام 2024 (القسم الاجتماعي) | sheet | 2026-02-21 | 2024 social-section KPIs — 5 domains, 14 sub-KPIs (carried into 2025 unchanged) | [[mhrsd-2024-kpi-social-section]] |
+| `1a-J3kYd-mQ45ZnXfQhy4e1u370oahqPa5YhhJE2ZQBE` | حقيبة مؤشرات الأداء لمراكز التأهيل الشامل 2025م | gdoc | 2025-02-04 | 2025 KPI booklet for rehab centers | text export mojibake'd; OCR needed if cited |
+| `13_hFiUPQHuU20-0hj1Zbo0rtFBJ5DLoteGEzbSDlH2M` | الخطة التشغيلية النهائية لقسم الخدمات الاجتماعية لعام 2025 | pptx | 2026-02-21 | 2025 social-services operational plan — historical org chart + ministry-liaison map (15 cards) + 4-track KPI architecture | [[mhrsd-2025-social-operational-plan-albaha]] |
+
+### Additional KPI + ops files (added 2026-05-06)
+
+| fileId | title | mime | modified | purpose | vault distillation |
+|---|---|---|---|---|---|
+| `1q0Vf9fR1JjnO9Pa57PtaoXMscsQkNQ8m` | وثيقة مؤشر الصيانة والنظافة | pdf | 2024-07 | **Contractor SLA scorecard** — 1000-point monthly evaluation of outsourced cleaning/personal-care/laundry/kitchen/maintenance contractor at MHRSD facilities. The "4th KPI track". | [[mhrsd-contractor-performance-scorecard]] |
+| `1YDEfWr5q-D374g9wgaYKKRssksqKGJHJ` | الخطة التشغيلية لوحدة الجودة وتطوير الأداء 2025 | pdf | 2025-06 | Al-Baha **branch** quality unit annual plan — covers ~19 administrative departments (NOT the rehab center alone). Names supervisor (Khalid Al-Zahrani) + quality officer (Mariya Al-Mohammedi `M.Almohammedi@hrsd.gov.sa`). | [[mhrsd-2025-albaha-branch-quality-plan]] |
+| `1b-p6uLACjsfAoGQHHbdK_9Y6QIf1UMaDlPcdSVd8rYU` | تحديث مؤشرات الربع الثالث 2025 | sheet | 2026-04-28 | Q3 2025 quarterly dashboard for facilities (الإدارة العامة للمرافق) at Al-Baha rehab center — 42 indicators with Q1/Q2/Q3 status. | [[mhrsd-2025-albaha-q3-facilities-dashboard]] |
+| `1uxWJHsftFT7qzJTF_dw3GKBId2cO4iEt4vhlMeUyWnM` | حقيبة مؤشرات الأداء التشغيلية للمنطقة | pptx | 2025-10 | Regional operational KPI booklet (deck title page only — minimal content extracted; revisit if needed). | not distilled — header only |
+| `1heMIKM08f1DCUaG-ad-e-RALKZmX5J9x` | حقيبة مؤشرات الأداء لمراكز التأهيل الشامل 2025م.pdf | pdf | 2025-01 | **Canonical 2025 booklet PDF** (5.1MB) — supersedes the mojibake'd Google Doc copy at `1a-J3kYd…`. Read-on-demand. | not distilled (read on demand) |
+| `1a2ceiEQPUOqZOuq1bdTtKs0ubWep-9gb` | تعميم حقيبة مؤشرات الاداء لمراكز التاهيل الشامل للعام 2025م.pdf | pdf | 2025-01 | **The signed تعميم 28597 PDF** — binding ministerial circular for the 2025 portfolio. | not distilled — circular itself; read for signatures |
+| `1vkAWQYyC9EwaNsqr9H1P11gmwRocDdcf` | الوثائق الداعمة لقسم الخدمات الاجتماعية_ حقيبة مؤشرات 2025م.pdf | pdf | 2025-01 | Supporting docs for the social-section portion of 2025 KPI bag. | not distilled |
+| `1yrAF52PdNHaf6002Mc0UD6NWfI_fKmu2` | حقيبة مؤشرات الاداء بمراكز التأهيل الشامل لعام 2024 (نهائي) | pdf | 2024-08 | 2024 final KPI booklet — predecessor to 2025 portfolio. | not distilled — historical |
+| `1s75Zt9YJ6sZus3kultsRjhoASwsAPPxL` | حقيبة مؤشرات المراكز 2023 | pdf | 2024-03 | 2023 KPI booklet — earlier predecessor. | not distilled — historical |
+
+## Drive index spreadsheet
+
+| fileId | title | mime | size | purpose |
+|---|---|---|---|---|
+| `1djPVK5DTPTsMBxZHLjLduoKGNbGFM9oFUCZ0u4bhzEE` | full-inventory | sheet | 338 KB | Flat catalog of (filename, size, mtime) for the parent Drive area `1AgU47hlNrV7LO7EETKySBW0Akh_-CAnk` ("فهرس محتويات الدرايف"). Mixed content — high-signal artifacts intermingled with prompt-iteration scraps. **Treat as queryable catalog, not ingest manifest.** |
+
+## Ministry-email Drive backup (parent folder)
+
+| folderId | title | role | vault anchor |
+|---|---|---|---|
+| `177YkK6kg4RGNjeVgURAODByBgp8mFkj1` | PST Archive (Drive backup of `D:\pst-archive\`) | Off-site backup of HRSD work-mail PST. Same content as the local archive — `inbox/sent/drafts/deleted/sync-issues.mbox` + README.md + search/. Drive copy is backup-only; query via local FTS5 DB. | [[pst-mailbox-hrsd-merged]] |
+| `1Gh8PPHyJuVjrEWfz5BQWkn93y16YJNk4` | raw/ subfolder (mbox files) | inbox.mbox 1.1GB, sent.mbox 803MB, drafts.mbox 319MB, deleted.mbox 50MB, sync-issues.mbox 50KB | — |
+| `1bDZFfvzyKSMT0pSpJ9sYPgCKcxrHehZB` | attachments/ subfolder | extracted attachments | — |
+| `1ibJjTFOmhKWdS0YDZ977UwQ3ju6ENbOS` | search/ subfolder | FTS5 SQLite DB + search.py CLI | — |
 
 ## PST / Outlook work-email archive
 

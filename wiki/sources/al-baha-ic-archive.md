@@ -18,7 +18,7 @@ tags:
   - committee-secretary
   - drive-source
 created: 2026-04-25
-updated: 2026-04-25
+updated: 2026-05-06
 valid_from: 2023-05-11
 learned_at: 2026-04-25
 confidence: high
@@ -50,13 +50,62 @@ summary: >-
 
 ## What this source is
 
-A 275+ file Drive folder (`مكافحة العدوى`, JSONL #4) — Gemini-narrated from a 60-file sample. Scope: the **integrated infection-control program for HRSD residential institutions**, with Al-Baha Comprehensive Rehabilitation Center as the operational test bed. Three layers: (a) ministerial policy bundle, (b) committee governance + meeting minutes, (c) training credential framework. Plus a COVID-19 contingency layer.
+A 275+ file Drive folder (`مكافحة العدوى`, JSONL #4, **fileId resolved 2026-05-06: `1Aotj-DojfPcDp5kQ27qBZAK8RHARxlcr`**) — Gemini-narrated from a 60-file sample. Plus an Al-Baha-specific subfolder (`1S9kiCOA7ly53vOGs0_XWTvfEOSaAtDKr`, "مكافحة العدوى الباحة") and a 2025-project subfolder (`17YL1Ptr9D3UvJlQZZNFhPSwUoTjyaLCO`). Scope: the **integrated infection-control program for HRSD residential institutions**, with Al-Baha Comprehensive Rehabilitation Center as the operational test bed. Three layers: (a) ministerial policy bundle, (b) committee governance + meeting minutes, (c) training credential framework. Plus a COVID-19 contingency layer.
 
 This is an **Ahmad-authored / Ahmad-curated** working folder, not a Gemini synthesis. The Gemini summary describes folder *contents*; the underlying artefacts (signed committee minutes, the trainer-assignment letter, completion records) are primary evidence.
 
 ## Position in the stack
 
 The CLAUDE.md profile describes Ahmad as *"infection-control certified trainer, registered in Wiqaya + Hisn (MoH Riyadh / WHO-linked surveillance)"*. [[ahmad-career-arc]] §"Cross-cutting expertise" repeats the claim with the 2025-08-11 Hisn registration date. **Until F-7, neither claim had a vault source-anchor.** This note closes that gap with three primary-evidence pillars surfaced from JSONL #4.
+
+## Specific file IDs surfaced 2026-05-06
+
+For pull-on-demand reads of the most operationally useful items in the IC folder. All under parent `1Aotj-DojfPcDp5kQ27qBZAK8RHARxlcr` unless noted.
+
+### Ahmad-authored / Ahmad-led IC artifacts
+
+| fileId | title | mime | purpose |
+|---|---|---|---|
+| `195-oFa2oq4hif6gTH0IoWNnaQJ3sVrPGyuGBsRudjY0` | دليل مكافحة العدوى الشامل - مركز التأهيل الشامل | gdoc | **Ahmad's comprehensive IC manual** for the center |
+| `1uQXOEi2LPuzEBCfrUchp2PayafAd9QL8` | الدليل الإجرائي الشامل لتطبيق سياسات مكافحة العدوى - مركز التأهيل الشامل بالباحة | docx (3.1 MB) | Ahmad's procedural manual implementing IC policies |
+| `1G3h_GN9ekhMNndw3YdOc0lAAB_M7z0dK118D3FdYdlE` | BICSL-RC | gslides (62 MB) | **Main BICSL-RC training deck** — Ahmad's flagship IC initiative |
+| `1x_acDFBFVVrrN7RuwR02w6Ua-HDtHnUXXyBEyT5rhrM` | مبادرة BICSL-RC | gslides | BICSL-RC initiative deck |
+| `167geEShSHw_HiRt5OQ55J9zeGRkDadc1` | رخصة المهارات الأساسية لمكافحة العدوى بمراكز التأهيل الشامل (BICSL-RC).pptx | pptx (20.7 MB) | The licensing/credential framework deck |
+| `1tOUwrvbk3axle4OCFuUtmc5wRTNZqE4fJfkm55wBMFk` | شرائح العرض التدريبي لسياسات مكافحة العدوى | gslides | IC training slides |
+| `1oAO_a4xHs1mPKxPp4YpUBGEalagGDqZ6OndhxxUncIg` | سياسات مكافحة العدوى في الدور الاجتماعية برنامج تدريبي | gdoc | 2025 IC training program for social-care homes |
+| `12kxWRxNJmmLU_mBcGyD5_HT2BCbR5oW_` | بطاقة متابعة الفرص التحسينية لمعايير مكافحة العدوى - مركز التأهيل الشامل بالباحة | pptx | Improvement-opportunities tracking deck |
+| `1jQl4DbeMoab8xVEesBzvohxlBVUt-ImoLGXw2AC38ts` | بطاقة معالجة الفرص التحسينية لمعايير مكافحة العدوى | gslides | Improvement-handling card |
+| `1H8JkWVmjX4357RWYkqmUdzC0klR09Iw0` | خطة تقييم مكافحة العدوى لمراكز التأهيل الشامل - سبتمبر 2023.pptx | pptx | Sep-2023 IC evaluation plan (kingdom-wide) |
+| `15-WCMBU97uw1t77Ikz5L2NvlrPfbeRP6` | خطة تقييم مكافحة العدوى لمراكز التأهيل الشامل بالباحة.pptx | pptx | 2024 IC evaluation plan (Al-Baha specific) |
+| `1lAZRt2nyyPHwep1ANggXD4yljC4PJbYJajJhny3O0ik` | الفهرس - سياسات مكافحة العدوى | gdoc | IC policies index |
+| `1hmImaQlbFIENJbnFAJYqOVmKOVj6be1KeedUCKtIN7U` | نماذج مكافحة العدوى 2025م | gdoc | 2025 IC forms |
+| `1NGHwVmkuvgOimTpJUyCis0qvTXuT1dnWIl9iMyrKHb8` | سياسات وإجراءات مكافحة العدوى في الدور الاجتماعية - وزارة الموارد البشرية | gdoc (153 KB) | **Ministry's official IC policies** for social-care homes |
+| `1TYqZ_Bn2IBYWSaHx1WsxZvAV3bj-3G7AZiVmlOkjcLg` | نموذج معايير مكافحة العدوى الدور الاجتماعية 2023 | gsheet | 2023 IC standards spreadsheet |
+
+### Reference / external
+
+| fileId | title | mime | purpose |
+|---|---|---|---|
+| `15dIalCf44GvyQ4ByBr605KGAaKyTtrnK` | National-Guide-Auditors-Infection-Control-Version-5.pdf | pdf (6.6 MB) | **Saudi national IC auditors guide v5** — primary external reference |
+| `1eBLJ0c-RqCRjGyBz6dcYNkqlaBmUXs47` | WHO-2019-nCoV-IPC_long_term_care-2020.1-eng.pdf | pdf (629 KB) | WHO COVID IPC for long-term care |
+| `14wODy_cafc1cucPkNu0EPOE5toSg1mbm` | السياسات الأساسية لمنع والتحكم في عدوى كوفيد-19 بدور الرعاية المديدة.docx | docx | Arabic COVID IPC for long-term care |
+| `1bSZrVjJ9llZstfeok6aaBpKZFrcyKO5c` | مكافحة العدوى.pdf | pdf | General IC reference |
+
+### Forms surfaced 2026-05-06
+
+| fileId | title | purpose |
+|---|---|---|
+| `1Qs-TI_4Nb--fuE5xmw-tguGM5K_zd5r2N9mR2ZKKUgQ` | نموذج المتابعة لحالات التقييد تحديث 20 يناير 2025 | Restraint follow-up form (2025 update) |
+| `1T6q3if-b2eh-yYusPop9M2Thqv8nsU-VY1NijSXdmiU` | نموذج المتابعة التدخلات الوقائية في المراكز والدور للوقاية من السقوط | Fall-prevention intervention follow-up form |
+| `1PWhtEurzV4bq8H26or3L3buMRWJ8EcIkdaFtJgkdGaI` | نموذج متابعة برنامج هشاشة العظام | Osteoporosis follow-up form |
+| `134V82Wz-pfBgHdSiMbHd4EmNWjKERwdk__vu7SypGBk` | التقرير الشهري لبيانات الأقسام الطبية بالدور الاجتماعية | Monthly medical-departments report (social homes) |
+
+### Subfolder map (Al-Baha IC subfolder `1S9kiCOA7ly53vOGs0_XWTvfEOSaAtDKr`)
+
+| fileId | title | purpose |
+|---|---|---|
+| `1Ne5ZApX5PFEN6rlkOVP5itcrhZ69i-64LcMkSKqSEA0` | برنامج لجنة مكافحة العدوى - القسم الطبي (إجراءات الوقاية والسلامة 2024) | 2024 medical-dept IC program |
+| `1J2xojfqnF5oz_0W6GZxZx4ylpUtjsJj4eDRtNIPR5aM` | إرشادات مكافحة العدوى - عزل المرضى وإجراءات السلامة | Patient-isolation IC guidance |
 
 ## Three credential claims now sourced
 

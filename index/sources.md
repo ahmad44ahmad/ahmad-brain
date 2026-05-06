@@ -5,15 +5,15 @@ type: moc
 status: active
 tags: [index, auto-generated]
 created: 2026-04-24
-updated: 2026-04-25
+updated: 2026-05-06
 summary: >-
   Auto-generated index. Regenerate via `.claude/skills/regenerate-indexes/generate.py`.
-  Count: 28 entries.
+  Count: 35 entries.
 ---
 
 # Sources Index
 
-Auto-generated 2026-04-25. 28 entries. Regenerate with `/regenerate-indexes` skill.
+Auto-generated 2026-05-06. 35 entries. Regenerate with `/regenerate-indexes` skill.
 
 
 | id | title | source | summary |
@@ -35,7 +35,14 @@ Auto-generated 2026-04-25. 28 entries. Regenerate with `/regenerate-indexes` ski
 | [[drive-vault-coverage-audit]] | Drive ↔ Vault Coverage Audit + Phased Ingestion Plan | synthesis:vault-frontmatter-scan + drive-folders-gemini.jsonl + 999HRSD-all-mcp-enum | Authoritative coverage audit run 2026-04-25 mapping the 45-note vault against 68 Drive folders + indexed individual fil… |
 | [[employment-archive]] | Ahmad's Employment Archive — Achievements & Challenges (Dri… | drive-folder:1jAEfGLHsjA8O3eqhQF7b8gvm6P_qay3G | 26-file Drive folder — Ahmad's complete employment archive. Three pillars legal/admin challenge over Cabinet Decision 1… |
 | [[empowerment-thesis-corpus]] | Empowerment Thesis Corpus — التمكين المستقبلي (3-Tier Matur… | drive-folder-jsonl:#11, gemini-summary:2026-04-24 | English distillation of the التمكين المستقبلي (Future Empowerment) Drive folder — JSONL #11, 15 files. Carries the expl… |
+| [[mhrsd-2024-kpi-social-section]] | MHRSD 2024 KPI Templates — Social Section (Parallel Track t… | drive:19snZbkpUutTXiysArbXGTPToN6IhZGk7bD46hycyH9c | Five-domain social-section KPI template for 2024 (carried forward to 2025 unchanged), running as a parallel track to th… |
+| [[mhrsd-2025-albaha-branch-quality-plan]] | Al-Baha Branch Quality Unit 2025 Operational Plan | drive:1YDEfWr5q-D374g9wgaYKKRssksqKGJHJ | Regional-level operational plan for the Quality + Performance Development Unit at the Al-Baha HRSD branch (NOT the reha… |
+| [[mhrsd-2025-albaha-q3-facilities-dashboard]] | Al-Baha Center Q3 2025 Facilities Quality Dashboard | drive:1b-p6uLACjsfAoGQHHbdK_9Y6QIf1UMaDlPcdSVd8rYU | Live quarterly dashboard tracking 42 facilities-quality indicators for the General Department of Facilities at Al-Baha … |
+| [[mhrsd-2025-kpi-master-scorecard]] | MHRSD 2025 KPI Master Scorecard — Complete Weighted Table | drive:13Xiy_6Hbv4zc4JjM9n8LEz7vBApaUQXC20Dor-uKQwA | Complete department-weighted scorecard for the MHRSD 2025 KPI portfolio. Resolves the ~33% un-enumerated gap flagged in… |
 | [[mhrsd-2025-kpi-portfolio]] | MHRSD 2025 KPI Portfolio — تعميم 28597 (Comprehensive Rehab… | drive-folder-jsonl:#5, gemini-summary:2026-04-24 | English distillation of the official 2025 KPI portfolio for MHRSD's 36 comprehensive rehabilitation centers, anchored b… |
+| [[mhrsd-2025-social-operational-plan-albaha]] | Al-Baha 2025 Social-Services Operational Plan — Personnel +… | drive:13_hFiUPQHuU20-0hj1Zbo0rtFBJ5DLoteGEzbSDlH2M | Al-Baha center's 2025 operational plan deck. Three high-value extractions: the historical (Al-Qarni-era) org chart pred… |
+| [[mhrsd-2026-kpi-health-social-homes]] | MHRSD 2026 Health KPIs for Social Homes (الدور الاجتماعية) | drive:1uNkJBYHyQ9rsa5phfX4WjQldjOhDyYxyAg76eN1bK2M | 2026 health-performance KPI instrument scoped to MHRSD social-care homes (الدور الاجتماعية), a different facility class… |
+| [[mhrsd-contractor-performance-scorecard]] | MHRSD Contractor Performance Scorecard — Vendor SLA for Out… | drive:1q0Vf9fR1JjnO9Pa57PtaoXMscsQkNQ8m | The "fourth track" turns out to be a contractor SLA scorecard, not internal KPIs. 1000-point per-month evaluation of th… |
 | [[mhrsd-risk-excellence-policies-2025]] | MHRSD April 2025 Risk + Excellence + Innovation Policy Bund… | drive-folder-jsonl:#33 | Drive folder of 30 files documenting MHRSD's April 2025 risk + governance + innovation policy bundle (issued by الإدارة… |
 | [[mhrsd-supervisory-visit-instruments]] | MHRSD Supervisory-Visit Instruments — وكالة تجربة المستفيد … | drive-folder-jsonl:#51 | Drive folder of 13 official MHRSD evaluation instruments — the standardised forms used by وكالة تجربة المستفيد + الإدار… |
 | [[pst-mailbox-hrsd]] | PST Mailbox Analysis — Ahmad's HRSD Work Email (2023-2026) | drive:1z_cj5HVKhrZu4encg2esfLlBZ7koA8qWOPfozxk_lK8 | 2.2 GB PST of Ahmad's HRSD Outlook mailbox covering 2025-03 → 2026-03 (inbox/sent) with deleted items reaching back to … |

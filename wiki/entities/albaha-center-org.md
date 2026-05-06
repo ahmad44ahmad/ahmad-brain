@@ -68,7 +68,7 @@ Center director as of 2026-04: [[khalid-mutr]].
 
 ### Unit 2 — العلاج التأهيلي (Rehabilitative Treatment)
 
-- **Physical Therapy:** أحمد عبدالله الشهري (Ahmad) + صقر (write as صقر — the old chart had "معاطف" which is incorrect) + دان حمود الشهراني
+- **Physical Therapy:** أحمد عبدالله الشهري (Ahmad) + صقر الغامدي (was head of وحدة العلاج التأهيلي in 2025 per [[mhrsd-2025-social-operational-plan-albaha]]) + دان حمود الشهراني
 - **Speech therapy:** no dedicated staff; Ahmad does it *"بقدر الإمكان"* for cases that need it
 - **Nursing:** طامي العلياني + نايف عبدالله الغامدي
 
@@ -108,9 +108,10 @@ When drafting correspondence that references center structure or identifies sign
 
 ## Gaps to fill
 
-- Full names (middle name + lineage) for: يوسف السراح, سعيد صالح الغامدي, نايف سعيد الغامدي, بندر الزهراني, صقر (family name missing).
-- Current heads for: وحدة الإرشاد الأسري, تقنية المعلومات (new person, if any), العلاقات العامة, المسؤولية المجتمعية.
+- Full names (middle name + lineage) for: يوسف السراح, سعيد صالح الغامدي, نايف سعيد الغامدي, بندر الزهراني. ~~صقر (family name missing)~~ → **resolved as صقر الغامدي** (per [[mhrsd-2025-social-operational-plan-albaha]] 2026-05-06).
+- Current heads for: وحدة الإرشاد الأسري (was عبدالله سعيد الخمري in 2025 per the 2025 ops plan — verify still current), تقنية المعلومات (new person, if any), العلاقات العامة, المسؤولية المجتمعية.
 - Full internal structure for قسم الإعاشة (only supervisor captured).
+- Verify current head of **وحدة المتابعة الاجتماعية** — current page says "عبدالعزيز قمش — likely changed", 2025 ops plan says سعيد عائض الغامدي.
 
 ## Provenance
 

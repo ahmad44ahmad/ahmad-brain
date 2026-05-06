@@ -16,7 +16,7 @@ tags:
   - al-baha-pilot
   - governance
 created: 2026-04-24
-updated: 2026-04-25
+updated: 2026-05-06
 source: local-repo:C:\dev\basira\
 related:
   - "[[basira-leadership-compass]]"
@@ -29,6 +29,8 @@ related:
   - "[[research-initiatives-portfolio]]"
   - "[[ahmad-formal-assignments]]"
   - "[[drive-catalog]]"
+  - "[[basira-evidence-stack]]"
+  - "[[mhrsd-kpi-landscape-2024-2026]]"
   - "[[999-albaha-qms-bcp]]"
   - "[[empowerment-thesis-corpus]]"
   - "[[empowerment-vocabulary]]"
@@ -99,6 +101,15 @@ Supporting recognitions: a 2024 Certificate of Appreciation from الإدارة 
 
 **Non-negotiable framing rules.** Do not list Basira's technical specs without leading with the external evidence stack. Do not generalise ("5-star" applies to the administrative building, not the whole center). Do not use Ahmad's name in the narrative — frame as "المركز" achieved these. Pair each evidence item with the institutional patron that issued it. Update the stack as new attestations land (e.g. the 2026 excellence certificate when issued).
 
+### Operational evidence layer (added 2026-05-06)
+
+The seven pillars above are *attestations*. Beneath them sits an **operational evidence layer** — the documented MHRSD KPI surface, the contractor SLAs, the branch quality unit oversight, and the Q1→Q3 progression dashboard. Both layers travel together in any pitch:
+
+- **Map of the operational layer**: [[basira-evidence-stack]] — categorises 14 evidence sources under four pitch claims (governance / measurement / empowerment / escalation), with reading order by audience.
+- **KPI surface map**: [[mhrsd-kpi-landscape-2024-2026]] — five-layer architecture exposing five named operational gaps that map directly to Basira features.
+
+Use the seven pillars to *open* a pitch (institutional credibility); use the operational layer to *close* it (Basira solves real measured pain).
+
 ## Governance layer (handover approval chain)
 
 Rule validated 2026-04-22: any Basira handover, review, or institutional-approval surface must start **at or above** the Regional General Manager level. The center itself is the test subject — naming it as the approval authority is a structural conflict of interest, and center-level leadership turns over too frequently to serve as a stable governance anchor. Ahmad's verbatim reasoning:
@@ -116,16 +127,25 @@ Post-handover governance lives with الوكالة (وكالة التأهيل و
 
 **Excluded from institutional Basira surfaces:** مدير مركز التأهيل الشامل بالباحة as an approval layer; قيادة المركز as a category; any specific individual by name, including [[ali-alqarni]] — his 2025 endorsements of Ahmad's achievements are HR records, a different context, and do not count as a compensating SoD control for Basira governance. When an AI-drafted handover doc or SECURITY packet suggests "مدير المركز" or "قيادة المركز" as an approver, reject and escalate to Regional GM.
 
-## Current state (as of 2026-04-24)
+## Current state (as of 2026-04-27)
 
-The codebase is functional but carrying modification tax. Two decisions pending:
+**VM-demo polish landed on `v2`.** Two commits pushed to `origin/v2` overnight before the Vice Minister (Development Sector, MHRSD) visit:
 
-1. Polish and integrate two AI engines, keep the current codebase.
+- `8b6096b` (Tier 4) — Legal Shield page (route `/legal-shield`, 4 compliance pillars + cert-issuance + audit trail), director-approval workflow on `FamilyMediaFeed`, IoT vitals → `useVitalsAlertsStore` → SmartAlertsPanel wiring with response-speed capture, MedicationAdministration `administeredBy`+`administeredAt` record + "تصدير PDF" header, MorningPulse wired to `useWelcomeStats`.
+- `3e266b8` (Tier 0–3) — institutional voice (footer byline replaced with department/ministry attribution), governmental register on Welcome + Login + Header, demo-path blocker fixes (DignityProfile enum reconciliation, SocialResearchWizard data-corruption fix, EmpowermentPlanBuilder + SocialDashboard fully arabized, "مريض" → "حالة" sanitization, typos), Karama demo profile **محمد/أبو سعد at beneficiary id `172`** (`MOCK_DIGNITY_PROFILES[1]`), cup-of-water SMART goal, 3 strategic-tracks banner above 9 domains, **127 → 132 operations** with 5 supervisory-form-derived ops in `qualityProcesses.ts:1448-1496` (ids 128–132 covering contracting + facility audits), SROICard sourced from new `src/data/sroiAssumptions.ts` (NEF/SSE methodology), `riskAnalysisService.ts` Arabic-keyword extraction (`بلع`/`انفعال`/`عدوان` → score) + Morse-aligned factors, `staffingOptimizerService.ts` ward-aware burnout signals (consecutive shifts, overtime-7d, ratio imbalance, sick-leave) with Northern/Southern/Women's-section presets, `governanceService.ts` bottom-up rollup from leaves, new `familyEngagementService.ts` (4-factor 0–100 score with 50% intervention threshold).
+
+37 files modified + 4 new files (`sroiAssumptions.ts`, `familyEngagementService.ts`, `useVitalsAlertsStore.ts`, `LegalShieldPage.tsx`). TS check 0 errors. Playwright signature verified on Welcome + Dashboard + Empowerment + Family + Alerts + Legal Shield + Pulse + Quality Manual. **Ahmad recorded the new narration video** with the polished UI; narration aligned to actual code (66k LoC, 132 ops, computed SROI ratio).
+
+**Two decisions still pending** from the older inventory; deferred post-VM-demo:
+
+1. Polish and integrate two AI engines further, keep the current codebase.
 2. Rebuild from zero, targeting <40K lines with cleaner architecture.
 
-Shipped artefacts in the handover packet: Basira v2 operational manual (PDF, Drive `1DCzQ2QL...`); Basira v3 technical design + security addendum (docx); Basira_v3_Empowerment_Architecture deck (pptx); executive memo (gdoc); Regional-GM pitch docs (`Basira_Pitch_GM_AlBaha.md` + v1/v2); video voiceover script (AR); cybersecurity alignment folder for 2026 NCA/CSCC regulations; three sovereign HTML decks at `Desktop/Basira-5-visuals/` (see [[basira-sovereign-decks]]). The Leadership Compass (see [[basira-leadership-compass]]) shipped on v2 on 2026-04-22 at route `/leadership-compass`.
+Shipped artefacts in the handover packet: Basira v2 operational manual (PDF, Drive `1DCzQ2QL...`); Basira v3 technical design + security addendum (docx); Basira_v3_Empowerment_Architecture deck (pptx); executive memo (gdoc); Regional-GM pitch docs (`Basira_Pitch_GM_AlBaha.md` + v1/v2); video voiceover script (AR, Drive `1nC5Rxrv4WnOZX5N59HOMth498r5b4PkqdQFAgi4GwUI`); cybersecurity alignment folder for 2026 NCA/CSCC regulations; three sovereign HTML decks at `Desktop/Basira-5-visuals/` (see [[basira-sovereign-decks]]). The Leadership Compass (see [[basira-leadership-compass]]) shipped on v2 on 2026-04-22 at route `/leadership-compass`.
 
-Technical signals to pair with the evidence stack for senior audiences: **SROI 1:4.2** (social return on investment), **ISO 9001 100% alignment**, **11-document compliance packet** mapped to HRSD + NCA ECC-2:2024 + CSCC-1:2019, **100% audit trail**.
+Technical signals to pair with the evidence stack for senior audiences: **SROI 1:4.2** (now computed via NEF/SSE methodology with deadweight 25% / attribution 30% / displacement 5% applied), **ISO 9001 100% alignment**, **11-document compliance packet** mapped to HRSD + NCA ECC-2:2024 + CSCC-1:2019, **100% audit trail**, **132 documented operations**, **7 AI engines wired with score-feeding inputs** (no more pure slogans).
+
+**Demo path validated 2026-04-27**: `/` → `/dashboard` → `/empowerment` (click أبو سعد) → `/family-portal` → `/alerts` → `/legal-shield` → `/quality/manual` → `/sroi`.
 
 MHRSD official designation for Basira in the achievement system: **مبادرة صفر ورق (Zero Paper)**, one of Ahmad's 2025 achievements approved 2025-12-03 by [[ali-alqarni]].
 
@@ -138,7 +158,10 @@ For Basira's product anatomy as written-up in narrative form — 5-component arc
 - Signing authority for the second Excellence certificate if different from Al-Wuhaibi.
 - SPA / واس announcement for the 2019 Al-Baha Disability Advisory Council founding.
 - Tie Basira to [[research-initiatives-portfolio]] as the digital layer across Aman Mustadam, Tamkeen, and Ihsan-before-Measure.
-- Apply Supabase migration 024 (Leadership Compass) — still pending at handoff.
+- **Apply Supabase migration 024 (Leadership Compass) — still pending after 2026-04-27 polish.** Compass UI runs on local seeds; works visibly but a "is this live data" question exposes the seam. Apply via Supabase dashboard SQL Editor (60 seconds).
+- **Untracked WIP at session close 2026-04-27** (NOT auto-committed pending Ahmad decision): `CLAUDE.md` (modified), `docs/code-strategic-map-2026-04-23.md`, `docs/elevenlabs-voice-research-2026-04-23.md`, `docs/walkthrough-inventory-2026-04-23.md`, `src/modules/grc/components/`, `video-production/`, `walkthrough-screenshots/`. Last two may contain sensitive demo content; repo is public — review before commit.
+- **Ihsan personality-inference engine deferred** — current code uses a manual `<select>`. Real inference (5-6 weighted signals from incidents/visits/sleep regularity → personalityType) is post-VM-demo work.
+- Dependabot moderate CVE on `Beneficiary-System-Clean-Backup` default branch (security advisory #28). Non-blocking for VM demo; address post-visit.
 
 ## Provenance
 

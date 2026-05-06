@@ -19,7 +19,7 @@ tags:
   - albaha-center
   - basira-evidence-stack
 created: 2026-04-25
-updated: 2026-04-25
+updated: 2026-05-06
 valid_from: 2025-01-05
 learned_at: 2026-04-25
 confidence: high
@@ -36,6 +36,9 @@ summary: >-
   رئيس قسم الجودة in the ministerial field-visit form.
 related:
   - "[[mhrsd-2025-kpi-portfolio-ar]]"
+  - "[[mhrsd-2025-kpi-master-scorecard]]"
+  - "[[mhrsd-2024-kpi-social-section]]"
+  - "[[mhrsd-2026-kpi-health-social-homes]]"
   - "[[999-albaha-qms-bcp]]"
   - "[[al-baha-quality-project-2024]]"
   - "[[999-institutional-excellence-innovation]]"
@@ -226,14 +229,14 @@ Plausible KPI-to-achievement mappings (verify against [[ahmad-2025-achievements]
 
 ## Red flags / open questions
 
-1. **~40% scorecard un-enumerated** in JSONL — Pharmacy fully, Social weight, 6% Medical, 9% Nursing. Read PDF before citing complete inventory.
-2. **Band threshold inconsistency** ("<60%" vs "<40%" for "weak") — possibly per-department; verify.
-3. **Zero-event KPI anti-pattern** — Serious Injuries 0% target / 10% weight; Restraint formula. Surface critique alongside any citation.
-4. **2026 supersession status unknown** — given today is 2026-04-25, a 2026 portfolio almost certainly exists. This file is historical/comparative.
+1. ~~**~40% scorecard un-enumerated** in JSONL — Pharmacy fully, Social weight, 6% Medical, 9% Nursing. Read PDF before citing complete inventory.~~ **RESOLVED 2026-05-06.** [[mhrsd-2025-kpi-master-scorecard]] enumerates the complete 8-department weighted table (Medical 30%, Nursing 25%, Pharmacy 12%, PT 6%, Speech 6%, Psychological 8%, Nutrition 8%, Dental 5% — total 100%). The *social composite* in this framework page was a Gemini misread; the scorecard's "social" content is split into PT + Speech + Psychological + Nutrition + Dental as discrete weighted departments.
+2. **Band threshold inconsistency** ("<60%" vs "<40%" for "weak") — possibly per-department; verify. Master scorecard sheet does not surface scoring bands either; still open.
+3. **Zero-event KPI anti-pattern** — Serious Injuries 0% target / 10% weight; Restraint formula. Surface critique alongside any citation. **Persists in [[mhrsd-2026-kpi-health-social-homes]].**
+4. **2026 supersession** — **RESOLVED 2026-05-06.** A 2026 *social-homes* health-KPI instrument exists ([[mhrsd-2026-kpi-health-social-homes]], 43 indicators, flat dashboard). A separate 2026 *rehabilitation-centers* scorecard does **not** appear to exist — targeted Drive searches for "2026 + مراكز التأهيل" + "2026 + حقيبة" returned only 2026 data-collection forms (which operationalize the same indicators) and the existing 2025 master scorecard sheet (`13Xiy_…`) modified 2026-02-21. Working hypothesis: **the 2025 portfolio remains operational in 2026** until a new تعميم issues. Confirm with Ahmad before citing.
 5. **"البداية / initial set"** in folder name implies an iterative cycle. A revised mid-year set may exist; not surfaced.
-6. **Folder fileId not yet resolved** — JSONL stores idx, not Drive folder IDs. Resolve via Drive MCP `title contains '2025 مؤشرات الأداء'` when targeted reads are needed.
-7. **Carry-over signal**: *نماذج مؤشرات الاداء للعام 2024 (القسم الاجتماعي).xlsx* — social-side form pulled forward from 2024 unchanged. Suggests the social-side revision lagged.
-8. **Signatory not captured in JSONL** — read PDF first page to capture.
+6. **Folder fileId resolved 2026-05-06** — `15QqqRFepgtDYRZYwmEH9JnVU4ATIZa7s` (master-index folder #13 *المؤشرات الطبية*).
+7. **Carry-over signal RESOLVED 2026-05-06**: 2024 social-side templates ingested at [[mhrsd-2024-kpi-social-section]] — confirmed pulled forward to 2025 unchanged. **Social section runs as a parallel track**, not a bucket inside the master scorecard. 5 domains × 14 sub-KPIs (skill-dev, programs/activities, vocational empowerment, family guidance, after-care + satisfaction). Empowerment-aligned half of the surface; medical-side critiques don't apply equivalently.
+8. **Signatory not captured in JSONL** — read PDF first page to capture. PDF text export mojibake'd 2026-05-06; OCR pass needed.
 
 ## Provenance
 

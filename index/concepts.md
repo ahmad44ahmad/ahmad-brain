@@ -5,7 +5,7 @@ type: moc
 status: active
 tags: [index, auto-generated]
 created: 2026-04-24
-updated: 2026-04-25
+updated: 2026-05-06
 summary: >-
   Auto-generated index. Regenerate via `.claude/skills/regenerate-indexes/generate.py`.
   Count: 5 entries.
@@ -13,7 +13,7 @@ summary: >-
 
 # Concepts Index
 
-Auto-generated 2026-04-25. 5 entries. Regenerate with `/regenerate-indexes` skill.
+Auto-generated 2026-05-06. 5 entries. Regenerate with `/regenerate-indexes` skill.
 
 
 | id | title | summary |
