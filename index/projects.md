@@ -5,15 +5,15 @@ type: moc
 status: active
 tags: [index, auto-generated]
 created: 2026-04-24
-updated: 2026-05-06
+updated: 2026-05-08
 summary: >-
   Auto-generated index. Regenerate via `.claude/skills/regenerate-indexes/generate.py`.
-  Count: 7 entries.
+  Count: 8 entries.
 ---
 
 # Projects Index
 
-Auto-generated 2026-05-06. 7 entries. Regenerate with `/regenerate-indexes` skill.
+Auto-generated 2026-05-08. 8 entries. Regenerate with `/regenerate-indexes` skill.
 
 
 | id | title | status | summary |
@@ -23,5 +23,6 @@ Auto-generated 2026-05-06. 7 entries. Regenerate with `/regenerate-indexes` skil
 | [[basira-leadership-compass]] | Basira — Leadership Compass (بوصلة القيادة) | active | Strategic decision surface inside Basira for senior leadership (مساعد التنمية, المدير العام, and above). Seven tabs, sh… |
 | [[basira-sovereign-decks]] | Basira — Three Audience-Tiered Sovereign Decks | active | Three carefully stratified HTML presentation decks for the Basira handover, each tailored to a distinct audience tier —… |
 | [[habibi-tts]] | Habibi-TTS — F5-TTS Saudi Arabic Voice Model | active | Ahmad's TTS project. F5-TTS v1 Base architecture fine-tuned on Saudi Arabic with Ahmad's own voice (speaker 65721). Tra… |
+| [[hrsd-brand-identity-skill]] | HRSD Brand-Identity Skill — Claude Code PowerPoint Generator | active | Claude Code skill that turns Word source content into MHRSD-branded PowerPoint decks (AR/EN, light/dark) with correct R… |
 | [[hrsd-work]] | HRSD Work — Ahmad's Ministry Supervisor Role | active | Ahmad's active ministry role. Credential base أخصائي علاج طبيعي (PT Specialist, permanent). Current position مشرف خدمات… |
 | [[pt-modeling]] | PT Services Modelling — 36 MHRSD Rehabilitation Centres | active | Ahmad's PT-services modelling project for the 36 MHRSD Comprehensive Rehabilitation Centres. A governmental operational… |
