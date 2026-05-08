@@ -16,7 +16,7 @@ tags:
   - al-baha-pilot
   - governance
 created: 2026-04-24
-updated: 2026-05-06
+updated: 2026-05-08
 source: local-repo:C:\dev\basira\
 related:
   - "[[basira-leadership-compass]]"
@@ -149,6 +149,49 @@ Technical signals to pair with the evidence stack for senior audiences: **SROI 1
 
 MHRSD official designation for Basira in the achievement system: **مبادرة صفر ورق (Zero Paper)**, one of Ahmad's 2025 achievements approved 2025-12-03 by [[ali-alqarni]].
 
+## Sessions A–F pitch-prep sweep (2026-04-26 → 2026-05-08)
+
+Six tagged sessions on `v2` (`pitch-prep-session-A` through `pitch-prep-session-F`) preceding the pitch. End state at close 2026-05-08:
+
+- **Production deploy:** `https://beneficiary-system-clean-backup.vercel.app` aliased to `dpl_DSjcBc61kbgwTVTQ2VfCSHzEzmHr`. Vercel project `ahmed-abdullah-alshehris-projects/beneficiary-system-clean-backup`.
+- **Pitch URL:** `…/dashboard?as=demo` triggers invisible signin (Session F URL flag); the param is dropped from the address bar via `history.replaceState` after auth resolves. Demo user `demo@basira.local` with `app_metadata.role=director`.
+- **Laptop fallback:** `http://localhost:5175/dashboard` — Vite dev server at canonical path. Auto-signs in via the `import.meta.env.DEV` branch.
+- **51-route audit on production:** 0 console errors / 0 white-on-white / 0 English drift / 0 empty buttons / 0 قريباً / 0 broken images.
+- **Supabase advisor:** 90 lints → **5** (3 accepted, 2 intentional). 258 RLS policies on `authenticated`, **0 on `public`** (anon blocked).
+- **`v2` head:** `c860cc4` (cheat-sheet doc commit). 33 commits ahead of `main`. `main` remains FROZEN at `v1.0.0-zero-paper` per the v1 record-of-endorsement rule — **do NOT merge `v2` → `main`**.
+
+### Per-session highlights
+
+- **A** — surface polish: white-on-white rooted in `EmergencyDashboard.tsx`, `Card.tsx` `dark:bg-white`, debug-widget gating, English UI block in `GlobalAlerts.tsx`, stale theme-color `#1a365d → #0F3144`. HRSD palette truth confirmed at `src/design-system/tokens.ts` (the legacy `colors.ts` is a facade). 51-route audit green except 12 schema-drift routes carried into B.
+- **B** — demo-path bulletproofing + schema-drift sweep: 36 console errors → 0 across 12 non-demo routes via the `*Available` flag pattern (`shiftService`, `ipcService`, `wellbeingService`, `indicatorsRepository`); empowerment Karama profile populated for beneficiary 172; `log_date → shift_date` rename on the read side; `audit_logs` ordering on `created_at`.
+- **C** — visual + content polish: `/handover` wrapper navy + stat cards `bg-white/10` + Add-item form solid white; DignityFile flat replace `#DC2626 → #0F3144` (17 instances); residual «قريباً» replaced with «قيد الإعداد» + governmental one-liner on Discard/Warehouse/Asset modals; `Discover.tsx` `alert()` → `useToastStore` (no demo seam).
+- **D** — brand + Arabic register pass: `لوحة القياس → لوحة القيادة` on `Dashboard.tsx` + `DashboardPanel.tsx`; Karama emotional fields rewritten first-person to match labels; arabic-check sweep on Sessions B/C strings (all governmental compliant).
+- **E** — backend hardening: 8 migrations applied via Supabase MCP — `session_e_demo_auth_bridge_and_role_helper` (auth user + staff row + private `internal.has_role()`), `session_e_shift_handover_items` (4 seeded rows), `session_e_ipc_tables` (5 tables), `session_e_wellbeing_views_v2` (2 matviews + 1 view), `session_e_indicator_ops_tables` (6 tables), `session_e_extend_daily_care_logs` (4 columns), `session_e_rls_overhaul` (69 `{public} USING(true)` dropped → 258 `authenticated`-tiered policies in 5 categories), `session_e_demo_auth_bridge_repair` (NULL token columns + missing `auth.identities` row). DEV demo auto-signin shipped (gated to `import.meta.env.DEV`).
+- **F** — production deploy: `?as=demo` URL flag for invisible signin from the deployed surface (commit `daf0b95`); URL-strip robustness fix lifting `replaceState` out of the signin success branch (commit `6f3a5cc`); Vercel project linked to existing `beneficiary-system-clean-backup`; promoted to production via `vercel deploy --prod --yes` after the SSO-gating discovery on preview URLs. Five pitch artifacts written in `docs/`.
+
+### Pitch artifacts (all in `C:\dev\basira\docs\`)
+
+| Artifact | Purpose |
+|---|---|
+| `pitch-prep.md` | Multi-session ledger A–F, decisions log, demo path, carry-over table C1..C21 |
+| `pitch-day-playbook.md` | Read-aloud one-pager; English ops + Arabic UI labels |
+| `pitch-rehearsal.md` | Timed walk on prod URL + 11 full-page screenshots in `pitch-screens/` |
+| `pitch-narrator-ar.md` | Governmental Arabic narration script (~6 min spoken) |
+| `pitch-cheat-sheet.md` | A4 portrait pitch-day cheat sheet (PDF on Ahmad's Desktop) |
+
+### Carry-overs (post-pitch only)
+
+Pitch is unblocked. Post-pitch follow-ups:
+
+- **C2** — reconcile `supabase/sql/` (24 files) vs `supabase/migrations/` drift. Multi-hour, real schema work.
+- **C20** — 14 stale Production-scope Vercel env vars (`POSTGRES_*`, `NEXT_PUBLIC_SUPABASE_*`) from a 148-day-old marketplace integration. Not in the client bundle. Cosmetic.
+- **C21** — `scripts/route-audit.mjs` returns `bodyTextLen` undefined when run against the deployed surface (script-side artifact; aggregate counts still trustworthy).
+- **C4** — GitHub MCP plugin OAuth re-auth (when needed).
+
+### New feedback memory from Session F
+
+`feedback_vercel_preview_sso_gated.md` — Vercel preview deployments are SSO-gated by default on paid teams; preview URLs redirect to `vercel.com/login`. For pitch / public URLs deploy to production scope or disable preview protection.
+
 For Basira's product anatomy as written-up in narrative form — 5-component architecture (Master Record / Rehab+Empowerment / Clinical / ملف الكرامة / Logistics), 3 strategic goals (أنسنة الرعاية / صفرية الورق / الحوكمة الاستباقية), and design-doctrine vocabulary (بوصلة, مساعد الظل, هندسة الكرامة) — see [[999-zero-paper-master]]. That doc is Gemini-synthesised and *describes* features as if deployed, so quote it in "as designed" mode rather than "as deployed". The evidence stack above is the institutional-claims source; F-5.1 ([[999-institutional-excellence-innovation]]) is the excellence-framework source; F-5.3 ([[999-zero-paper-master]]) is the product-architecture source.
 
 ## Open gaps
@@ -158,8 +201,8 @@ For Basira's product anatomy as written-up in narrative form — 5-component arc
 - Signing authority for the second Excellence certificate if different from Al-Wuhaibi.
 - SPA / واس announcement for the 2019 Al-Baha Disability Advisory Council founding.
 - Tie Basira to [[research-initiatives-portfolio]] as the digital layer across Aman Mustadam, Tamkeen, and Ihsan-before-Measure.
-- **Apply Supabase migration 024 (Leadership Compass) — still pending after 2026-04-27 polish.** Compass UI runs on local seeds; works visibly but a "is this live data" question exposes the seam. Apply via Supabase dashboard SQL Editor (60 seconds).
-- **Untracked WIP at session close 2026-04-27** (NOT auto-committed pending Ahmad decision): `CLAUDE.md` (modified), `docs/code-strategic-map-2026-04-23.md`, `docs/elevenlabs-voice-research-2026-04-23.md`, `docs/walkthrough-inventory-2026-04-23.md`, `src/modules/grc/components/`, `video-production/`, `walkthrough-screenshots/`. Last two may contain sensitive demo content; repo is public — review before commit.
+- ~~**Apply Supabase migration 024 (Leadership Compass)**~~ — RESOLVED. `list_migrations` confirms `chapters_2_3_4_6_compass` (20260228060420) applied. Tracked as carry-over C8 (closed Session E).
+- ~~**Untracked WIP at session close 2026-04-27**~~ — RESOLVED across Sessions A–F (consumed into commits or out of scope).
 - **Ihsan personality-inference engine deferred** — current code uses a manual `<select>`. Real inference (5-6 weighted signals from incidents/visits/sleep regularity → personalityType) is post-VM-demo work.
 - Dependabot moderate CVE on `Beneficiary-System-Clean-Backup` default branch (security advisory #28). Non-blocking for VM demo; address post-visit.
 
