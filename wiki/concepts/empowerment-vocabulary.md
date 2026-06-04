@@ -19,7 +19,7 @@ tags:
   - thinking-substrate
   - empowerment-pivot
 created: 2026-04-25
-updated: 2026-04-25
+updated: 2026-06-04
 valid_from: 2024-01-01
 learned_at: 2026-04-25
 confidence: high
@@ -41,6 +41,7 @@ related:
   - "[[999-institutional-excellence-innovation]]"
   - "[[999-zero-paper-master]]"
   - "[[drive-vault-coverage-audit]]"
+  - "[[basira-v4-rebuild]]"
 summary: >-
   Single concept node holding the five vocabulary domains in Ahmad's
   empowerment thesis — Critique (pathologies of the medical/custodial model),
@@ -281,6 +282,10 @@ Three Ahmad-orbit phrases already have homes:
 - *«أمان مستدام»* — forthcoming F-4.2 distillation. Sustainable-safety national initiative.
 
 ---
+
+## V4 mandate (2026-06-04)
+
+This lexicon's three-tier maturity model — **1.0 medical/custodial → 2.0 social/rights (CRPD 2008) → 3.0 platform-economy for empowerment** — is the core mandate of the V4 rebuild ([[basira-v4-rebuild]]): the rights-expansion V3 under-served. V4 starts from *تمكين* (empowerment), not *رعاية* (care), and from "ما أهدافك؟" not "ما تشخيصك؟"; the language discipline catalogued here (مريض→المستفيد, diagnosis→barrier-assessment, treatment→intervention) is the same V4 enforces in its KNOW surfaces. *ملف الكرامة* (user-facing) over *خوارزمية الإحسان* (internal engine name) is a resolution V4 inherits unchanged. This is a pointer, not a re-listing — the lexicon above stays the lookup table.
 
 ## Provenance
 

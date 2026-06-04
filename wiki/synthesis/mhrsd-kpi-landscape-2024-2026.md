@@ -16,7 +16,7 @@ tags:
   - rehabilitation-centers
   - social-care-homes
 created: 2026-05-06
-updated: 2026-05-06
+updated: 2026-06-04
 valid_from: 2024-01-01
 learned_at: 2026-05-06
 confidence: high
@@ -32,6 +32,8 @@ related:
   - "[[basira]]"
   - "[[social-handicap-compass]]"
   - "[[hrsd-work]]"
+  - "[[basira-v4-rebuild]]"
+  - "[[basira-demo-vs-real-data]]"
 summary: >-
   The MHRSD KPI surface for one comprehensive rehabilitation center comprises
   at least 5 distinct measurement instruments with different scopes, owners,
@@ -171,6 +173,12 @@ Each gap is operationalizable, defensible against ministry priorities, and align
 | Q4 2025 facilities dashboard | Update cycle is quarterly — expect Q4 update next |
 | Aggregation rule for 43-indicator social-homes instrument | No center-level rollup formula stated |
 | Band thresholds for 2025 scorecard ("<60%" vs "<40%") | Inconsistency unresolved |
+
+## V4 north-star + the activity→impact pivot (2026-06-04)
+
+The V4 rebuild ([[basira-v4-rebuild]]) reframes this surface around a single **north-star metric**: the **functional-independence delta per beneficiary per quarter** — NOT service volume, staffing levels, or satisfaction surveys. This is the inversion of the «وهم الإنجاز» (illusion-of-achievement) anti-pattern the ministry's own 999 national critique names (`KB: harvest/14-b`): stop the activity counters (sessions, paper-plan completion) and build impact metrics (sustained-employment ≥6-month %, measured independence, community-participation index), with "−50% of paper forms within one year" as the anti-bureaucracy guardrail (`KB: harvest/14-c/14-e`).
+
+Two grounding points keep V4's numbers honest (anti-fabrication): the **real Al-Baha actuals** in the official quality-standards register — 73 staff, 2 beneficiaries employed, all registered at primary health care (`KB: harvest/14-c`) — and the **ISO-9001 clause↔process↔KPI mapping** that gives every metric an accountable owner (`KB: harvest/14-d`). A live validation of the inversion: Al-Baha's documented fix for an un-applicable local-partnerships KPI was to switch the metric from "number of local agreements" to "quality of training programs delivered" — count→quality, a real staff instance of outputs→outcomes. V4 anchors its numbers to this real history rather than inventing them (see [[basira-demo-vs-real-data]]).
 
 ## Reading order for a new Claude session
 

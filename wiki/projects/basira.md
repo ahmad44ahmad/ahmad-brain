@@ -16,8 +16,8 @@ tags:
   - al-baha-pilot
   - governance
 created: 2026-04-24
-updated: 2026-05-08
-source: local-repo:C:\dev\basira\
+updated: 2026-06-04
+source: local-repo:C:\Users\aass1\Basira\ (v3, ministry deliverable, active) + local-repo:C:\dev\basira\ (v2, pitch demo, frozen)
 related:
   - "[[basira-leadership-compass]]"
   - "[[basira-sovereign-decks]]"
@@ -38,13 +38,16 @@ related:
   - "[[999-institutional-excellence-innovation]]"
   - "[[999-zero-paper-master]]"
   - "[[ahmad-engineering-substrate]]"
+  - "[[basira-v4-rebuild]]"
 summary: >-
   Ahmad's flagship digital-transformation system (بصيرة / "Zero Paper") for
-  Saudi comprehensive rehabilitation centers. Vite 6 + React + TypeScript local
-  repo at C:\dev\basira\. Built 2024+ under a self-imposed "forbidden trinity"
-  (no budget, no staff, no one's time). Framing: not a request for approval —
-  a digital translation of approvals the Al-Baha center has already earned.
-  Handover governance starts at Regional GM, never at center level.
+  Saudi comprehensive rehabilitation centers. As of 2026-05-10, the
+  implementation has split into two streams: v2 (Vite + Supabase, frozen as
+  pitch demo at C:\dev\basira\) and v3 (Turborepo + NestJS + Prisma at
+  C:\Users\aass1\Basira\ on Basira-improvements remote, active ministry
+  deliverable). v3 is governed by PLAN-v3-2026-05.md (~70 KB, 25-32 sessions).
+  Built under a self-imposed "forbidden trinity" (no budget, no staff, no
+  one's time). Compass: المستفيد. Handover governance starts at Regional GM.
 ---
 
 # Basira (بصيرة)
@@ -52,6 +55,24 @@ summary: >-
 ## One-line definition
 
 Basira is the digital layer that scales validated operational excellence from one comprehensive rehabilitation center (Al-Baha) to thirty-six nationwide. It is not a pilot asking for approval — it is the codified expression of credentials the center already holds.
+
+## ⚠️ Strategic Shift 2026-05-10 — v2 frozen, v3 is the ministry deliverable
+
+Most of this document below describes **v2** (Vite + Supabase at `C:\dev\basira\`), which was the canonical implementation through 2026-05-09. As of **2026-05-10**, after Ahmad's compass directive ("البَوصلَة هي المستفيد") rejecting patchwork fixes on v2, the canonical implementation has shifted to **v3** (Turborepo + NestJS + Prisma at `C:\Users\aass1\Basira\`, on the `Basira-improvements` GitHub remote).
+
+**Operational rules from 2026-05-10 onward:**
+
+- **All new substantive work goes to v3.** The 7-phase NCA/PDPL security plan has already been executed in v3 (commits `560e476..a6cc655` + follow-ups `f8092af`, `678a468`).
+- **v2 is frozen as the pitch demo.** Production URL `https://beneficiary-system-clean-backup.vercel.app/dashboard?as=demo` continues to work; no new code lands on `v2` branch except the formal archival in track T24.
+- **Master plan**: `C:\Users\aass1\Basira\docs\PLAN-v3-2026-05.md` — 25 tracks across 7 phase groups, 25-32 Claude Code sessions over ~3 months.
+- **Memory pointers**: `~/.claude/projects/C--Users-aass1/memory/project_basira_compass_directive.md`, `project_basira_v2_v3_strategic_split.md`, `project_basira_v3_actual_state.md`, `project_basira_master_context_pointer.md`, `feedback_basira_plan_standards.md`.
+- **The forbidden trinity, evidence stack, governance layer, and Al-Baha pilot framing in this hub remain valid** for both v2 and v3 — they are about institutional positioning, not implementation. Read sections below in that mode.
+
+The body of this hub below is preserved as historical record of the v2 era (Sessions A-F pitch prep, Vice Minister demo polish, etc.). Future updates to v3 will land in the `PLAN-v3-2026-05.md` State Tracker, not here, until v3 reaches a milestone worth re-summarising in the vault.
+
+## 🔻 V4 Pivot 2026-06-02 — V3 is a dead-end; V4 is humane-first
+
+At session S83 (2026-06-02) Ahmad concluded *"you cannot get back unless we do a V4."* V3 is now a parts-bin, not a destination. **V4** is a from-scratch, humane-first **Center Operating System** built on **KNOW → SERVE → break-the-barrier**, compass «المستفيد أولاً» (the beneficiary first), operating one layer above the medical model. The active hub is **[[basira-v4-rebuild]]**; the settled architecture, security model (مؤتمن + تعهد + AccessLog, no classification), and honesty-over-green rule are recorded in ADR **[[0003-basira-v4-architecture]]**; the full pull-don't-invent knowledge base is **[[basira-rebuild-kb]]**. Everything below this banner is preserved v2/v3-era history; new V4 substance lives in the V4 cluster, not here.
 
 ## Repository and local state
 

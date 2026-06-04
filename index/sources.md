@@ -5,15 +5,15 @@ type: moc
 status: active
 tags: [index, auto-generated]
 created: 2026-04-24
-updated: 2026-05-08
+updated: 2026-06-04
 summary: >-
   Auto-generated index. Regenerate via `.claude/skills/regenerate-indexes/generate.py`.
-  Count: 35 entries.
+  Count: 36 entries.
 ---
 
 # Sources Index
 
-Auto-generated 2026-05-08. 35 entries. Regenerate with `/regenerate-indexes` skill.
+Auto-generated 2026-06-04. 36 entries. Regenerate with `/regenerate-indexes` skill.
 
 
 | id | title | source | summary |
@@ -27,6 +27,7 @@ Auto-generated 2026-05-08. 35 entries. Regenerate with `/regenerate-indexes` ski
 | [[al-baha-ic-archive]] | Al-Baha Center IC Archive — Infection-Control Program, Poli… | drive-folder-jsonl:#4 | English distillation of the مكافحة العدوى Drive folder (275+ files, ~135 PDFs) — the integrated infection-control progr… |
 | [[al-baha-quality-project-2024]] | Al-Baha Quality Project 2024 — Evidence Stack + Escalation … | drive-folder-jsonl:#2+#46, gemini-summary:2026-04-24 | English distillation of Ahmad's self-compiled evidence dossier covering the Al-Baha Quality Department's 2024 work — QM… |
 | [[alqarni-leadership-thesis]] | Al-Qarni Leadership Thesis Folder — Ahmad-Authored Strategi… | drive-folder-jsonl:#37 | Drive folder named «علي القرني» (~80 files, 60 reviewed) — Ahmad-authored strategic dossier prepared FOR Ali Al-Qarni a… |
+| [[basira-rebuild-kb]] | Basira V4 Rebuild Knowledge Base (Desktop) — the pull-don't… | local-fs:C:\Users\aass1\Desktop\Basira-REBUILD\ | The single citable pointer from the vault to the Basira V4 rebuild knowledge base on Ahmad's Desktop — a 4-doc synthesi… |
 | [[beneficiary-rights-document]] | Beneficiary Rights Document — Rights / Duties / Anti-Abuse … | drive-folder-jsonl:#55 | 6-file Drive folder documenting two ministerial circulars: #35746 (1441 H — beneficiary rights + family duties document… |
 | [[community-integration-project]] | Community Integration Project — وكالة التأهيل's De-institut… | drive-folder-jsonl:#44 | 18-file Drive folder documenting وكالة التأهيل's strategic Community Integration Project — moving PWDs from residential… |
 | [[drive-999-docs]] | Drive "999" High-Density Research Docs | google-drive:admin@albahah.app | Catalog of Ahmad's "999" / "9999" prefixed research docs — long-form comprehensive treatments (30k–1MB each) used as th… |

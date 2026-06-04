@@ -15,12 +15,13 @@ tags:
   - governance
   - decision-support
 created: 2026-04-24
-updated: 2026-04-25
+updated: 2026-06-04
 source: local-repo:C:\dev\basira\src\modules\leadership-compass\
 related:
   - "[[basira]]"
   - "[[basira-sovereign-decks]]"
   - "[[999-albaha-qms-bcp]]"
+  - "[[basira-v4-rebuild]]"
 summary: >-
   Strategic decision surface inside Basira for senior leadership (مساعد التنمية,
   المدير العام, and above). Seven tabs, shipped on v2 on 2026-04-22. Not a
@@ -88,6 +89,10 @@ A new tab proposal must pass all seven. If it cannot, it does not belong in the 
 - Display Ahmad's name anywhere on the surface. Institutional voice only.
 - Add rankings between centers. Principle: best practice, not best center.
 - Hide failures in the Decision Ledger. The lessons are the point.
+
+## V4 status (2026-06-04)
+
+V3 deleted the Leadership Compass instrument — it kept only a dead ~739-LoC stub. The V4 rebuild ([[basira-v4-rebuild]]) **restores the design, not the seed**: the seven non-negotiable principles above — decision-first, honest-mirror, epistemic humility, time-respecting, **decision-permanence** (no `DELETE` on `strategic_decisions`, enforced at the DB), **barrier-linkage** (every item cites its B1–B10), HRSD palette + RTL — all carry forward unchanged. What V4 drops is the placeholder seed data, not the instrument. The decision-permanence rule is consistent with V4's settled "decisions are permanent" governance in ADR [[0003-basira-v4-architecture]].
 
 ## Provenance
 

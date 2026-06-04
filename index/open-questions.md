@@ -5,7 +5,7 @@ type: moc
 status: active
 tags: [index, auto-generated, draft-stubs, open-questions]
 created: 2026-04-24
-updated: 2026-05-08
+updated: 2026-06-04
 summary: >-
   Notes currently in status draft — stubs awaiting full migration or Ahmad's
   next touch on the topic. 1 entries.

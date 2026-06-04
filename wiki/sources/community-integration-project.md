@@ -15,7 +15,7 @@ tags:
   - وكالة-التأهيل
   - drive-source
 created: 2026-04-25
-updated: 2026-04-25
+updated: 2026-06-04
 valid_from: 2019-01-01
 learned_at: 2026-04-25
 confidence: high
@@ -28,6 +28,7 @@ related:
   - "[[training-development-project]]"
   - "[[albaha-center-org]]"
   - "[[drive-vault-coverage-audit]]"
+  - "[[basira-v4-rebuild]]"
 summary: >-
   18-file Drive folder documenting وكالة التأهيل's strategic Community
   Integration Project — moving PWDs from residential rehab centers into
@@ -118,6 +119,15 @@ The 2% 2019 baseline is the **single most concrete data point in the integration
 1. **Current ت-1-1 transition rate** vs the 2019 2% baseline.
 2. **Has Al-Baha implemented Phase 2 (home-care + social services)?** Or remains at Phase 1 (eligibility identification + family integration prep)?
 3. **Form 27 follow-up data for transitioned cases** — exists somewhere; would close the loop on integration success.
+
+## V4 operationalization (2026-06-04)
+
+In the V4 rebuild ([[basira-v4-rebuild]]) this de-institutionalisation strategy is the central empowerment cross-service trigger. The CRPD de-institutionalisation guide (`KB: harvest/14-a`) supplies the operational layer this folder's summary lacked:
+
+- **The §5 discharge-routing taxonomy** — each beneficiary is classified into one of ~7 source classes (stay / refer / MoH-extended / MoH-home / alternative-services / family-supported / family-ready), and **each class emits a destination + a hard gating precondition**. The axis is social situation + family capability + service availability, **never diagnosis**. This is the authoritative source behind V4's `integrationCategory` enum (the 8-enum — family-reintegration / remain / alternative-care / medical / education / home-care / orphan / elderly — reconciles to this 7-class taxonomy; recover-vs-redefine is a genuinely open decision).
+- **The طي القيد discharge-interlock** — file-closure (de-registration) is BLOCKED until cross-service preconditions are met (home adapted + MoH home-care confirmed + family trained). It is **tri-state**, not binary: the person physically moves home with the file OPEN and after-care running; only file-CLOSURE is held. This is the de-institutionalisation analogue of the dental→soft-diet wire — a KNOW event (home/family readiness) gating a SERVE action (file-closure) in another service. V4 ships it as an interlock with its negative case (see [[basira-v4-cross-service-triggers]]).
+
+The legal trigger is المادة 25 of اللائحة الأساسية لبرامج المعاقين (قرار مجلس الوزراء 34, 1400هـ); the CRPD anchoring (Arts 7/19/23) above is the rights basis.
 
 ## Provenance
 

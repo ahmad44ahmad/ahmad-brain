@@ -13,7 +13,7 @@ tags:
   - evidence-base
   - empowerment-thesis
 created: 2026-05-06
-updated: 2026-05-06
+updated: 2026-06-04
 valid_from: 2024-01-01
 learned_at: 2026-05-06
 confidence: high
@@ -35,6 +35,7 @@ related:
   - "[[mhrsd-2025-albaha-q3-facilities-dashboard]]"
   - "[[ahmad-2025-achievements]]"
   - "[[ahmad-engineering-substrate]]"
+  - "[[basira-v4-rebuild]]"
 summary: >-
   14 vault notes carry the `basira-evidence-stack` tag as of 2026-05-06.
   This page maps them onto the four Basira pitch claims (governance,
@@ -132,6 +133,10 @@ If you arrive cold and need to reconstruct Basira's evidence base:
    - **Branch quality pitch** → [[mhrsd-2025-albaha-branch-quality-plan]] + [[mhrsd-2025-albaha-q3-facilities-dashboard]]
    - **Empowerment-policy pitch** → [[mhrsd-2024-kpi-social-section]] + [[mhrsd-2026-kpi-health-social-homes]]
    - **Operational-quality pitch** → [[999-albaha-qms-bcp]] + [[al-baha-quality-project-2024]]
+
+## V4 carry-forward (2026-06-04)
+
+The economic spine of this stack carries into the V4 rebuild ([[basira-v4-rebuild]]) as **computed, not seeded**: the SROI discipline (**1:4.2 = the pitch number**, **≥3.5 = the aspirational national target — never swap them**) and the independence rights-economics ("17 SAR/day independence vs 6,666 SAR/month dependency") move from V1's static seed to a real calculation. The four pitch claims here remain the institutional positioning; V4 makes claims 2–3 (measurement + empowerment) operational rather than asserted.
 
 ## Tag maintenance
 

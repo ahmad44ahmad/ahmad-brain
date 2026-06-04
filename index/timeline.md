@@ -5,18 +5,20 @@ type: moc
 status: active
 tags: [index, auto-generated, timeline]
 created: 2026-04-24
-updated: 2026-05-08
+updated: 2026-06-04
 summary: >-
-  Reverse-chronological feed of ADRs and session logs. 6 entries.
+  Reverse-chronological feed of ADRs and session logs. 8 entries.
 ---
 
 # Timeline
 
-6 dated entries. Most recent first.
+8 dated entries. Most recent first.
 
 | date | type | id | title |
 |---|---|---|---|
 
+| 2026-06-04 | decision | [[0003-basira-v4-architecture]] | ADR-0003 — Basira V4 Architecture & Build Decisions |
+| 2026-05-10 | log | [[log-2026-05-10]] | Session log — 2026-05-10 — Basira comprehensive guide + visual user manual |
 | 2026-05-06 | log | [[log-2026-05-06]] | Session log — 2026-05-06 |
 | 2026-04-28 | log | [[log-2026-04-28]] | Session Log — 2026-04-28 |
 | 2026-04-25 | log | [[log-2026-04-25]] | Session Log — 2026-04-25 |
