@@ -20,7 +20,8 @@ summary: >-
   base on Ahmad's Desktop — a 4-doc synthesis set (00-03 + 05) over ~30 harvest
   extracts (01-14) distilling the three old codebases, their live DBs, the
   vision/compass, HRSD design, the evolution/anti-patterns, the Drive corpus, and
-  the ministry theoretical foundations. English, AI-facing, read-only. The vault
+  the ministry theoretical foundations, plus a build-ready design layer (15-17:
+  dictionary, trigger-registry, target data model). English, AI-facing, read-only. The vault
   POINTS here; this corpus HOLDS the row-level detail.
 related:
   - "[[basira-v4-rebuild]]"
@@ -58,6 +59,14 @@ Under `harvest/`. The synthesis docs cite these as `NN §X`. **These ARE the del
 - **`12-a`...`12-h`** the 62-file ministry/center corpus (operations · quality/QMS · IPC · catering · org/forms/emergency · beneficiary-voice · platform) — synthesised in `12-CORPUS-SYNTHESIS.md`.
 - **`13-a`...`13-e`** corpus batch-2 (the medical-gateway WHY · pitch narrative · the richest NOT-ADOPTED haul) — synthesised in `13-CORPUS-BATCH2-SYNTHESIS.md`.
 - **`14-a`...`14-g` + `14-org`** (Track A, 2026-06-04) — the latest deep reads: `14-a` the CRPD de-institutionalisation guide (the §5 discharge-routing taxonomy + the طي القيد discharge-interlock); `14-b` the "999" national critique + 8-axis development roadmap; `14-c` the official KPI/quality-standards register + **real Al-Baha actuals** (73 staff, 2 beneficiaries employed) + the remote-partnership gap-strategy; `14-d` the ISO-9001 clause↔process↔KPI mapping; `14-e` the social-activities module form-set; `14-f` the beneficiary rights charter + the restraint-elimination PROTECT pillar; `14-g` the EHS/DR coded medical-forms manual (the admission intervention-dispatch matrix — the cleanest one-KNOW-event→N-SERVE pattern in the corpus); `14-org` the center org structure + the 6-group disability-classification table.
+
+## The design layer (Foundation Task 1, 2026-06-04)
+
+Built on top of the synthesis set to drive Track B's slice-by-slice implementation; consolidates the ledger §A–§K into build-ready references. They **POINT to** `C:\dev\basira-v4\prisma\schema.prisma` (the live 6-model spine) and extend it — they are NOT the live schema, which evolves slice-by-slice.
+
+- **`15-DATA-DICTIONARY.md`** — the granular per-entity field reference: every field of the ~56 V4 entities (consolidated from the ledger §A–§K + the harvest), grouped by bounded context, with Arabic form-term labels + REAL/DEMO + barrier tags. The one file a build session reads per slice instead of re-scanning the ledger; its §16 is the schema-delta vs the live spine.
+- **`16-TRIGGER-REGISTRY.md`** — the cross-service trigger registry (the source the `basira-cross-trigger` skill generates each interlock from): every KNOW→SERVE edge as either a write-side directive/alert row (the `logDentalExtraction → ServiceDirective` shape) or a read-side precondition gate, plus the semantics framework (advisory-alert default; the one hard block). One process, one DB — the directive row IS the outbox.
+- **`17-DATA-MODEL.md`** — the consolidated target data model: the schema SHAPE (entity · keys · relations · indexes · portable SQLite∩Postgres types · slice/skill/barrier tags) across the 8 bounded contexts, the polymorphic `(sourceType, sourceId)` dispatch seam, the type-translation/portability rule, and the model→slice map. Its §7 carries the open data-model decisions. It POINTS to 15 (fields) + 16 (edges); the precise schema is code, in `basira-v4/prisma/schema.prisma`.
 
 ## Live data + Drive
 
