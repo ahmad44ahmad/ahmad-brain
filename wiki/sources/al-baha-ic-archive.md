@@ -28,6 +28,7 @@ related:
   - "[[albaha-center-org]]"
   - "[[mhrsd-rehab-center-forms]]"
   - "[[ahmad-career-arc]]"
+  - "[[mhrsd-restraint-agitation-policy]]"
   - "[[ahmad-engineering-substrate]]"
   - "[[ahmad-2025-achievements]]"
   - "[[basira]]"

@@ -41,6 +41,7 @@ related:
   - "[[999-disability-care-empowerment-strategy]]"
   - "[[empowerment-vocabulary]]"
   - "[[beneficiary-rights-document]]"
+  - "[[mhrsd-restraint-agitation-policy]]"
 ---
 
 # Basira Empowerment Redesign — Capability-Domain Catalog, Clinical Instruments & HRSD Pathways

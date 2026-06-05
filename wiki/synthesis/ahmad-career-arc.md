@@ -66,6 +66,21 @@ Accumulated alongside the PT progression — each is a mandate, not a hobby:
 
 All six formal cross-cutting assignments (Quality, Strategic Partnerships, CSR, Home Healthcare oversight, PwD, Non-Gov Rehab Committee) are catalogued in [[ahmad-formal-assignments]] with PST / sent-mbox corroborating evidence per assignment.
 
+## Self-reported profile (PMS skills-&-aspirations questionnaire, 2025)
+
+From Ahmad's own MHRSD performance-system *skills & job-aspirations* questionnaire — the confidential, unscored pillar
+described in [[hrsd-pms]] (his manager cannot see it; captured here as self-context, local-only):
+
+- **Total experience: 14 years** (inside or outside the ministry) — this **confirms the "~14-year arc"** framing above,
+  from his own hand. Employee #23200, cadre identity per the MHRSD HR system.
+- **Cadre / grade:** الكادر الصحي — أخصائي — **المستوى الرابع** (Health cadre, Specialist, **Level 4**).
+- **Self-rated skills:** English **advanced**, computer **advanced**, Excel **intermediate**, PowerPoint
+  **intermediate**; declared additional general skills **data analysis** + **strategic planning** — consistent with
+  the [[basira]] engineering substrate and the quality/KPI track.
+- **Job-rotation aspiration: NO.** He explicitly declined interest in moving to *other* ministry departments. Read
+  against the Kingdom-level PT-supervisor nomination, this is a coherent stance: he seeks advancement **within** his
+  PT/quality domain, not a lateral exit from it — a meaningful career-direction datum, not indecision.
+
 ## Recognitions on record
 
 - **Kingdom-level Institutional Excellence Certificate in KPIs** — 3 times (or 2 at agency level — exact wording to confirm).
