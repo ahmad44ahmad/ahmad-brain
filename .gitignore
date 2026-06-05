@@ -2,6 +2,9 @@
 .obsidian/cache
 .obsidian/app.json.bak
 .obsidian/hotkeys.json.bak
+# file-overwrite-guard backups (*.md.bak.<ts>): redundant (git IS the history), they pollute
+# every grep, AND they can preserve secrets (2026-06-05 credential incident). Never commit; swept periodically.
+*.bak.*
 .trash/
 *.tmp
 ~$*
