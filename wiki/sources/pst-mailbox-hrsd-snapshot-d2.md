@@ -23,6 +23,7 @@ related:
   - "[[pst-mailbox-hrsd]]"
   - "[[pst-mailbox-hrsd-snapshot-a]]"
   - "[[pst-mailbox-hrsd-merged]]"
+  - "[[pst-archive-2023-2026]]"
 summary: >-
   Third PST archive of Ahmad's HRSD mailbox, extracted 2026-04-25 from a
   Google Drive backup that had been archived locally under

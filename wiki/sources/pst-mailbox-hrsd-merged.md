@@ -15,13 +15,14 @@ tags:
   - primary-query-surface
   - deduplicated
 created: 2026-04-25
-updated: 2026-04-25
+updated: 2026-06-05
 valid_from: 2015-10-19
 learned_at: 2026-04-25
 confidence: high
 source: merged:D:\pst-archive\ + D:\pst-archive-a\
 related:
   - "[[pst-mailbox-hrsd]]"
+  - "[[pst-archive-2023-2026]]"
   - "[[pst-mailbox-hrsd-snapshot-a]]"
   - "[[sent-mbox-hrsd]]"
   - "[[ahmad-career-arc]]"
@@ -127,6 +128,7 @@ The merged DB adds two columns not present in source DBs:
 ## Retrieval rules
 
 - **Default to this archive** for any email-history question. Sibling archives ([[pst-mailbox-hrsd]], [[pst-mailbox-hrsd-snapshot-a]]) remain documented and separately searchable, but the merged DB is the single point of entry.
+- **This is the metadata/search surface; for full message *bodies* of the 2025-03 → 2026-03 window, defer to the deep-content archive [[pst-archive-2023-2026]]** (complementary shape — search here, read the thread content there). The two are not duplicates: this one alone holds the 2024 + pre-2023 envelope.
 - When a result's `source_archive` matters (e.g., for provenance in a formal document), include it in the citation.
 - For MOSA/MLSD-era context (pre-2020), remember that what survives is **what Ahmad wrote** (drafts), not what he received. Inbound MOSA/MLSD traffic is missing.
 

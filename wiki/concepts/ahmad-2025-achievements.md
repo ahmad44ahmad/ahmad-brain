@@ -34,6 +34,8 @@ related:
   - "[[ahmad-engineering-substrate]]"
   - "[[anjazati-pms-xlsx-2026-06-05]]"
   - "[[hrsd-pms]]"
+  - "[[ahmad-mhrsd-arc-2023-2026]]"
+  - "[[pst-archive-2023-2026]]"
 summary: >-
   Ten 2025 performance achievements processed and approved in the MHRSD
   achievement system by Ali Al-Qarni (employee ID 8479) between 2025-11-25
@@ -102,6 +104,15 @@ The ten items span all six of Ahmad's cross-cutting assignments ([[ahmad-formal-
 - **Operational safety (cross-cutting):** item #7.
 
 This distribution is itself evidence — no single assignment dominates; the achievements are structurally cross-cutting, which is the correct framing for the Kingdom-level PT Supervisor nomination.
+
+## PST email corroboration (2026-06-05)
+
+The deep email archive ([[pst-archive-2023-2026]]) independently corroborates this register from the inbox side: the
+achievement-evaluation bodies (`hr.pms@`, *"تم تقييم الإنجاز"*) name the same 2025 deliverables, and the **2025
+appraisal received its final approval on 2026-01-02**. The recorded appraisal KPI score was **62 against a 40 target
+= 155%** — i.e. >100%, the band that (per [[hrsd-pms]]) the Achievements register substantiates for a `مثالي` outcome.
+The email noted a **10-day e-grievance window** on the final approval — 🔍 reconcile against the 14-day `تظلم` window
+documented in [[hrsd-pms]] (possibly distinct windows; verify). Email-grounded timeline: [[ahmad-mhrsd-arc-2023-2026]].
 
 ## Why this matters
 

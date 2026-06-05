@@ -17,7 +17,7 @@ tags:
   - quality-arc-terminus
   - governance-permanence
 created: 2026-04-25
-updated: 2026-04-25
+updated: 2026-06-05
 valid_from: 2024-01-01
 learned_at: 2026-04-25
 confidence: medium
@@ -30,6 +30,10 @@ related:
   - "[[ali-alqarni]]"
   - "[[ahmad-formal-assignments]]"
   - "[[ahmad-career-arc]]"
+  - "[[ahmad-mhrsd-arc-2023-2026]]"
+  - "[[absence-deduction-dispute]]"
+  - "[[adel-alghamdi]]"
+  - "[[tami-alelyani]]"
   - "[[albaha-center-org]]"
   - "[[albaha-regional-admin]]"
   - "[[mhrsd-leadership]]"
@@ -87,8 +91,8 @@ The case has branched into three parallel tracks: (i) an internal escalation mem
 |---|---|---|
 | **Ahmad Al-Shahri** (أحمد بن عبدالله الشهري), employee #23200 | Plaintiff / aggrieved party. Filed grievance, escalation memo, Nazaha dossier draft. PT specialist + quality officer + infection-control auditor | [[ahmad-formal-assignments]], [[ahmad-career-arc]] |
 | **علي بن عوض القرني** (Ali bin Awad Al-Qarni) | Centre director at the time of the disputed schedule; endorsed the *جدول دوام* prepared by the health coordinator, giving it administrative effect. Per JSONL #49 (file 470), named in the Nazaha dossier draft as a co-respondent on the misuse-of-authority and moral-forgery counts | [[ali-alqarni]] |
-| **عادل الغامدي** (Adel Al-Ghamdi) | HR manager, Al-Baha regional branch. Responded to the grievance by forwarding it to operational units rather than the legal department. Characterised in source memos as procedural evasion (*التفافاً على جوهر التظلم*) | No vault note yet |
-| **طامي العلياني** (Tami Al-Alyani) | Health coordinator (*منسق صحي*). Prepared the contested *جدول دوام الكادر الصحي 19.pdf* (file 471). Named as the originator of the instrument the escalation treats as lacking the formal elements of an administrative decision | No vault note yet |
+| **عادل الغامدي** (Adel Al-Ghamdi) | HR manager, Al-Baha regional branch. Responded to the grievance by forwarding it to operational units rather than the legal department. Characterised in source memos as procedural evasion (*التفافاً على جوهر التظلم*) | [[adel-alghamdi]] |
+| **طامي العلياني** (Tami Al-Alyani) | Health coordinator (*منسق صحي*). Prepared the contested *جدول دوام الكادر الصحي 19.pdf* (file 471). Named as the originator of the instrument the escalation treats as lacking the formal elements of an administrative decision | [[tami-alelyani]] |
 | **Regional general manager** (*المدير العام لفرع الوزارة بمنطقة الباحة*) | Recipient of the escalation memo of 12 Aug 2025; non-response within the 60-day window triggered the implicit-rejection posture | [[albaha-regional-admin]] |
 | *وحدة الحضور والانصراف* + *إدارة عمليات الموارد البشرية* | Operational units to which the HR manager referred the grievance. Characterised in the source memos as lacking the mandate to adjudicate legality of administrative decisions | [[albaha-regional-admin]] |
 | *الوزير المختص* (the Minister) | The legal authority in whom Articles 12 and 13 of the Executive Regulation vest the power to alter working hours or set shifts. The absence of a written, explicit, documented Ministerial delegation is the structural void on which the *اغتصاب صلاحية الوزير* claim rests | [[mhrsd-leadership]] |
@@ -177,6 +181,25 @@ All quotes are Ahmad's voice (his escalation memos, the Nazaha dossier draft, or
 **Inferred (weaker):**
 
 - [[mhrsd-leadership]] — relevant if any escalation reached ministry HQ; sources do not confirm. Locus of the Ministerial authority under Arts. 12–13.
+
+## Update — 2026-06-05 (from the PST email archive)
+
+The deep email archive ([[pst-archive-2023-2026]], full bodies) post-dates and partly resolves the 2026-04-25
+unverified status below. Three clarifications:
+
+- **This overtime case (Grievance A) and the absence-deduction dispute (Grievance B) are distinct siblings**, not one
+  file — see [[absence-deduction-dispute]] and the grievance-cluster table in [[ahmad-mhrsd-arc-2023-2026]]. They share
+  the biometric-system root and the same actors and escalate together, but **A** contests the 8-hour day while **B**
+  contests ~14 deducted absence-days (~12k SAR). Do not merge them.
+- **§Q1 (Nazaha) + §Q5 (court-filing):** the email record shows the *corruption-allegation* track was routed (legal
+  reply **2025-09-02**) to the **Oversight & Anti-Corruption Authority**, and the live escalation became an internal
+  **Khadamati incident (`INC0658186`, 2026-03-01)** rather than a confirmed ديوان المظالم filing. The matter advanced
+  administratively; a court filing is still not evidenced.
+- **§Q7 (Al-Qarni's step-back):** the dispute **survived** it — by 2026-02 it was being handled centrally by the
+  ministry attendance unit, above the centre.
+
+The two parties previously marked "No vault note yet" now have notes: [[adel-alghamdi]] (HR director) and
+[[tami-alelyani]] (health coordinator).
 
 ## Unresolved questions / open items (status as of 2026-04-25)
 

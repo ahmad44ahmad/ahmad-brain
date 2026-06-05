@@ -21,6 +21,9 @@ related:
   - "[[mhrsd-era-timeline]]"
   - "[[hrsd-work]]"
   - "[[pst-mailbox-hrsd]]"
+  - "[[pst-mailbox-hrsd-merged]]"
+  - "[[pst-archive-2023-2026]]"
+  - "[[ahmad-mhrsd-arc-2023-2026]]"
   - "[[sent-mbox-hrsd]]"
   - "[[ahmad-engineering-substrate]]"
   - "[[al-baha-ic-archive]]"
@@ -112,7 +115,13 @@ The 2020 meeting may exist as a draft or deleted item — a targeted FTS5 search
 
 ## PST mailbox coverage actually available
 
-**2022-08-08 → 2026-03-01** — 3.5 years, 2,582 messages across 5 folders. See [[pst-mailbox-hrsd]] and [[sent-mbox-hrsd]] for the structured source distillations. Older MOSA / MLSD-era archives are not in the current export; Ahmad's claim of "7–8 years of email history" implies earlier archives exist separately, not yet located as of 2026-04-24.
+Updated 2026-06-05. The email evidence is now two complementary archives: the **merged** archive
+([[pst-mailbox-hrsd-merged]]) — 4,816 deduplicated messages **2015 → 2026** (metadata/search surface; includes the
+1,635-message 2024 envelope and pre-2023 drafts back to 2015), and the **deep** archive ([[pst-archive-2023-2026]]) —
+2,167 full-body messages **2025-03 → 2026-03** (the densest stretch, with the thread content). The earlier sampled
+note [[pst-mailbox-hrsd]] (2,582 sampled) is superseded as a primary surface by both. The full email-grounded
+timeline + relational map is [[ahmad-mhrsd-arc-2023-2026]]. Pre-2023 active inbox/sent remains a flagged gap (older
+MOSA/MLSD archives not yet located).
 
 ## Retrieval rules
 

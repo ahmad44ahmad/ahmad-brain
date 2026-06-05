@@ -6,7 +6,6 @@ status: active
 aliases: ["علي عوض عوض القرني", "علي القرني", "Ali A. Alqarni", "أبو خالد"]
 tags: [person, hrsd, al-baha-center, former-manager, 2025-achievements-endorser]
 created: 2026-04-22
-updated: 2026-04-25
 updated: 2026-06-05
 source: pst-analysis:2026-04-21, sent-mbox:2026-04-24, voice-msg:2026-04-22
 related:
@@ -22,6 +21,8 @@ related:
   - "[[alqarni-leadership-thesis]]"
   - "[[ahmad-2025-achievements]]"
   - "[[hrsd-pms]]"
+  - "[[absence-deduction-dispute]]"
+  - "[[ahmad-mhrsd-arc-2023-2026]]"
 summary: >-
   Ahmad's direct manager at Al-Baha Comprehensive Rehab Center during
   2024–early 2026. Endorsed 10 of Ahmad's 2025 performance achievements
@@ -101,6 +102,7 @@ Ahmad's explicit instruction (2026-04-22): Al-Qarni's name should **not** appear
 - **Exchange identity confirmed** via full PST scan 2026-04-21: `Ali A. Alqarni` with 48 direct messages from him to Ahmad (earliest 2025-03-02).
 - **Functional role signal:** runs *"الرصد الأسبوعي للإحصائيات والمنجزات"* (Weekly statistics + achievements monitoring) forwarding → implies center / quality-admin director scope, not just approval authority.
 - **Correspondence topics with Ahmad:** KPIs, schedules, regional meetings, isolation-room staff (infection control), performance appraisals, position-data forms, Red Crescent emergency-readiness workshops.
+- **Attendance/grievance routing (2025-06 → 2026-02), from the deep email archive:** as manager he is in the loop on, and forwards to Ahmad, the attendance-explanation demands and the absence-deduction chain — see [[absence-deduction-dispute]]. Also handled the property-deed (صك #350) settlement thread (2025-10-09) and the year-end quality-section minutes on vexatious complaints (2025-12-28). **Private context — never surface**, consistent with the do-NOT-name rules above.
 
 ### Reference in Ahmad's files
 
