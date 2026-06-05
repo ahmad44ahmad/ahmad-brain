@@ -21,8 +21,9 @@ valid_from: 2026-04-25
 learned_at: 2026-04-25
 confidence: high
 open: >-
-  NOW — a plaintext HRSD password reused across ~7 services was found in this audit
-  (JSONL #57). Rotate it everywhere + purge it from Drive. Security incident; do-not-vault.
+  NOW [Ahmad's action] — the reused plaintext HRSD password (JSONL #57, ~7 services) was PURGED
+  from this vault note 2026-06-05; the live remediation remains: rotate the password on all 7
+  services + delete it from the Google Drive source (the only remaining plaintext copy). Security incident.
 source: synthesis:vault-frontmatter-scan + drive-folders-gemini.jsonl + 999HRSD-all-mcp-enum
 related:
   - "[[drive-catalog]]"
@@ -291,7 +292,7 @@ These exist as Drive content but **must not** become vault notes. Documenting he
 | **JSONL #27, #28** | 2013 sports league archive. Sediment. |
 | **JSONL #32** | BYD car purchase 2025. Personal financial. |
 | **JSONL #38** | Winter clothing invoice mechanics. Operational sediment. |
-| **JSONL #57** | ⚠️ **Plaintext credentials.** Contains Ahmad's HRSD email password used uniformly across 7 services (`@\#As100020003000`). **Security incident.** Action item — rotate password + purge from Drive. **Do NOT vault.** |
+| **JSONL #57** | ⚠️ **Plaintext credentials.** Contains Ahmad's HRSD email password used uniformly across 7 services (**[credential REDACTED + purged from the vault 2026-06-05]** — the live remediation is tracked in this note's `open:` field). **Security incident.** Action item — rotate password + purge from Drive. **Do NOT vault.** |
 | **JSONL #58** | Unrelated criminal case (Ghamdi drug-dealing defendants). Why is this in Ahmad's Drive? Open question — possibly misfiled. Do NOT vault. |
 | **JSONL #59 (small variant)** | Subset of #61, redundant. |
 | **JSONL #63** | Two unread PDFs (transaction #428539). Personal financial. |
