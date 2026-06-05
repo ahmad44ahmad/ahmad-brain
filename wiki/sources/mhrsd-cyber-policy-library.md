@@ -21,6 +21,9 @@ tags:
 created: 2026-06-05
 updated: 2026-06-05
 source: local-fs:C:\Users\aass1\Desktop\Cyber-Policy-Harvest\
+open: >-
+  WAITING — (1) rotate the leaked GitHub credentials + run the PDPL/NCA breach assessment
+  via GRC; (2) confirm this is MHRSD's live production ISMS (not a template) before citing it.
 summary: >-
   MHRSD's own 63-document ISMS policy library (DT-IS-POL/FRM codes; NCA-ECC-2:2024,
   CSCC-1:2019, CCC-1:2020, PDPL/SDAIA, ISO-27001 aligned), harvested 2026-06-05.

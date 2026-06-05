@@ -52,6 +52,8 @@ source: drive:<fileId> | url:<...> | voice:<ts> | session:<id>
 valid_from: YYYY-MM-DD                # bi-temporal — fact's real-world start
 learned_at: YYYY-MM-DD                # bi-temporal — when vault learned it
 confidence: high | medium | low
+open: >-                              # OPTIONAL. a live action this evergreen note carries (prefix NOW|NEXT|WAITING);
+  NOW — <one action>.                 #   orthogonal to status; projected into index/open-questions.md §Open-threads.
 # Decisions only:
 supersedes: <id>
 superseded-by: <id>
@@ -85,6 +87,13 @@ No `00-Inbox`, no PARA-style numeric folders, no `90-Meta`. The 2-level cap is e
 - **A decision is made** → new ADR `decisions/NNNN-<slug>.md`. Never edit prior ADRs.
 - **Session-level work happens** → append to today's `log/YYYY-MM-DD.md`. One file per active day.
 - **An index needs refresh** → regenerate `index/*.md` from current wiki frontmatter; do not edit indexes by hand.
+
+## Navigation hubs (MOCs) + open threads
+
+Two retrieval surfaces beyond the auto-`type:` indexes (added 2026-06-05 to fix clustered + actionable queries — the auto-indexes project only by `type:`, so cluster-membership and "what's open" were structurally invisible):
+
+- **Navigation hub (MOC) for a dense cluster** → a `type: synthesis` note in `wiki/synthesis/` carrying `tags: [moc, navigation]` (grep key: `grep -rl "moc" wiki/synthesis`). **Navigation only** — `related:` edges to every cluster member + a short read-order; **no new facts** (those live in the member notes). `type: moc` is **RESERVED** for the auto-generated `index/*.md` — never use it for a hand-hub. Build a hub only at the **squeeze point** (a cluster too big for one depth-2 `related:` sweep, ~15+ notes); do NOT pre-build hubs for small clusters or auto-list the hubs (that is over-indexing). Existing hubs: `grievances-and-employment-disputes`, `nomination-portfolio`, `safety-risk-portfolio`, `basira-evidence-stack`, `mhrsd-kpi-landscape-2024-2026`, `basira-v4-rebuild`.
+- **Open thread (a live action a finished note carries)** → add the optional `open: >-` field (prefix `NOW` / `NEXT` / `WAITING`). `generate.py` projects every note with a non-empty `open:` into `index/open-questions.md` §Open-threads — so "what's open / what's next" is one grep. **Scope guardrail (load-bearing):** `open:` attaches ONLY to a note that already earns its place as evergreen knowledge (an open decision, an unresolved question, a blocked-on-external dependency). It is **NOT a task tracker** — operational/session tasks live in `MEMORY.md` + session logs. Resolve it → delete the `open:` field; `reconcile` flags an `open:` note untouched >30 days as "resolve or refresh."
 
 ## Retrieval patterns (when Ahmad asks a question)
 

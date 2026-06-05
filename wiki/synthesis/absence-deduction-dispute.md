@@ -22,6 +22,9 @@ updated: 2026-06-05
 valid_from: 2025-06-01
 learned_at: 2026-06-05
 confidence: high
+open: >-
+  NOW — submit the ready-to-paste Khadamati complaint INC0658186 (reverse ~14 deducted
+  days / ~12,000 SAR). The text is drafted; the only remaining step is to submit it.
 summary: >-
   Grievance B (distinct from the overtime case): the biometric attendance
   system flagged ~34 absence-days (Jun-2025→Jan-2026), ~14 deducted (~12k SAR);

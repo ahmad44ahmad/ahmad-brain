@@ -20,6 +20,9 @@ updated: 2026-04-25
 valid_from: 2026-04-25
 learned_at: 2026-04-25
 confidence: high
+open: >-
+  NOW — a plaintext HRSD password reused across ~7 services was found in this audit
+  (JSONL #57). Rotate it everywhere + purge it from Drive. Security incident; do-not-vault.
 source: synthesis:vault-frontmatter-scan + drive-folders-gemini.jsonl + 999HRSD-all-mcp-enum
 related:
   - "[[drive-catalog]]"

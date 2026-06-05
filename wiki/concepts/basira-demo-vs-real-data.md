@@ -16,6 +16,9 @@ tags:
 created: 2026-06-04
 updated: 2026-06-04
 source: local-fs:C:\Users\aass1\Desktop\Basira-REBUILD\03-GAPS-AND-DATA-ASK.md
+open: >-
+  NEXT — lock the live Supabase exposure: the 139 real beneficiaries are anon-readable
+  (RLS off + GRANT anon). Turn RLS on + revoke anon during the V4 ETL; it is a live PDPL breach.
 summary: >-
   Where Basira's real data actually lives versus what the app ships. ONE real
   ~145-147-person roster sits on a single Supabase project (V1 and V2 both wrote
