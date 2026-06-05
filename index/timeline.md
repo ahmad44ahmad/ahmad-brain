@@ -7,16 +7,17 @@ tags: [index, auto-generated, timeline]
 created: 2026-04-24
 updated: 2026-06-05
 summary: >-
-  Reverse-chronological feed of ADRs and session logs. 10 entries.
+  Reverse-chronological feed of ADRs and session logs. 11 entries.
 ---
 
 # Timeline
 
-10 dated entries. Most recent first.
+11 dated entries. Most recent first.
 
 | date | type | id | title |
 |---|---|---|---|
 
+| 2026-06-05 | log | [[log-2026-06-05]] | Session 2026-06-05 — PST email archive folded into the vault |
 | 2026-06-05 | decision | [[0004-hrsd-design-system-canonical-home]] | ADR 0004: Canonical home for the verified HRSD design system |
 | 2026-06-04 | decision | [[0003-basira-v4-architecture]] | ADR-0003 — Basira V4 Architecture & Build Decisions |
 | 2026-05-10 | log | [[log-2026-05-10]] | Session log — 2026-05-10 — Basira comprehensive guide + visual user manual |

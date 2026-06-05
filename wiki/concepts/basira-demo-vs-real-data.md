@@ -26,6 +26,7 @@ summary: >-
   before any merge, and the real roster is currently anon-readable (a live PDPL risk).
 related:
   - "[[basira-v4-rebuild]]"
+  - "[[mhrsd-cyber-policy-library]]"
   - "[[basira-rebuild-kb]]"
   - "[[mhrsd-kpi-landscape-2024-2026]]"
 ---

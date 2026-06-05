@@ -26,6 +26,7 @@ source: drive-folder-jsonl:#33
 related:
   - "[[ismail-alghamdi]]"
   - "[[mhrsd-leadership]]"
+  - "[[mhrsd-cyber-policy-library]]"
   - "[[hrsd-work]]"
   - "[[mhrsd-dev-sector-esystems]]"
   - "[[basira]]"

@@ -8,12 +8,12 @@ created: 2026-04-24
 updated: 2026-06-05
 summary: >-
   Auto-generated index. Regenerate via `.claude/skills/regenerate-indexes/generate.py`.
-  Count: 37 entries.
+  Count: 40 entries.
 ---
 
 # Sources Index
 
-Auto-generated 2026-06-05. 37 entries. Regenerate with `/regenerate-indexes` skill.
+Auto-generated 2026-06-05. 40 entries. Regenerate with `/regenerate-indexes` skill.
 
 
 | id | title | source | summary |
@@ -27,6 +27,7 @@ Auto-generated 2026-06-05. 37 entries. Regenerate with `/regenerate-indexes` ski
 | [[al-baha-ic-archive]] | Al-Baha Center IC Archive — Infection-Control Program, Poli… | drive-folder-jsonl:#4 | English distillation of the مكافحة العدوى Drive folder (275+ files, ~135 PDFs) — the integrated infection-control progr… |
 | [[al-baha-quality-project-2024]] | Al-Baha Quality Project 2024 — Evidence Stack + Escalation … | drive-folder-jsonl:#2+#46, gemini-summary:2026-04-24 | English distillation of Ahmad's self-compiled evidence dossier covering the Al-Baha Quality Department's 2024 work — QM… |
 | [[alqarni-leadership-thesis]] | Al-Qarni Leadership Thesis Folder — Ahmad-Authored Strategi… | drive-folder-jsonl:#37 | Drive folder named «علي القرني» (~80 files, 60 reviewed) — Ahmad-authored strategic dossier prepared FOR Ali Al-Qarni a… |
+| [[basira-capability-domain-catalog]] | Basira Empowerment Redesign — Capability-Domain Catalog, Cl… | local:C:\Users\aass1\Desktop\empowerment-redesign\ | The operational/clinical layer the empowerment-strategy vault notes lacked. Captures the 11-domain capability taxonomy … |
 | [[basira-rebuild-kb]] | Basira V4 Rebuild Knowledge Base (Desktop) — the pull-don't… | local-fs:C:\Users\aass1\Desktop\Basira-REBUILD\ | The single citable pointer from the vault to the Basira V4 rebuild knowledge base on Ahmad's Desktop — a 4-doc synthesi… |
 | [[beneficiary-rights-document]] | Beneficiary Rights Document — Rights / Duties / Anti-Abuse … | drive-folder-jsonl:#55 | 6-file Drive folder documenting two ministerial circulars: #35746 (1441 H — beneficiary rights + family duties document… |
 | [[community-integration-project]] | Community Integration Project — وكالة التأهيل's De-institut… | drive-folder-jsonl:#44 | 18-file Drive folder documenting وكالة التأهيل's strategic Community Integration Project — moving PWDs from residential… |
@@ -44,6 +45,8 @@ Auto-generated 2026-06-05. 37 entries. Regenerate with `/regenerate-indexes` ski
 | [[mhrsd-2025-social-operational-plan-albaha]] | Al-Baha 2025 Social-Services Operational Plan — Personnel +… | drive:13_hFiUPQHuU20-0hj1Zbo0rtFBJ5DLoteGEzbSDlH2M | Al-Baha center's 2025 operational plan deck. Three high-value extractions: the historical (Al-Qarni-era) org chart pred… |
 | [[mhrsd-2026-kpi-health-social-homes]] | MHRSD 2026 Health KPIs for Social Homes (الدور الاجتماعية) | drive:1uNkJBYHyQ9rsa5phfX4WjQldjOhDyYxyAg76eN1bK2M | 2026 health-performance KPI instrument scoped to MHRSD social-care homes (الدور الاجتماعية), a different facility class… |
 | [[mhrsd-contractor-performance-scorecard]] | MHRSD Contractor Performance Scorecard — Vendor SLA for Out… | drive:1q0Vf9fR1JjnO9Pa57PtaoXMscsQkNQ8m | The "fourth track" turns out to be a contractor SLA scorecard, not internal KPIs. 1000-point per-month evaluation of th… |
+| [[mhrsd-cyber-policy-library]] | MHRSD Cybersecurity Policy Library (63-doc ISMS) — NCA-ECC … | local-fs:C:\Users\aass1\Desktop\Cyber-Policy-Harvest\ | MHRSD's own 63-document ISMS policy library (DT-IS-POL/FRM codes; NCA-ECC-2:2024, CSCC-1:2019, CCC-1:2020, PDPL/SDAIA, … |
+| [[mhrsd-rehab-center-forms]] | MHRSD Comprehensive-Rehab-Center Paper Forms — Field-Faithf… | local:C:\Users\aass1\Desktop\Medical-Forms-Harvest\ | Field-faithful extraction of all 61 official MHRSD comprehensive-rehab-center paper forms from 6 department modeling/po… |
 | [[mhrsd-risk-excellence-policies-2025]] | MHRSD April 2025 Risk + Excellence + Innovation Policy Bund… | drive-folder-jsonl:#33 | Drive folder of 30 files documenting MHRSD's April 2025 risk + governance + innovation policy bundle (issued by الإدارة… |
 | [[mhrsd-supervisory-visit-instruments]] | MHRSD Supervisory-Visit Instruments — وكالة تجربة المستفيد … | drive-folder-jsonl:#51 | Drive folder of 13 official MHRSD evaluation instruments — the standardised forms used by وكالة تجربة المستفيد + الإدار… |
 | [[pst-archive-2023-2026]] | PST Email Archive 2023–2026 — Full-Body Thematic Extract (t… | local:C:\Users\aass1\Desktop\PST-Email-Archive\ | Full-body extract + 9-cluster thematic harvest + 11-thread synthesis of a 2,167-email PST (PST-C working backup), 2026-… |

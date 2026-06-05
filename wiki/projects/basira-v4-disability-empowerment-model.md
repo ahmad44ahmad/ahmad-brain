@@ -23,6 +23,7 @@ related:
   - "[[empowerment-thesis-corpus]]"
   - "[[999-disability-care-empowerment-strategy]]"
   - "[[beneficiary-rights-document]]"
+  - "[[basira-capability-domain-catalog]]"
 source: session:s85-basira-v4-gather
 ---
 

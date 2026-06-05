@@ -27,6 +27,9 @@ related:
   - "[[hrsd-work]]"
   - "[[ahmad-career-arc]]"
   - "[[ahmad-mhrsd-arc-2023-2026]]"
+  - "[[absence-deduction-dispute]]"
+  - "[[overtime-grievance-case]]"
+  - "[[grievances-and-employment-disputes]]"
 summary: >-
   MHRSD's official annual employee performance-appraisal system (latest version),
   run on نظام موارد. A 3-pillar charter — objectives, behavioural competencies,
