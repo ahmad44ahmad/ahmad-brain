@@ -9,11 +9,13 @@ created: 2026-06-05
 updated: 2026-06-05
 summary: >-
   The verified, page-cited extraction of MHRSD's 132-page brand book into a reusable design system at
-  C:\dev\hrsd-design-system. Canonical home for colour, type, logo, icons, patterns, sonic and a
-  VERIFICATION-LEDGER that separates brand-book canon from derived product tokens.
+  C:\dev\hrsd-design-system. Canonical home for the strategic foundation/voice, colour, type, logo,
+  icons, patterns, sonic and a VERIFICATION-LEDGER that separates brand-book canon from derived product tokens.
 related:
   - "[[0004-hrsd-design-system-canonical-home]]"
   - "[[0001-vault-architecture]]"
+  - "[[basira-v4-rebuild]]"
+  - "[[hrsd-work]]"
 source: session:517d5e0a-32d8-47b2-97b1-ef3caec73170
 confidence: high
 ---
@@ -44,6 +46,19 @@ as images, because a hex value, a filled-vs-outline icon, or a layout cannot be 
 The page-cite convention: the printed footer page = PDF index − 2 (TOC-verified).
 
 This discipline caught real errors a text pass had missed (see "What the visual pass corrected").
+
+## Strategic foundation & voice (the identity behind the visuals, p.1 / p.3)
+
+The brand book opens with the ministry's "who we are" front matter — the **strategy** the visual system
+serves (verified visually from p.1 / p.3; `docs/01-strategic-foundation-and-voice.md`):
+
+- **Vision (الرؤية):** «مجتمع حيوي ممكّن، وبيئة عمل متميزة نحو سوق عمل جاذب» — *"A dynamic and enabled society, and an exception[sic] work environment towards an attractive labor market."* (the book prints "exception"; intended *exceptional* — preserved verbatim).
+- **Mission (الرسالة):** empower the individual / society / institutions, instil social responsibility, raise labour-market efficiency through policy + legislation, and enable ministry employees to deliver a distinctive beneficiary experience.
+- **Values (قيمنا):** التركيز على المستفيدين (Customer centricity) · المسؤولية المجتمعية (Social responsibility) · المشاركة · التعاون (Cooperation) · التميز (Excellence). ⚠️ **Book-internal mismatch — do NOT harmonise:** the Arabic value **المشاركة (Participation)** is printed in English as **"Inclusion."** Quote whichever language you publish in.
+- **Strategic axes (المحاور):** سوق عمل واحد (One Labor Market) · حياة كريمة للجميع (Decent Living For All) · اقتصاد عالي الإنتاجية (High Productivity Economy) · التميز المؤسسي المستدام (Sustainable Corporate Excellence — book prints "Sustalnable … Excence"[sic]).
+- **Identity-inspiration concepts (p.3):** تمكين (Empowerment) · مستقبل (The future) · قوة (Strength) · مرونة (Flexibility) — the four abstract concepts the **pattern system + characters** are built from (one shared brand-concept vocabulary).
+- **Colour-personality (p.3, distinct from the Values):** each palette colour carries a psychological meaning — Teal = تميز/Excellence · Yellow = حيوي/Dynamic · Orange = ممكّن/Enabled · Cool-Gray = متعاون/Cooperative · Blue = مسؤول/Responsible · Green = مجتمع/Society. This explains *why each colour was chosen* — a six-item set distinct from the five Values; never substitute one for the other.
+- **No voice / tone-of-voice chapter (load-bearing).** The brand book governs **visual identity only** — it has no verbal-identity, tone-of-voice, messaging, or content section. Any tone-of-voice or microcopy rule applied to an HRSD/Basira deliverable is a **product addition** that must be tagged `[DERIVED]`, never cited to the brand book (the prior "4.8" build's "content fundamentals" section was invented).
 
 ## Core verified facts
 
