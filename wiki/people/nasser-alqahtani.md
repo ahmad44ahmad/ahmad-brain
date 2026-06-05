@@ -62,3 +62,33 @@ On any Basira referral letter, Al-Qahtani is:
 - Arabic source preserved: `raw/drive/people/nasser-alqahtani-ar.md`.
 - Voice message, 2026-04-23, correcting the MHRSD leadership map.
 - Supersedes any earlier memory claiming Al-Wuhaibi is current — Al-Wuhaibi is **former**.
+
+## ⚠️ Verification status — 2026-05-10
+
+The official MHRSD ministry-leaders page
+(`hrsd.gov.sa/ministry/about-ministry/organizational-chart/ministry-leaders`,
+last modified 2026-05-07) lists **17 named leaders + Minister** but does
+**not** include "وكيل التَأهيل والتَوجيه الاجتماعي" among them. The agency
+itself **does** appear in the formal MHRSD organizational chart as one of
+three agencies under نائب الوزير لقطاع التنمية الاجتماعية (Badr Alsuwailem),
+with two assistant-agencies underneath (الأسرة والتَوجيه الاجتماعي,
+التَأهيل الاجتماعي).
+
+Two scenarios:
+1. **Position vacant / between appointments.** Likely if there has been
+   organizational churn since 2026-04-23 (when Ahmad confirmed Al-Qahtani
+   was current).
+2. **Position filled but not yet published on the public org-chart page.**
+   The page is dynamically rendered ("Loading…" placeholders are visible
+   for several positions even on direct fetch).
+
+**Until verified:** Treat Al-Qahtani as the **most recent confirmed**
+holder, not the **definite current** holder. Any Basira correspondence
+should:
+- Address the agency, not the person, when copying for formal record.
+- If addressing the person directly, verify by phone or current MHRSD
+  letterhead first.
+
+**Order correction (2026-05-10):** Agency name is "التَأهيل والتَوجيه
+الاجتماعي" (تأهيل first, then توجيه), confirmed from the official org chart
+screenshot. Do not write "التَوجيه والتَأهيل" (reversed order).
