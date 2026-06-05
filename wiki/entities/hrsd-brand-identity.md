@@ -1,4 +1,34 @@
+---
+id: hrsd-brand-identity
+title: "HRSD Brand Identity — 2026-04-30 summary (superseded)"
+type: entity
+status: superseded
+aliases:
+  - hrsd-brand
+  - ministry-brand-identity-summary
+tags:
+  - hrsd
+  - brand-identity
+  - design-system
+  - superseded
+created: 2026-04-30
+updated: 2026-06-05
+summary: >-
+  The 2026-04-30 prose summary of MHRSD's brand identity — the first vault
+  capture from the 132-page guideline PDF. SUPERSEDED by the verified, page-cited
+  [[hrsd-design-system]] (2026-06-05) + ADR-0004. Kept for history; this older
+  page carries some pre-verification values (4×45pt icon grid since corrected to
+  4×4/5pt; F7931D/FCB613 hexes vs the brand-book F7941D/FCB614). Cite hrsd-design-system.
+related:
+  - "[[hrsd-design-system]]"
+  - "[[hrsd-brand-identity-skill]]"
+  - "[[basira]]"
+  - "[[mhrsd-leadership]]"
+---
+
 # HRSD brand identity
+
+> ⚠️ **Superseded (2026-06-05) by the verified [[hrsd-design-system]]** (+ ADR-0004 `0004-hrsd-design-system-canonical-home`). This 2026-04-30 prose summary was the first vault capture from the 132-page guideline; the page-cited `hrsd-design-system` is now canonical. Two known pre-verification drifts on this page: the icon grid here reads **"4×45pt"** but the visual re-extraction corrected it to **4×4 grid / 5pt stroke**; and the hexes here (`#F7931D`/`#FCB613`, from the template XML) differ from the brand-book values (`#F7941D`/`#FCB614`) the verified note carries. Cite [[hrsd-design-system]] for current values; this is kept for history.
 
 The Ministry of Human Resources and Social Development (وزارة الموارد البشرية والتنمية الاجتماعية, "HRSD") publishes a 132-page brand guideline ("HRSD Brand Guidelines", v1.0, designed in InDesign in September 2024). The PDF lives at `C:\Users\aass1\Desktop\HRSD guideline -employee.pdf`. This entry is the LLM-consumable summary; the canonical detail-level reference for an LLM working on Ahmad's machine is `~/.claude/projects/C--Users-aass1/memory/reference_hrsd_brand_identity.md`. When the two disagree, the memory file wins because it stays in sync with the PDF.
 

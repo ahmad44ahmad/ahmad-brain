@@ -4,7 +4,6 @@ title: HRSD Brand-Identity Skill — Claude Code PowerPoint Generator
 type: project
 status: active
 aliases:
-  - hrsd-brand-identity
   - HRSD Skill
   - مهارة قوالب الوزارة
 tags:
@@ -16,7 +15,7 @@ tags:
   - rtl
   - arabic
 created: 2026-05-08
-updated: 2026-05-08
+updated: 2026-06-05
 source: local-skill:~/.claude/skills/hrsd-brand-identity/
 related:
   - "[[basira]]"

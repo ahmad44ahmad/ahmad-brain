@@ -7,12 +7,12 @@ tags: [index, auto-generated, timeline]
 created: 2026-04-24
 updated: 2026-06-05
 summary: >-
-  Reverse-chronological feed of ADRs and session logs. 9 entries.
+  Reverse-chronological feed of ADRs and session logs. 10 entries.
 ---
 
 # Timeline
 
-9 dated entries. Most recent first.
+10 dated entries. Most recent first.
 
 | date | type | id | title |
 |---|---|---|---|
@@ -21,6 +21,7 @@ summary: >-
 | 2026-06-04 | decision | [[0003-basira-v4-architecture]] | ADR-0003 — Basira V4 Architecture & Build Decisions |
 | 2026-05-10 | log | [[log-2026-05-10]] | Session log — 2026-05-10 — Basira comprehensive guide + visual user manual |
 | 2026-05-06 | log | [[log-2026-05-06]] | Session log — 2026-05-06 |
+| 2026-04-30 | log | [[log-2026-04-30]] | Log 2026-04-30 — HRSD brand identity ingested |
 | 2026-04-28 | log | [[log-2026-04-28]] | Session Log — 2026-04-28 |
 | 2026-04-25 | log | [[log-2026-04-25]] | Session Log — 2026-04-25 |
 | 2026-04-24 | log | [[log-2026-04-24]] | Session Log — 2026-04-24 |
