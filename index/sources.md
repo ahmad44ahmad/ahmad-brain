@@ -8,12 +8,12 @@ created: 2026-04-24
 updated: 2026-06-05
 summary: >-
   Auto-generated index. Regenerate via `.claude/skills/regenerate-indexes/generate.py`.
-  Count: 36 entries.
+  Count: 37 entries.
 ---
 
 # Sources Index
 
-Auto-generated 2026-06-05. 36 entries. Regenerate with `/regenerate-indexes` skill.
+Auto-generated 2026-06-05. 37 entries. Regenerate with `/regenerate-indexes` skill.
 
 
 | id | title | source | summary |
@@ -46,6 +46,7 @@ Auto-generated 2026-06-05. 36 entries. Regenerate with `/regenerate-indexes` ski
 | [[mhrsd-contractor-performance-scorecard]] | MHRSD Contractor Performance Scorecard — Vendor SLA for Out… | drive:1q0Vf9fR1JjnO9Pa57PtaoXMscsQkNQ8m | The "fourth track" turns out to be a contractor SLA scorecard, not internal KPIs. 1000-point per-month evaluation of th… |
 | [[mhrsd-risk-excellence-policies-2025]] | MHRSD April 2025 Risk + Excellence + Innovation Policy Bund… | drive-folder-jsonl:#33 | Drive folder of 30 files documenting MHRSD's April 2025 risk + governance + innovation policy bundle (issued by الإدارة… |
 | [[mhrsd-supervisory-visit-instruments]] | MHRSD Supervisory-Visit Instruments — وكالة تجربة المستفيد … | drive-folder-jsonl:#51 | Drive folder of 13 official MHRSD evaluation instruments — the standardised forms used by وكالة تجربة المستفيد + الإدار… |
+| [[pst-archive-2023-2026]] | PST Email Archive 2023–2026 — Full-Body Thematic Extract (t… | local:C:\Users\aass1\Desktop\PST-Email-Archive\ | Full-body extract + 9-cluster thematic harvest + 11-thread synthesis of a 2,167-email PST (PST-C working backup), 2026-… |
 | [[pst-mailbox-hrsd]] | PST Mailbox Analysis — Ahmad's HRSD Work Email (2023-2026) | drive:1z_cj5HVKhrZu4encg2esfLlBZ7koA8qWOPfozxk_lK8 | 2.2 GB PST of Ahmad's HRSD Outlook mailbox covering 2025-03 → 2026-03 (inbox/sent) with deleted items reaching back to … |
 | [[pst-mailbox-hrsd-merged]] | PST Mailbox — Merged Archive (primary search surface, 2015-… | merged:D:\pst-archive\ + D:\pst-archive-a\ | Unified FTS5 search surface across ALL four locally-extractable HRSD PST snapshots. 4,816 deduplicated messages spannin… |
 | [[pst-mailbox-hrsd-snapshot-a]] | PST Mailbox Snapshot A — 2025-06-15 (covers 2023-11 → 2025-… | local:D:\My_Files\01_Documents\999 15 6 2025\backup.pst | Second PST archive of Ahmad's HRSD mailbox, extracted 2026-04-24 from a 2025-06-15 Outlook snapshot. 3,659 messages acr… |
