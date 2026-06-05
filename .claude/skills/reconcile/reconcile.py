@@ -7,6 +7,8 @@ Deterministic checks for semantic drift:
   3. ID / alias collisions — no alias shadows a different note's id or alias.
   4. Stale drafts — status: draft + older than STALE_DRAFT_DAYS.
   5. Duplicate tags within a single note.
+  6. Stale open threads — a non-empty `open:` field on a note untouched > STALE_OPEN_DAYS
+     (the live action is likely resolved or needs a refresh — keeps the open-items surface honest).
 
 Exit 0 clean, 1 if any findings.
 """
@@ -23,6 +25,7 @@ ROOTS = [VAULT / "wiki", VAULT / "decisions", VAULT / "log"]
 ROOT_FILES = [VAULT / "_CLAUDE.md"]
 
 STALE_DRAFT_DAYS = 14
+STALE_OPEN_DAYS = 30
 TODAY = date.today()
 
 LINK_FIELDS = ("related", "amends", "supersedes", "superseded-by")
@@ -98,6 +101,25 @@ def parse_date(s: str | None) -> date | None:
         return None
 
 
+def has_open_field(raw_fm: str) -> bool:
+    """True if the note carries a non-empty `open:` action field (inline or folded `>-` block)."""
+    lines = raw_fm.split("\n")
+    for i, line in enumerate(lines):
+        m = re.match(r"^open\s*:\s*(.*?)\s*$", line)
+        if not m:
+            continue
+        inline = m.group(1).strip()
+        if inline and inline not in (">-", ">", "|", "|-"):
+            return True  # inline content, e.g. `open: NOW submit X`
+        for nxt in lines[i + 1:]:  # folded/literal block — look for an indented content line
+            if re.match(r"^[a-zA-Z_][\w-]*\s*:", nxt):
+                break
+            if nxt.strip():
+                return True
+        return False
+    return False
+
+
 def main() -> int:
     notes: list[tuple[Path, str]] = []
     for root in ROOTS:
@@ -127,6 +149,7 @@ def main() -> int:
     supersede_issues: list[tuple[Path, str]] = []
     alias_collisions: list[tuple[Path, str]] = []
     stale_drafts: list[tuple[Path, int]] = []
+    stale_open: list[tuple[Path, int]] = []
     duplicate_tags: list[tuple[Path, list[str]]] = []
 
     # Alias/id map — who owns each "name token"?
@@ -210,6 +233,12 @@ def main() -> int:
             if age > STALE_DRAFT_DAYS:
                 stale_drafts.append((p, age))
 
+        # 4b. Stale open threads — a live `open:` action on a note untouched > STALE_OPEN_DAYS
+        if has_open_field(fm) and updated:
+            age = (TODAY - updated).days
+            if age > STALE_OPEN_DAYS:
+                stale_open.append((p, age))
+
         # 5. Duplicate tags within a note
         tags = parse_list_field(fm, "tags")
         seen_tags: dict[str, int] = defaultdict(int)
@@ -251,6 +280,10 @@ def main() -> int:
     for p, age in stale_drafts:
         print(f"  - {p.relative_to(VAULT)} :: {age} days since updated")
 
+    section("stale open threads", len(stale_open))
+    for p, age in stale_open:
+        print(f"  - {p.relative_to(VAULT)} :: open: field, {age} days since updated — resolve or refresh")
+
     section("duplicate tags", len(duplicate_tags))
     for p, dupes in duplicate_tags:
         print(f"  - {p.relative_to(VAULT)} :: duplicates: {dupes}")
@@ -262,6 +295,7 @@ def main() -> int:
         + len(supersede_issues)
         + collision_unique
         + len(stale_drafts)
+        + len(stale_open)
         + len(duplicate_tags)
     )
     print(f"TOTAL FINDINGS: {real_total}")

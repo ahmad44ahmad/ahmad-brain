@@ -16,7 +16,7 @@ tags:
   - vault-rules
   - meta
 created: 2026-04-25
-updated: 2026-04-25
+updated: 2026-06-05
 valid_from: 2026-04-25
 learned_at: 2026-04-25
 confidence: high
