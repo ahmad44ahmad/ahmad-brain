@@ -13,3 +13,7 @@ Thumbs.db
 /Untitled*.base
 /Untitled.md
 /*.canvas
+# Obsidian graph-view UI state — churns scale/zoom every session; owner never opens Obsidian (ADR-0001)
+.obsidian/graph.json
+# stray root index-generator misfire (the real synthesis index is index/synthesis.md)
+/index-synthesis.md
