@@ -6,7 +6,7 @@ status: active
 aliases: [formal-assignments, التكليفات الرسمية, ahmad-scope]
 tags: [career, formal-assignments, hrsd, scope, cross-cutting]
 created: 2026-04-24
-updated: 2026-04-25
+updated: 2026-06-05
 source: voice-msg:2026-04-24
 related:
   - "[[mhrsd-era-timeline]]"
@@ -14,6 +14,8 @@ related:
   - "[[sent-mbox-hrsd]]"
   - "[[overtime-grievance-case]]"
   - "[[aman-mustadam-initiative]]"
+  - "[[ahmad-2025-achievements]]"
+  - "[[hrsd-pms]]"
 summary: >-
   Six formal cross-cutting assignments Ahmad has held inside MHRSD,
   beyond his credential title (PT specialist). Each has PST/sent-mbox
@@ -69,7 +71,7 @@ Per [[sent-mbox-hrsd]] (51 unique sent messages, 2025-03 → 2026-02):
 
 - [ ] Exact date range per assignment (when started, when ended if applicable).
 - [ ] Official appointment-letter scans (خطابات تكليف / قرارات) — search Drive with that query.
-- [ ] Output/deliverables per assignment — the "10 approved achievements" (Al-Qarni endorsement 2025-11-25) ties to these and should be a separate note at [[ahmad-2025-achievements]] (not yet created; pending migration from memory).
+- Output/deliverables per assignment — the **10 approved achievements** (Al-Qarni endorsement 2025-11-25) tie to these; catalogued at [[ahmad-2025-achievements]] (with the per-item PMS approval detail) and scored via the appraisal system [[hrsd-pms]].
 
 ## Provenance
 

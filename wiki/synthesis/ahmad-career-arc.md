@@ -14,7 +14,7 @@ tags:
   - narrative
   - framing
 created: 2026-04-24
-updated: 2026-04-24
+updated: 2026-06-05
 related:
   - "[[ahmad-formal-assignments]]"
   - "[[ahmad-2025-achievements]]"
@@ -24,6 +24,7 @@ related:
   - "[[sent-mbox-hrsd]]"
   - "[[ahmad-engineering-substrate]]"
   - "[[al-baha-ic-archive]]"
+  - "[[hrsd-pms]]"
 summary: >-
   A single ~14-year career arc inside MHRSD (2011+), not multiple competing
   identities. Credential base (PT Specialist, permanent) + role progression
@@ -68,7 +69,7 @@ All six formal cross-cutting assignments (Quality, Strategic Partnerships, CSR, 
 - **Red Crescent compliance — 5 stars** (recent, 2026-02 activity in PST).
 - **HRSD Institutional Excellence Award 2025** — winners announced 2026-02-19. Whether Ahmad / Al-Baha won: to confirm via full-scan PST.
 
-The ten 5★ 2025 achievements are enumerated separately in [[ahmad-2025-achievements]]. They span all six formal assignments and are the most concrete documentary evidence of Ahmad's actual scope in a single year.
+The ten 5★ 2025 achievements are enumerated separately in [[ahmad-2025-achievements]]. They span all six formal assignments and are the most concrete documentary evidence of Ahmad's actual scope in a single year. The formal appraisal instrument they are scored in — where the **مثالي** (top) band is reachable *only* by exceeding 100% via the Achievements register — is [[hrsd-pms]]; this is why the 2025 portfolio is load-bearing for the top-band / nomination narrative.
 
 ## ISO 9001 ministry-wide context
 

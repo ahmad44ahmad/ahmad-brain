@@ -16,7 +16,7 @@ tags:
   - quality-department
   - career
 created: 2026-04-24
-updated: 2026-04-25
+updated: 2026-06-05
 source: employment-contract+pst
 related:
   - "[[mhrsd-leadership]]"
@@ -35,6 +35,7 @@ related:
   - "[[mhrsd-2025-kpi-portfolio]]"
   - "[[ahmad-engineering-substrate]]"
   - "[[al-baha-ic-archive]]"
+  - "[[hrsd-pms]]"
 summary: >-
   Ahmad's active ministry role. Credential base أخصائي علاج طبيعي (PT Specialist,
   permanent). Current position مشرف خدمات العلاج الطبيعي بمنطقة الباحة plus head
@@ -133,6 +134,7 @@ Via the `مركز التواصل` distribution list. Sectors observed in the sam
 | [[employment-archive]] | Regulatory baseline + admin-court material + quality/digital achievements |
 | [[al-baha-center-policies]] | Al-Baha center operational manual (24 files) |
 | [[ahmad-2025-achievements]] | 10 Al-Qarni-endorsed 5-star achievements (2025-11-25) |
+| [[hrsd-pms]] | The formal MHRSD appraisal system his performance is scored in; its مثالي-via-achievements rule makes the 2025 portfolio load-bearing for the Kingdom-level nomination |
 
 ## People in Ahmad's HRSD orbit
 

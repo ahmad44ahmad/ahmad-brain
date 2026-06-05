@@ -7,6 +7,7 @@ aliases: ["علي عوض عوض القرني", "علي القرني", "Ali A. Al
 tags: [person, hrsd, al-baha-center, former-manager, 2025-achievements-endorser]
 created: 2026-04-22
 updated: 2026-04-25
+updated: 2026-06-05
 source: pst-analysis:2026-04-21, sent-mbox:2026-04-24, voice-msg:2026-04-22
 related:
   - "[[khalid-mutr]]"
@@ -19,6 +20,8 @@ related:
   - "[[empowerment-vocabulary]]"
   - "[[overtime-grievance-case]]"
   - "[[alqarni-leadership-thesis]]"
+  - "[[ahmad-2025-achievements]]"
+  - "[[hrsd-pms]]"
 summary: >-
   Ahmad's direct manager at Al-Baha Comprehensive Rehab Center during
   2024–early 2026. Endorsed 10 of Ahmad's 2025 performance achievements
@@ -57,7 +60,7 @@ Ali Al-Qarni was Ahmad's direct manager (or approval authority) at **مركز ا
 
 - Al-Qarni personally processed and approved **10 of Ahmad's 2025 performance achievements** in the MHRSD achievement system on **2025-11-25**.
 - Every one rated **"5 – أولوية عالية جداً"** (highest priority).
-- Details ties to `project_career_timeline.md` (pending migration as `[[ahmad-2025-achievements]]`).
+- Details: [[ahmad-2025-achievements]] (the ten items + the per-item PMS approval timestamps) — scored in the appraisal system [[hrsd-pms]], where Al-Qarni (emp 8479) is the approving manager. The PMS export shows nine of the ten approved in a ~38-minute window on 2025-11-25 (08:28 → 09:06).
 
 ## Critical context (2026-04-23, Ahmad explicit)
 

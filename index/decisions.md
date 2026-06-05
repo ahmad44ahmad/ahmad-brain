@@ -5,15 +5,15 @@ type: moc
 status: active
 tags: [index, auto-generated]
 created: 2026-04-24
-updated: 2026-06-04
+updated: 2026-06-05
 summary: >-
   Auto-generated index. Regenerate via `.claude/skills/regenerate-indexes/generate.py`.
-  Count: 3 entries.
+  Count: 4 entries.
 ---
 
 # Decisions Index (ADRs)
 
-Auto-generated 2026-06-04. 3 entries. Regenerate with `/regenerate-indexes` skill.
+Auto-generated 2026-06-05. 4 entries. Regenerate with `/regenerate-indexes` skill.
 
 
 | id | title | status | summary |
@@ -21,3 +21,4 @@ Auto-generated 2026-06-04. 3 entries. Regenerate with `/regenerate-indexes` skil
 | [[0001-vault-architecture]] | Vault Architecture — LLM-Only Markdown Second Brain | accepted | Canonical architecture for ahmad-brain vault. LLM-only consumer (Claude). English + markdown only. Folders: raw/ wiki/ … |
 | [[0002-language-policy-and-sources-folder]] | Language Policy Refinement + wiki/sources/ Folder | accepted | Amends ADR-0001. Softens "English only" to "English prose, Arabic allowed as data values (proper nouns, titles, aliases… |
 | [[0003-basira-v4-architecture]] | ADR-0003 — Basira V4 Architecture & Build Decisions | accepted | Basira V4 is a clean rebuild — the humane-first operational layer of the CRPD community-integration project — after V1/… |
+| [[0004-hrsd-design-system-canonical-home]] | ADR 0004: Canonical home for the verified HRSD design system | active | Establish C:\dev\hrsd-design-system as the single verified, page-cited home for MHRSD's brand identity, built by a visu… |
