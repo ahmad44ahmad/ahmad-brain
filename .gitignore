@@ -23,3 +23,14 @@ Thumbs.db
 .obsidian/graph.json
 # stray root index-generator misfire (the real synthesis index is index/synthesis.md)
 /index-synthesis.md
+
+# --- secret-safety hardening 2026-06-06 (ref: 2026-06-05 credential incident) ---
+.env
+.env.*
+*.key
+*.pem
+*.pfx
+credentials.json
+client_secret*.json
+# combined-export blob (regenerated for NotebookLM; git is the real history, don't version the blob)
+/_export/
