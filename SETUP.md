@@ -21,8 +21,8 @@ all kept current automatically.
    15-min auto-push          (read-only) for            -> gdrive-albahah:ObsidianVault
    (version history +        Claude Code / any                |
     cloud backup)            MCP AI client                    +-- whole vault (for Gemini)
-                                                              +-- _export/ahmad-brain-combined.md
-                                                                  (single file for NotebookLM)
+                                                              +-- _export/ahmad-brain-combined.md      (distilled)
+                                                              +-- _export/ahmad-brain-combined-full.md (incl. raw/)
 ```
 
 Automation scripts live **outside** the vault at `C:\dev\ahmad-brain-bridge\` so they are never
@@ -38,7 +38,7 @@ committed into the vault or synced to Drive.
 | Bridge scripts | `C:\dev\ahmad-brain-bridge\` |
 | Logs | `C:\dev\ahmad-brain-bridge\logs\` |
 | Backups (zips) | `C:\Users\aass1\backups\ahmad-brain\` |
-| Combined export (NotebookLM) | `C:\dev\ahmad-brain\_export\ahmad-brain-combined.md` (gitignored) |
+| Combined exports (NotebookLM) | `_export\ahmad-brain-combined.md` (distilled) + `_export\ahmad-brain-combined-full.md` (incl. `raw/`); both gitignored |
 | GitHub repo | `https://github.com/ahmad44ahmad/ahmad-brain` (**private**) |
 | Drive folder | `gdrive-albahah:ObsidianVault` (Google account `admin@albahah.app`) |
 
@@ -55,9 +55,9 @@ Absolute tool paths used by the scheduled scripts (so they work outside an inter
 Just edit notes. Every 15 minutes a hidden task commits and pushes any changes.
 Manual sync anytime: `powershell -File C:\dev\ahmad-brain-bridge\git-autosync.ps1`
 
-### [B] Claude Code (or any MCP AI) reading the vault — `ahmad-brain` MCP server
+### [B] Claude Code (or any MCP AI) reading the vault — `ahmad_brain` MCP server
 Registered in `~/.claude.json` (user scope). In a **new** Claude Code session, the tools
-`mcp__ahmad-brain__read_note`, `search_notes`, `list_directory`, `read_multiple_notes`,
+`mcp__ahmad_brain__read_note`, `search_notes`, `list_directory`, `read_multiple_notes`,
 `get_frontmatter`, `get_notes_info`, `get_vault_stats`, `list_all_tags` are available.
 Example: ask Claude "search my ahmad-brain vault for the Basira compass."
 
@@ -66,13 +66,17 @@ Example: ask Claude "search my ahmad-brain vault for the Basira compass."
 `permissions.deny` in `~/.claude\settings.json`. To enable writing later, remove those entries.
 
 ### [C] Gemini (browser) & NotebookLM — via Google Drive
-Hourly, the vault is mirrored to `gdrive-albahah:ObsidianVault` and a single combined Markdown
-file is regenerated.
+Hourly, the vault is mirrored to `gdrive-albahah:ObsidianVault` and TWO combined Markdown files
+are regenerated into `_export/`:
+- `ahmad-brain-combined.md` — **distilled** (English-first: wiki/decisions/index/log, ~1.2 MB).
+- `ahmad-brain-combined-full.md` — **full**, also includes `raw/` Arabic sources (~3 MB).
+
 - **Gemini in the browser:** it sees the whole vault under Drive › `ObsidianVault` (signed in as
   `admin@albahah.app`). Use "@" / Drive context to reference notes.
-- **NotebookLM:** add the source `ObsidianVault/_export/ahmad-brain-combined.md`. Easiest path is
-  *Add source → Upload* the local file `C:\dev\ahmad-brain\_export\ahmad-brain-combined.md`
-  (NotebookLM accepts Markdown). For Drive-native import (Docs/PDF only), see §7 to add a PDF.
+- **NotebookLM:** *Add source → Upload* whichever fits the notebook — the local files at
+  `C:\dev\ahmad-brain\_export\ahmad-brain-combined*.md` (NotebookLM accepts Markdown). Use the
+  distilled file for focused Q&A; the full file when you need the Arabic source material too.
+  For Drive-native import (Docs/PDF only), see §7 to add a PDF.
 
 ---
 
@@ -160,6 +164,6 @@ schtasks /Query | findstr AhmadBrain
   (`gh auth status` must be logged in). Re-run `gh auth setup-git` if needed.
 - **Drive sync failing:** check `logs\drive-sync.log`. Re-auth with `rclone config reconnect gdrive-albahah:`.
 - **MCP tools missing in Claude Code:** they only load at session start — restart the session.
-  Confirm with `claude mcp list` (should show `ahmad-brain ... ✓ Connected`).
+  Confirm with `claude mcp list` (should show `ahmad_brain ... ✓ Connected`).
 - **A console window flashes:** ensure the task action is `wscript.exe "...-hidden.vbs"`, not
   `powershell ...` directly.
