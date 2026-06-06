@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "deny": [
+      "Write(//c/dev/ahmad-brain/raw/**)",
+      "Edit(//c/dev/ahmad-brain/raw/**)",
+      "MultiEdit(//c/dev/ahmad-brain/raw/**)",
+      "NotebookEdit(//c/dev/ahmad-brain/raw/**)"
+    ]
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Write|Edit|MultiEdit|NotebookEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PROJECT_DIR}/.claude/hooks/vault-write-guard.js\""
+          }
+        ]
+      }
+    ]
+  }
+}
