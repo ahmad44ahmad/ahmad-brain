@@ -5,7 +5,7 @@ type: moc
 status: active
 tags: [index, auto-generated]
 created: 2026-04-24
-updated: 2026-06-05
+updated: 2026-06-10
 summary: >-
   Auto-generated index. Regenerate via `.claude/skills/regenerate-indexes/generate.py`.
   Count: 15 entries.
@@ -13,7 +13,7 @@ summary: >-
 
 # Projects Index
 
-Auto-generated 2026-06-05. 15 entries. Regenerate with `/regenerate-indexes` skill.
+Auto-generated 2026-06-10. 15 entries. Regenerate with `/regenerate-indexes` skill.
 
 
 | id | title | status | summary |

@@ -5,15 +5,15 @@ type: moc
 status: active
 tags: [index, auto-generated]
 created: 2026-04-24
-updated: 2026-06-05
+updated: 2026-06-10
 summary: >-
   Auto-generated index. Regenerate via `.claude/skills/regenerate-indexes/generate.py`.
-  Count: 6 entries.
+  Count: 7 entries.
 ---
 
 # Entities Index
 
-Auto-generated 2026-06-05. 6 entries. Regenerate with `/regenerate-indexes` skill.
+Auto-generated 2026-06-10. 7 entries. Regenerate with `/regenerate-indexes` skill.
 
 
 | id | title | summary |
@@ -24,3 +24,4 @@ Auto-generated 2026-06-05. 6 entries. Regenerate with `/regenerate-indexes` skil
 | [[hrsd-pms]] | HRSD Performance Management System (نظام الأداء الوظيفي) | MHRSD's official annual employee performance-appraisal system (latest version), run on نظام موارد. A 3-pillar charter — objectives, behavio… |
 | [[mhrsd-dev-sector-esystems]] | MHRSD Development Sector — Electronic Systems Inventory | Inventory of MHRSD's Development Sector (قطاع التنمية) electronic systems — umbrella portal plus four major sub-systems plus two supporting… |
 | [[mhrsd-leadership]] | MHRSD Leadership Map (Ministry HQ, 2026) | Verified organisational map of Saudi MHRSD as of April 2026 — minister + assistant minister (مرتبة ممتازة) + seven deputy ministers — with … |
+| [[saudi-disability-rights-framework]] | Saudi Disability-Rights Framework — APD, Rights Law م/27 (2… | The verified governing spine for empowerment: the APD authority, the current Saudi Rights-of-PWD Law م/27 (1445/2023) replacing the 2000 we… |

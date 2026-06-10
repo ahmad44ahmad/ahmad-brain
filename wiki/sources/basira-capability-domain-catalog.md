@@ -89,7 +89,7 @@ structure that makes it shippable.
 | 11 | Vocational | المهارات المهنية | Material Wellbeing + Rights | d845/d850/d855 |
 
 Each domain decomposes to 12–15 *behaviourally observable* sub-skills, each probe-able with the standard 6-level
-prompt hierarchy **I / V / G / M / P / F** (Independent / Verbal / Gestural / Model / Partial-physical / Full-physical).
+prompt hierarchy **I / V / G / M / P / F** (Independent / Verbal / Gestural / Model / Partial-physical / Full-physical). The empowerment-skills taxonomy is the concretization of this 11-domain axis as *empowerment/independence outcomes* — the التمكين options menu a goal-setter picks from (drop the docility items, keep self-determination); see [[integration-readiness-classification]] and [[empowerment-ledger-vs-custodial-return]] for how acquired skills feed the exits-with-destination ledger.
 Default mastery = 80% Independent across 3 consecutive sessions + 1 generalisation probe; foundational-track mastery is
 **QoL/engagement-weighted instead of independence-weighted**.
 
