@@ -19,7 +19,7 @@ tags:
   - escalation-chain
   - 2024
 created: 2026-04-25
-updated: 2026-04-25
+updated: 2026-06-16
 valid_from: 2024-01-01
 learned_at: 2026-04-25
 confidence: high
@@ -38,6 +38,7 @@ related:
   - "[[albaha-center-org]]"
   - "[[hrsd-work]]"
   - "[[ali-alqarni]]"
+  - "[[institutional-governance-patterns]]"
   - "[[basira]]"
   - "[[basira-leadership-compass]]"
   - "[[drive-vault-coverage-audit]]"

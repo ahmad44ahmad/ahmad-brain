@@ -16,7 +16,7 @@ tags:
   - crpd
   - disability
 created: 2026-06-10
-updated: 2026-06-10
+updated: 2026-06-16
 valid_from: 2026-06-10
 learned_at: 2026-06-10
 confidence: high
@@ -30,6 +30,7 @@ related:
   - "[[saudi-disability-rights-framework]]"
   - "[[empowerment-ledger-vs-custodial-return]]"
   - "[[basira-v4-cross-service-triggers]]"
+  - "[[tai-alqaid-closure-gate]]"
 summary: >-
   The structured psychology of family resistance — the demand-side blocker behind
   the ~2% residential→non-residential transition rate. Family consent is shared

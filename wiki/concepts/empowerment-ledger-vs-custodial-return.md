@@ -16,7 +16,7 @@ tags:
   - kpi
   - measurement
 created: 2026-06-10
-updated: 2026-06-10
+updated: 2026-06-16
 valid_from: 2026-06-10
 learned_at: 2026-06-10
 confidence: high
@@ -28,6 +28,8 @@ related:
   - "[[family-fear-barrier]]"
   - "[[integration-readiness-classification]]"
   - "[[mhrsd-kpi-landscape-2024-2026]]"
+  - "[[institutional-governance-patterns]]"
+  - "[[tai-alqaid-closure-gate]]"
 summary: >-
   The named pair. The custodial monthly statistical return rewards dependency —
   motor-ability tiers (طريح فراش/مقعد/متحرك) set care-staffing ratios and funding,

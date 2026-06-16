@@ -16,7 +16,7 @@ tags:
   - classification
   - crpd
 created: 2026-06-10
-updated: 2026-06-10
+updated: 2026-06-16
 valid_from: 2026-06-10
 learned_at: 2026-06-10
 confidence: high
@@ -28,6 +28,9 @@ related:
   - "[[empowerment-ledger-vs-custodial-return]]"
   - "[[family-fear-barrier]]"
   - "[[community-integration-project]]"
+  - "[[case-shifting-de-dilution]]"
+  - "[[tai-alqaid-closure-gate]]"
+  - "[[de-institutionalization-moc]]"
 summary: >-
   The standalone readiness scheme, distinct from device-allocation and
   eligibility-gating. Sorts a resident toward a destination track, treats STAY as a
