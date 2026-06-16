@@ -13,7 +13,7 @@ tags:
   - integration
   - project
 created: 2026-06-04
-updated: 2026-06-04
+updated: 2026-06-16
 summary: >-
   How Basira V4 classifies disability without letting it become a ceiling: a 6-group taxonomy (~70 codes) and device-appropriateness rules used to prevent allocation mismatch, never to gate services. Adopt functional-fit guards, reject the مادة الصرف severity tiers and 8-track exclusion gates as disbursement-policy artifacts. CRPD-anchored de-institutionalization is the central empowerment trigger; start from goals, not diagnosis.
 related:
@@ -24,6 +24,7 @@ related:
   - "[[999-disability-care-empowerment-strategy]]"
   - "[[beneficiary-rights-document]]"
   - "[[basira-capability-domain-catalog]]"
+  - "[[two-doors-empowerment-model]]"
 source: session:s85-basira-v4-gather
 ---
 

@@ -24,6 +24,7 @@ related:
   - "[[vault-operating-manual]]"
   - "[[basira-v4-rebuild]]"
   - "[[ai-model-routing-and-governance]]"
+  - "[[conveyor-invisible-pattern]]"
 summary: >-
   Ahmad's standing retrieval method: invert the keyword-funnel. Instead of
   searching a corpus by query terms (which silently discards whatever the query

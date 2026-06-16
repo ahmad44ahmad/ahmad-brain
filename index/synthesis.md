@@ -8,12 +8,12 @@ created: 2026-04-24
 updated: 2026-06-16
 summary: >-
   Auto-generated index. Regenerate via `.claude/skills/regenerate-indexes/generate.py`.
-  Count: 17 entries.
+  Count: 19 entries.
 ---
 
 # Synthesis Index
 
-Auto-generated 2026-06-16. 17 entries. Regenerate with `/regenerate-indexes` skill.
+Auto-generated 2026-06-16. 19 entries. Regenerate with `/regenerate-indexes` skill.
 
 
 | id | title | summary |
@@ -26,6 +26,8 @@ Auto-generated 2026-06-16. 17 entries. Regenerate with `/regenerate-indexes` ski
 | [[al-baha-crc-building-safety-gap]] | Al-Baha CRC Building-Safety Gap — One Non-Conformance, Thre… | The Al-Baha CRC building-safety non-conformance as a single quantified story triangulated across three independent document harvests: a 202… |
 | [[architecture-first-knowledge-retrieval]] | Architecture-First Knowledge Retrieval — Walk the Shelf, Do… | Ahmad's standing retrieval method: invert the keyword-funnel. Instead of searching a corpus by query terms (which silently discards whateve… |
 | [[basira-evidence-stack]] | Basira Evidence Stack — What's in the Vault to Support the … | 14 vault notes carry the `basira-evidence-stack` tag as of 2026-05-06. This page maps them onto the four Basira pitch claims (governance, m… |
+| [[basira-v4-build-verification-lessons]] | Basira V4 Build-Verification Lessons — Aggregation Fixtures… | Three durable build-verification lessons from the 2026-06-16 V4 plan review, sharpening "honesty over green": aggregation rows need a golde… |
+| [[conveyor-invisible-pattern]] | Conveyor-Invisible Pattern — Specced-but-Unrowed (and Rowed… | In a ledger-driven build a capability is built only if it is a row, and reached only if its row has a slot in the ordered sequence — so spe… |
 | [[de-institutionalization-moc]] | De-institutionalization — Map of Content | Navigation hub for the de-institutionalization / empowerment cluster (~16 notes). Groups the cluster into a read-order — diagnosis & doctri… |
 | [[grievances-and-employment-disputes]] | Ahmad's Employment Disputes — Map of Content (grievances, a… | Map-of-content for Ahmad's open employment-dispute cluster — the single navigational entry point a cold Claude needs to answer "what are Ah… |
 | [[mhrsd-kpi-landscape-2024-2026]] | MHRSD KPI Landscape 2024–2026 — Five-Layer Map of the Perfo… | The MHRSD KPI surface for one comprehensive rehabilitation center comprises at least 5 distinct measurement instruments with different scop… |

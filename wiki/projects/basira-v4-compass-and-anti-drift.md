@@ -12,7 +12,7 @@ tags:
   - anti-drift
   - project
 created: 2026-06-04
-updated: 2026-06-04
+updated: 2026-06-16
 summary: >-
   The non-negotiable governance for every Basira V4 screen: the compass (KNOW the human, SERVE across services, break barriers); the settled trust-and-ledger security model (every user a pledged مؤتمن, default-open, all access logged — no masking, no classification tiers, no security-spine); disability as social/functional; honesty over green; and the anti-drift checklist plus the §9 NOT-ADOPTED ledger that the rebuild deliberately refuses.
 related:
@@ -21,6 +21,7 @@ related:
   - "[[basira-v4-engines-and-corpus]]"
   - "[[basira]]"
   - "[[mhrsd-cyber-policy-library]]"
+  - "[[basira-v4-build-verification-lessons]]"
 source: session:s85-basira-v4-gather
 ---
 

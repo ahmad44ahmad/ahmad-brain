@@ -8,12 +8,12 @@ created: 2026-04-24
 updated: 2026-06-16
 summary: >-
   Auto-generated index. Regenerate via `.claude/skills/regenerate-indexes/generate.py`.
-  Count: 21 entries.
+  Count: 22 entries.
 ---
 
 # Concepts Index
 
-Auto-generated 2026-06-16. 21 entries. Regenerate with `/regenerate-indexes` skill.
+Auto-generated 2026-06-16. 22 entries. Regenerate with `/regenerate-indexes` skill.
 
 
 | id | title | summary |
@@ -39,3 +39,4 @@ Auto-generated 2026-06-16. 21 entries. Regenerate with `/regenerate-indexes` ski
 | [[social-handicap-compass]] | Social-Handicap Compass — Ahmad's Core Operating Frame | Ahmad's central frame, introduced in the 2026-04-21 Opus-4.7 launchpad and operationalised by 2026-04-23. His work is not medical/clinical/… |
 | [[speech-dysphagia-assessment-loop]] | Speech & Dysphagia Assessment Loop — The Swallowing-Safety … | The speech-language (SLP) form set (6 forms) plus the cross-department swallowing-safety loop it anchors: initial screening → articulation … |
 | [[tai-alqaid-closure-gate]] | طي القيد Closure Gate — The Two-Committee De-Registration S… | The طي القيد (case-closure / de-registration) governance gate: a TWO-committee sequence — the Technical committee (قرار 117768) VERIFIES th… |
+| [[two-doors-empowerment-model]] | Two-Doors Empowerment Model — Family-Return vs Vocational (… | The empowerment mission has two exit doors out of institutional care — family-return (الإرشاد الأسري → the طي القيد closure gate) and vocat… |

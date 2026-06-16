@@ -11,7 +11,7 @@ tags:
   - ledger
   - project
 created: 2026-06-04
-updated: 2026-06-04
+updated: 2026-06-16
 summary: >-
   Navigational map of the Basira V4 requirements ledger's ten sections (A KNOW-the-human, B cross-service triggers, C engines real-vs-aspirational, D governance, E KPIs/anti-falsification, F medication interlocks, G empowerment/rights, H theoretical-foundations, I 62-file corpus, J corpus batch-2), each with its load-bearing requirements and harvest pointers. The full 66KB ledger lives on Desktop.
 related:
@@ -22,6 +22,7 @@ related:
   - "[[mhrsd-cyber-policy-library]]"
   - "[[mhrsd-rehab-center-forms]]"
   - "[[mhrsd-restraint-agitation-policy]]"
+  - "[[conveyor-invisible-pattern]]"
 source: session:s85-basira-v4-gather
 ---
 
