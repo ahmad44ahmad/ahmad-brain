@@ -18,7 +18,7 @@ tags:
   - basira-evidence-stack
   - ahmad-authored-initiative
 created: 2026-04-25
-updated: 2026-04-25
+updated: 2026-06-16
 valid_from: 2024-01-01
 learned_at: 2026-04-25
 confidence: high
@@ -38,6 +38,8 @@ related:
   - "[[empowerment-vocabulary]]"
   - "[[empowerment-thesis-corpus]]"
   - "[[999-albaha-qms-bcp]]"
+  - "[[albaha-center-facility-plant]]"
+  - "[[al-baha-crc-building-safety-gap]]"
   - "[[999-institutional-excellence-innovation]]"
   - "[[999-disability-care-empowerment-strategy]]"
   - "[[al-baha-quality-project-2024]]"

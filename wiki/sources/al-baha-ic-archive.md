@@ -18,7 +18,7 @@ tags:
   - committee-secretary
   - drive-source
 created: 2026-04-25
-updated: 2026-05-06
+updated: 2026-06-16
 valid_from: 2023-05-11
 learned_at: 2026-04-25
 confidence: high
@@ -35,6 +35,7 @@ related:
   - "[[999-institutional-excellence-innovation]]"
   - "[[drive-folders-master-index]]"
   - "[[drive-vault-coverage-audit]]"
+  - "[[mhrsd-ipc-inspection-instrument]]"
 summary: >-
   English distillation of the مكافحة العدوى Drive folder (275+ files, ~135
   PDFs) — the integrated infection-control program for Al-Baha Comprehensive

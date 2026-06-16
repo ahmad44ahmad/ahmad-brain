@@ -16,13 +16,15 @@ tags:
   - occupational-safety
   - building-risk
 created: 2026-06-05
-updated: 2026-06-05
+updated: 2026-06-16
 source: local:C:\Users\aass1\Desktop\PST-Email-Archive\
 related:
   - "[[ahmad-mhrsd-arc-2023-2026]]"
   - "[[absence-deduction-dispute]]"
   - "[[khalid-alzahrani]]"
   - "[[hrsd-work]]"
+  - "[[albaha-center-facility-plant]]"
+  - "[[al-baha-crc-building-safety-gap]]"
 summary: >-
   Safety & Security director of the HRSD Al-Baha regional branch. Recipient of
   Ahmad's 2026-02-10 escalation consolidating the Civil-Defense facility-safety

@@ -6,10 +6,12 @@ status: active
 aliases: [prompt-forge-format-2]
 tags: [prompt-engineering, claude-workflow, intake-template, method]
 created: 2026-04-17
-updated: 2026-04-24
+updated: 2026-06-16
 source: ahmad-workflow
 related:
   - "[[vault-operating-manual]]"
+  - "[[ai-model-routing-and-governance]]"
+  - "[[architecture-first-knowledge-retrieval]]"
 summary: >-
   Ahmad's canonical intake-prompt template for substantive Claude tasks.
   Format-2 — engineered context packet (goal, constraints, deliverable,

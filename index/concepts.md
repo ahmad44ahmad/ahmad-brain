@@ -8,18 +8,19 @@ created: 2026-04-24
 updated: 2026-06-16
 summary: >-
   Auto-generated index. Regenerate via `.claude/skills/regenerate-indexes/generate.py`.
-  Count: 20 entries.
+  Count: 21 entries.
 ---
 
 # Concepts Index
 
-Auto-generated 2026-06-16. 20 entries. Regenerate with `/regenerate-indexes` skill.
+Auto-generated 2026-06-16. 21 entries. Regenerate with `/regenerate-indexes` skill.
 
 
 | id | title | summary |
 |---|---|---|
 | [[ahmad-2025-achievements]] | Ahmad's 2025 Approved Achievements (Al-Qarni endorsement) | Ten 2025 performance achievements processed and approved in the MHRSD achievement system by Ali Al-Qarni (employee ID 8479) between 2025-11… |
 | [[ahmad-formal-assignments]] | Ahmad's Formal Ministry Assignments | Six formal cross-cutting assignments Ahmad has held inside MHRSD, beyond his credential title (PT specialist). Each has PST/sent-mbox corro… |
+| [[al-baha-crc-quality-management-system]] | Al-Baha CRC Quality Management System — Process Model + 202… | The Al-Baha CRC quality management system as an operating model: the ~73–89 process / ~21-unit process inventory, and the Nov-2025 audit → … |
 | [[alternative-services-catalogue]] | Alternative-Services Catalogue — The Routing Menu De-instit… | The catalogue treated as a first-class, eligibility-keyed routing menu — the thing a de-institutionalization plan routes INTO, distinct fro… |
 | [[basira-demo-vs-real-data]] | Basira Demo-vs-Real Data — live-DB inventory + demo-by-desi… | Where Basira's real data actually lives versus what the app ships. ONE real ~145-147-person roster sits on a single Supabase project (V1 an… |
 | [[case-shifting-de-dilution]] | Case-Shifting & De-Dilution — The Two-Way Sort That Makes C… | The two-way disposition sort that turns "close the custodial centers" from rhetoric into an operation: empowerment-capable beneficiaries wi… |

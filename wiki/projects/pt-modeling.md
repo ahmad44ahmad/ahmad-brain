@@ -18,13 +18,14 @@ tags:
   - governmental-arabic
   - operational-manual
 created: 2026-04-24
-updated: 2026-04-24
+updated: 2026-06-16
 source: drive-studies:2026-04-08, 2026-04-09
 related:
   - "[[ahmad-formal-assignments]]"
   - "[[drive-catalog]]"
   - "[[mhrsd-leadership]]"
   - "[[social-handicap-compass]]"
+  - "[[mhrsd-pt-services-process-model]]"
 summary: >-
   Ahmad's PT-services modelling project for the 36 MHRSD Comprehensive
   Rehabilitation Centres. A governmental operational manual (not research,

@@ -7,16 +7,17 @@ tags: [index, auto-generated, timeline]
 created: 2026-04-24
 updated: 2026-06-16
 summary: >-
-  Reverse-chronological feed of ADRs and session logs. 12 entries.
+  Reverse-chronological feed of ADRs and session logs. 13 entries.
 ---
 
 # Timeline
 
-12 dated entries. Most recent first.
+13 dated entries. Most recent first.
 
 | date | type | id | title |
 |---|---|---|---|
 
+| 2026-06-16 | log | [[log-2026-06-16]] | Session 2026-06-16 — Harvest→vault WRITE phase, ranks 1–4 |
 | 2026-06-10 | log | [[log-2026-06-10]] | Session 2026-06-10 — Axis D2 empowerment-notes enrichment |
 | 2026-06-05 | log | [[log-2026-06-05]] | Session 2026-06-05 — PST email archive folded into the vault |
 | 2026-06-05 | decision | [[0004-hrsd-design-system-canonical-home]] | ADR 0004: Canonical home for the verified HRSD design system |

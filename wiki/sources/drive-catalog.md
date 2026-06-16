@@ -6,7 +6,7 @@ status: active
 aliases: [drive-index, google-drive-inventory]
 tags: [drive, external-sources, file-catalog, admin-albahah]
 created: 2026-04-24
-updated: 2026-05-06
+updated: 2026-06-16
 source: google-drive:admin@albahah.app
 related:
   - "[[drive-folders-master-index]]"
@@ -207,6 +207,13 @@ For the other 65 folders Gemini has summarised, see [[drive-folders-master-index
 |---|---|---|---|
 | `1bruQTIqJHUmrf-s3W5d_Sbn4PKVE4W8A` | 202010_MHRSD_WordTamplate_Design.docx | docx | Official MHRSD Word template |
 | `1f492cT0aCSfDqYpH7RG_J-utL5zLieAg` | 202010_MHRSD_قالب محضر الاجتماع.docx | docx | Official MHRSD meeting-minutes template |
+
+## Blocked + PHI no-go (established by the SIDE-4 deep-harvest, 2026-06-04)
+
+Two durable operational facts so a future session doesn't burn cycles re-testing these or accidentally ingest PHI. (Full fileIds in the local `Desktop\SIDE-4-drive-deep-harvest\TARGET-LIST.md`; truncated prefixes here are enough to recognise + avoid.)
+
+- **Hard-blocked-6 (AI-ineligible everywhere).** Six foundational docs — fileId prefixes `1V8uTHV…`, `1fFtFOw…`, `1AP6peV…`, `13v1me…`, `1j32Rp…`, `1gtzwS2…` — return *"ineligible to be used in generative AI contexts"* from **every** thread (main + background). This is the Drive safety classifier's "sensitive personal content" verdict, **not** a connector/format issue. **Only path = Ahmad manual export.** Do NOT retry them as a read-target.
+- **PHI no-go sheets (never ingest rows).** `males_umalqura_smart` (`1yy3r8pN…`), `females_umalqura_smart` (`1tD8tQne…`), and the applied-classification sheet (`1cjQzke4…`) hold **real beneficiary PHI** (names, national-IDs, diagnoses, IQ scores, disability codes). Field-shapes / value-ranges only — never the rows. Never route to any demo/Vercel tier.
 
 ## Maintenance rules
 

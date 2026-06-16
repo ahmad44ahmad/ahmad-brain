@@ -8,12 +8,12 @@ created: 2026-04-24
 updated: 2026-06-16
 summary: >-
   Auto-generated index. Regenerate via `.claude/skills/regenerate-indexes/generate.py`.
-  Count: 41 entries.
+  Count: 43 entries.
 ---
 
 # Sources Index
 
-Auto-generated 2026-06-16. 41 entries. Regenerate with `/regenerate-indexes` skill.
+Auto-generated 2026-06-16. 43 entries. Regenerate with `/regenerate-indexes` skill.
 
 
 | id | title | source | summary |
@@ -46,6 +46,8 @@ Auto-generated 2026-06-16. 41 entries. Regenerate with `/regenerate-indexes` ski
 | [[mhrsd-2026-kpi-health-social-homes]] | MHRSD 2026 Health KPIs for Social Homes (الدور الاجتماعية) | drive:1uNkJBYHyQ9rsa5phfX4WjQldjOhDyYxyAg76eN1bK2M | 2026 health-performance KPI instrument scoped to MHRSD social-care homes (الدور الاجتماعية), a different facility class… |
 | [[mhrsd-contractor-performance-scorecard]] | MHRSD Contractor Performance Scorecard — Vendor SLA for Out… | drive:1q0Vf9fR1JjnO9Pa57PtaoXMscsQkNQ8m | The "fourth track" turns out to be a contractor SLA scorecard, not internal KPIs. 1000-point per-month evaluation of th… |
 | [[mhrsd-cyber-policy-library]] | MHRSD Cybersecurity Policy Library (63-doc ISMS) — NCA-ECC … | local-fs:C:\Users\aass1\Desktop\Cyber-Policy-Harvest\ | MHRSD's own 63-document ISMS policy library (DT-IS-POL/FRM codes; NCA-ECC-2:2024, CSCC-1:2019, CCC-1:2020, PDPL/SDAIA, … |
+| [[mhrsd-ipc-inspection-instrument]] | MHRSD IPC Inspection Instrument — 18-Domain Criteria Struct… | drive:1oUri3HFJtjNvTEYxMNLtvRGKbh1hd8De | The official MHRSD infection-prevention-control inspection instrument for social-care / rehab homes — 18 inspection dom… |
+| [[mhrsd-pt-services-process-model]] | MHRSD PT Services Process Model — The Un-Extracted Scope La… | local:C:\Users\aass1\Desktop\Basira-Knowledge-Library\phase-2R\modules\pt-physical-therapy.md | The process/scope layer of the official MHRSD PT services-modeling document — physiopp 001–014 (14 numbered work proced… |
 | [[mhrsd-rehab-center-forms]] | MHRSD Comprehensive-Rehab-Center Paper Forms — Field-Faithf… | local:C:\Users\aass1\Desktop\Medical-Forms-Harvest\ | Field-faithful extraction of all 61 official MHRSD comprehensive-rehab-center paper forms from 6 department modeling/po… |
 | [[mhrsd-restraint-agitation-policy]] | MHRSD Restraint & Psychological-Agitation Policy (سياسة الت… | local:D:\takeout-...\Drive\سياسة التقييد والتعامل مع حالات الهياج النفسي\ | MHRSD's restraint / psychological-agitation policy (سياسة التقييد) for residential social-care homes, owned by إدارة سل… |
 | [[mhrsd-risk-excellence-policies-2025]] | MHRSD April 2025 Risk + Excellence + Innovation Policy Bund… | drive-folder-jsonl:#33 | Drive folder of 30 files documenting MHRSD's April 2025 risk + governance + innovation policy bundle (issued by الإدارة… |

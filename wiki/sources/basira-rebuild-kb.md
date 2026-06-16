@@ -13,7 +13,7 @@ tags:
   - knowledge-base
   - source
 created: 2026-06-04
-updated: 2026-06-04
+updated: 2026-06-16
 source: local-fs:C:\Users\aass1\Desktop\Basira-REBUILD\
 summary: >-
   The single citable pointer from the vault to the Basira V4 rebuild knowledge
@@ -27,6 +27,7 @@ related:
   - "[[basira-v4-rebuild]]"
   - "[[basira-demo-vs-real-data]]"
   - "[[drive-catalog]]"
+  - "[[mhrsd-cyber-policy-library]]"
 ---
 
 # Basira V4 Rebuild Knowledge Base (Desktop)

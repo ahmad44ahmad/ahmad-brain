@@ -14,7 +14,7 @@ tags:
   - org-chart
   - hrsd
 created: 2026-04-24
-updated: 2026-04-25
+updated: 2026-06-16
 valid_from: 2026-04-23
 learned_at: 2026-04-23
 confidence: high
@@ -31,6 +31,9 @@ related:
   - "[[aman-mustadam-initiative]]"
   - "[[al-baha-ic-archive]]"
   - "[[drive-vault-coverage-audit]]"
+  - "[[al-baha-crc-quality-management-system]]"
+  - "[[albaha-center-facility-plant]]"
+  - "[[al-baha-crc-building-safety-gap]]"
 summary: >-
   Current heads of each department and sub-unit at مركز التأهيل الشامل بمنطقة
   الباحة as of 2026-04-23, dictated by Ahmad. Supersedes the older PDF org

@@ -16,7 +16,7 @@ tags:
   - occupational-safety
   - synthesis
 created: 2026-06-05
-updated: 2026-06-05
+updated: 2026-06-16
 summary: >-
   Map-of-content hub bundling Ahmad's safety/risk credential cluster — infection
   control, occupational health & safety, building/structural safety, beneficiary-safety
@@ -32,6 +32,8 @@ related:
   - "[[aman-mustadam-initiative]]"
   - "[[mhrsd-risk-excellence-policies-2025]]"
   - "[[999-albaha-qms-bcp]]"
+  - "[[al-baha-crc-building-safety-gap]]"
+  - "[[albaha-center-facility-plant]]"
 ---
 
 # Safety, Risk, IPC & OH&S Portfolio — Map of Content
@@ -45,6 +47,8 @@ related:
 
 ## Building / structural & occupational safety
 - [[awad-alshahri-safety]] — the Safety & Security director; recipient of the **23-observation Civil-Defense building-risk escalation** + the **OH&S 8-axis framework** (the nomination's safety differentiator in action).
+- [[albaha-center-facility-plant]] — the physical-plant AS-IS baseline (2022 inspection: no diesel fire pump, fire-alarm defects, HVAC snag list).
+- [[al-baha-crc-building-safety-gap]] — the no-fire-suppression non-conformance as one quantified story triangulated across three independent harvests (2022→2026).
 
 ## Beneficiary safety (restraint / agitation)
 - [[mhrsd-restraint-agitation-policy]] — the ministry's restraint/agitation doctrine under إدارة سلامة المستفيدين (de-escalation-first; Jazan −76%, Kharj −100%); the field-faithful source for Basira V4's deferred RestraintRecord.

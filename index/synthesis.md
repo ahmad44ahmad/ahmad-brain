@@ -8,12 +8,12 @@ created: 2026-04-24
 updated: 2026-06-16
 summary: >-
   Auto-generated index. Regenerate via `.claude/skills/regenerate-indexes/generate.py`.
-  Count: 14 entries.
+  Count: 17 entries.
 ---
 
 # Synthesis Index
 
-Auto-generated 2026-06-16. 14 entries. Regenerate with `/regenerate-indexes` skill.
+Auto-generated 2026-06-16. 17 entries. Regenerate with `/regenerate-indexes` skill.
 
 
 | id | title | summary |
@@ -22,6 +22,9 @@ Auto-generated 2026-06-16. 14 entries. Regenerate with `/regenerate-indexes` ski
 | [[ahmad-brain-foundation]] | Ahmad-Brain Foundation — Charter, Discussion, Findings, Fou… | English distillation of Ahmad's 7 foundational thinking documents (original Arabic preserved verbatim at raw/drive/ahmad-brain-foundation/)… |
 | [[ahmad-career-arc]] | Ahmad's MHRSD Career Arc — One Arc, Not Multiple Identities | A single ~14-year career arc inside MHRSD (2011+), not multiple competing identities. Credential base (PT Specialist, permanent) + role pro… |
 | [[ahmad-mhrsd-arc-2023-2026]] | Ahmad's MHRSD Working Arc 2023–2026 — Email-Grounded Timeli… | The temporal + relational spine of Ahmad's documented MHRSD working life, reconstructed from his email archive. Where [[ahmad-career-arc]] … |
+| [[ai-model-routing-and-governance]] | AI Model Routing & Governance — The Tier-by-Task Rule + the… | The durable, model-agnostic rule for routing work across AI model tiers: use a higher-ceiling model for long-horizon, ambiguous, architectu… |
+| [[al-baha-crc-building-safety-gap]] | Al-Baha CRC Building-Safety Gap — One Non-Conformance, Thre… | The Al-Baha CRC building-safety non-conformance as a single quantified story triangulated across three independent document harvests: a 202… |
+| [[architecture-first-knowledge-retrieval]] | Architecture-First Knowledge Retrieval — Walk the Shelf, Do… | Ahmad's standing retrieval method: invert the keyword-funnel. Instead of searching a corpus by query terms (which silently discards whateve… |
 | [[basira-evidence-stack]] | Basira Evidence Stack — What's in the Vault to Support the … | 14 vault notes carry the `basira-evidence-stack` tag as of 2026-05-06. This page maps them onto the four Basira pitch claims (governance, m… |
 | [[de-institutionalization-moc]] | De-institutionalization — Map of Content | Navigation hub for the de-institutionalization / empowerment cluster (~16 notes). Groups the cluster into a read-order — diagnosis & doctri… |
 | [[grievances-and-employment-disputes]] | Ahmad's Employment Disputes — Map of Content (grievances, a… | Map-of-content for Ahmad's open employment-dispute cluster — the single navigational entry point a cold Claude needs to answer "what are Ah… |
