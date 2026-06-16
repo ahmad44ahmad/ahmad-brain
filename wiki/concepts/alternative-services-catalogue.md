@@ -16,7 +16,7 @@ tags:
   - accountability
   - crpd
 created: 2026-06-10
-updated: 2026-06-10
+updated: 2026-06-16
 valid_from: 2026-06-10
 learned_at: 2026-06-10
 confidence: high
@@ -28,6 +28,7 @@ related:
   - "[[integration-readiness-classification]]"
   - "[[family-fear-barrier]]"
   - "[[basira-v4-cross-service-triggers]]"
+  - "[[tai-alqaid-closure-gate]]"
 summary: >-
   The catalogue treated as a first-class, eligibility-keyed routing menu — the
   thing a de-institutionalization plan routes INTO, distinct from the intake gates
@@ -58,3 +59,18 @@ The corrosive anti-pattern: **"service unavailable in region" is recorded as a r
 ## Honest scope
 
 The deck never structures these cleanly, and entries like a transport discount are absent in the source. Build the catalogue from what is verified; do **not** manufacture missing entries. The catalogue is also the structural answer to family-fear sub-fear #2 (financial) — see [[family-fear-barrier]].
+
+## Number-discipline (reported figures, flagged)
+
+A later provenance pass against the per-service source catalogue surfaced specific entitlement figures that must be carried with discipline, never asserted as settled:
+
+- **Disability allowance** — Ahmad's operational figure (~1,600 SAR) reconciles against the regulation's reported **800 / 1,200 SAR** monthly bands plus a reported **20,000 SAR/yr** support `[verify]` — the gap is a real reconciliation item, not a typo to silently pick one side of.
+- **Transport** — reported **50% discount + companion** entitlement `[verify]`.
+- **Other reported entitlements** — visa-fee exemption, traffic card `[verify]`.
+- **سكن خيري (charity housing)** — `[UNVERIFIED]`: a charity-channel route, **not codified** in the rights regulation; present as charitable provision, not a statutory entitlement.
+
+The per-service official-source URLs live in the source catalogue (`tay-alqayd-alternative-services-catalogue.md`); they are referenced there rather than copied here. Carry every `[verify]` / `[UNVERIFIED]` tag verbatim.
+
+## Linkage to the closure gate
+
+This catalogue is one of the hard preconditions the طي القيد closure dossier verifies — **«alternative services arranged»** is a تعميم-117792 dossier item ([[tai-alqaid-closure-gate]]). A closure cannot complete on a promise of services; the catalogue entry must be real and in place. That is the operational teeth behind "Basira routes a directive but has nothing to route TO."

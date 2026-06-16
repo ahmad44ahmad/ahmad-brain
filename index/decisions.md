@@ -5,7 +5,7 @@ type: moc
 status: active
 tags: [index, auto-generated]
 created: 2026-04-24
-updated: 2026-06-10
+updated: 2026-06-16
 summary: >-
   Auto-generated index. Regenerate via `.claude/skills/regenerate-indexes/generate.py`.
   Count: 4 entries.
@@ -13,7 +13,7 @@ summary: >-
 
 # Decisions Index (ADRs)
 
-Auto-generated 2026-06-10. 4 entries. Regenerate with `/regenerate-indexes` skill.
+Auto-generated 2026-06-16. 4 entries. Regenerate with `/regenerate-indexes` skill.
 
 
 | id | title | status | summary |

@@ -16,7 +16,7 @@ tags:
   - empowerment-pivot
   - drive-source
 created: 2026-04-25
-updated: 2026-04-25
+updated: 2026-06-16
 valid_from: 2024-01-01
 learned_at: 2026-04-25
 confidence: high
@@ -28,6 +28,7 @@ related:
   - "[[empowerment-vocabulary]]"
   - "[[999-disability-care-empowerment-strategy]]"
   - "[[drive-vault-coverage-audit]]"
+  - "[[tai-alqaid-closure-gate]]"
 summary: >-
   32+ file Drive folder for the Training Development Project — operational
   preparation for Phase-1 of [[community-integration-project]]. Covers
@@ -56,7 +57,7 @@ Vault-significance: documents the **Individualised Educational Program (IEP) met
 | **Procedural commitment** (files 25, 26) | -- | Centers must intensify training + family-guidance for these cases within **3 months max** per case. Apply approved templates from *دليل توحيد إجراءات العمل* (Social + Health departments). Includes mandatory family-context study. |
 | **«طي القيد» Steering Committee** (files 27, 28) | Decree forming the committee | **Chaired by the deputy minister for social development** (= the Wakil for Rehabilitation + Social Guidance). Members: ministry deputies (وكلاء الوزارة). Mission: ensure service-coordination + apply طي القيد procedures via regulatory channels within project timeline. |
 
-**The «طي القيد» framing.** This phrase literally means *"folding / removing the residency record"* — administrative process for transitioning a case OUT of the residency-records system, the documentary mirror of the Phase-1 community integration. Worth recording as procedural-vocabulary.
+**The «طي القيد» framing.** This phrase literally means *"folding / removing the residency record"* — administrative process for transitioning a case OUT of the residency-records system, the documentary mirror of the Phase-1 community integration. Worth recording as procedural-vocabulary. The steering committee named here is only the *approval* gate: the full closure path is a **two-committee verify→approve sequence** (Technical verifies the تعميم-117792 dossier → Steering approves) now detailed in [[tai-alqaid-closure-gate]].
 
 ## IEP methodology (Individualised Educational Program)
 

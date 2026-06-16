@@ -5,7 +5,7 @@ type: moc
 status: active
 tags: [index, auto-generated, open-threads, draft-stubs, open-questions]
 created: 2026-04-24
-updated: 2026-06-10
+updated: 2026-06-16
 summary: >-
   Two surfaces in one file: Open threads (5) = finished evergreen notes
   carrying a live `open:` action (NOW/NEXT/WAITING); Draft stubs (1) = notes

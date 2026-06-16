@@ -16,7 +16,7 @@ tags:
   - hrsd-policies
   - drive-source
 created: 2026-04-25
-updated: 2026-04-25
+updated: 2026-06-16
 valid_from: 2024-01-01
 learned_at: 2026-04-25
 confidence: high
@@ -30,6 +30,9 @@ related:
   - "[[al-baha-quality-project-2024]]"
   - "[[ahmad-engineering-substrate]]"
   - "[[drive-vault-coverage-audit]]"
+  - "[[institutional-governance-patterns]]"
+  - "[[mhrsd-rehab-center-forms]]"
+  - "[[basira-v4-org-roles-rbac]]"
 summary: >-
   Drive folder of 13 official MHRSD evaluation instruments — the standardised
   forms used by وكالة تجربة المستفيد + الإدارة العامة للمراجعة الداخلية to
@@ -103,6 +106,18 @@ The "**enforcement of approved shift periods**" line item is structurally releva
 - **Operational compliance** — **cash-guarantee completeness** (cleaning, maintenance, personal-care, catering) with regulatory withdrawal procedures for contractor violations, contractor-shift-supervision tracking, **monthly electronic invoice submission**.
 - **Worker qualification** — contractor-staff qualification + training per contract, uniform compliance.
 - **Building + facilities** — building status (gov / leased; excellent / good / dilapidated), identification signage, **disability ramp**, paint condition, cleanliness of facade + offices + restrooms, beneficiary reception hall adequacy, departmental wayfinding signage.
+
+## The 2025 quantified version (the 714-point field-visit form)
+
+A later, **quantified** form of the same وكالة تجربة المستفيد instrument exists (field-visit inspection form, 2025) — same owning agency, same 3-2-1 ordinal scale, but now **weighted and scored**. It is the self-assessment engine the center runs against itself:
+
+- **Five weighted domains summing to 714 points:** Administrative 99 · Financial 48 · Operational 210 · **Beneficiary-services 300** · Facilities 57. The beneficiary-services domain is the largest single weight — the compass guard is that empowerment (Domain-4) outweighs facility-control density (Domain-5), not the reverse.
+- **~238 criteria**, each on the 3-2-1 scale (موجود 3 / موجود جزئياً 2 / لا يوجد 1).
+- **Four performance bands:** High ≥90% · Upper-Medium ≥80% · Medium ≥75% · Weak <75%.
+- **N/A = full score + escalation:** the **«البند الذي لا ينطبق على الفرع يعطى الدرجة كاملة»** rule — an out-of-control item scores full AND routes upward as an accountability gap. This is one of the four levers distilled in [[institutional-governance-patterns]].
+- **3-visit quarterly cadence**, with an **auto-generated corrective plan** for items scoring below band.
+
+This quantified form is the scoring instrument behind the governance patterns in [[institutional-governance-patterns]]; the clinical/data forms it audits are catalogued in [[mhrsd-rehab-center-forms]]. (Owner/header fields are staff-name-bearing on the live copies — the vault holds the blank structure only.)
 
 ## Pre-visit documentation form
 

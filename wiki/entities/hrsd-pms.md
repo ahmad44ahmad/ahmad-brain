@@ -15,7 +15,7 @@ tags:
   - career
   - moed-mawarid
 created: 2026-06-05
-updated: 2026-06-05
+updated: 2026-06-16
 valid_from: 2025-01-01
 learned_at: 2026-06-05
 confidence: high
@@ -30,6 +30,7 @@ related:
   - "[[absence-deduction-dispute]]"
   - "[[overtime-grievance-case]]"
   - "[[grievances-and-employment-disputes]]"
+  - "[[saudi-unified-classification-of-occupations]]"
 summary: >-
   MHRSD's official annual employee performance-appraisal system (latest version),
   run on نظام موارد. A 3-pillar charter — objectives, behavioural competencies,

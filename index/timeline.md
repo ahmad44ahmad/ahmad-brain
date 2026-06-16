@@ -5,18 +5,19 @@ type: moc
 status: active
 tags: [index, auto-generated, timeline]
 created: 2026-04-24
-updated: 2026-06-10
+updated: 2026-06-16
 summary: >-
-  Reverse-chronological feed of ADRs and session logs. 11 entries.
+  Reverse-chronological feed of ADRs and session logs. 12 entries.
 ---
 
 # Timeline
 
-11 dated entries. Most recent first.
+12 dated entries. Most recent first.
 
 | date | type | id | title |
 |---|---|---|---|
 
+| 2026-06-10 | log | [[log-2026-06-10]] | Session 2026-06-10 — Axis D2 empowerment-notes enrichment |
 | 2026-06-05 | log | [[log-2026-06-05]] | Session 2026-06-05 — PST email archive folded into the vault |
 | 2026-06-05 | decision | [[0004-hrsd-design-system-canonical-home]] | ADR 0004: Canonical home for the verified HRSD design system |
 | 2026-06-04 | decision | [[0003-basira-v4-architecture]] | ADR-0003 — Basira V4 Architecture & Build Decisions |

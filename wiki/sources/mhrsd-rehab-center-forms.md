@@ -19,7 +19,7 @@ tags:
   - clinical-forms
   - drive-source
 created: 2026-06-05
-updated: 2026-06-05
+updated: 2026-06-16
 source: local:C:\Users\aass1\Desktop\Medical-Forms-Harvest\
 summary: >-
   Field-faithful extraction of all 61 official MHRSD comprehensive-rehab-center
@@ -34,6 +34,12 @@ related:
   - "[[basira-v4-requirements-ledger]]"
   - "[[basira-rebuild-kb]]"
   - "[[mhrsd-supervisory-visit-instruments]]"
+  - "[[pt-assessment-form-structure]]"
+  - "[[rehab-nursing-observation-forms]]"
+  - "[[speech-dysphagia-assessment-loop]]"
+  - "[[psychological-behavior-forms]]"
+  - "[[dental-infection-control-forms]]"
+  - "[[rehab-forms-to-basira-v4-build-map]]"
 ---
 
 # MHRSD Rehab-Center Forms — Digitization Catalog
@@ -74,6 +80,10 @@ PT, dental, speech, and psychology forms carry **no printed code** (PT reference
 - **Speech & Swallowing:** initial screening, articulation, orofacial exam, case history, and the **dysphagia bedside exam + meal-monitoring sheet** — the swallowing-referral trigger that grounds V4's existing dental→soft-diet / dysphagia→pureed cross-service loops.
 - **Nursing:** the 21-form daily-care engine — the canonical source for V4's nursing slice (P1, next).
 - **Psychological:** comprehensive psych exam, treatment plan, therapy session, behavior note/modification, case follow-up.
+
+## Department data models (deeper notes)
+
+This catalogue is the register; the field-level clinical data model for each department now lives in its own concept note — [[pt-assessment-form-structure]], [[rehab-nursing-observation-forms]], [[speech-dysphagia-assessment-loop]], [[psychological-behavior-forms]], [[dental-infection-control-forms]] — and the corpus→build mapping (which forms become humane-form slices vs cross-service triggers) is in [[rehab-forms-to-basira-v4-build-map]].
 
 ## Why this matters for Basira V4
 

@@ -19,7 +19,7 @@ tags:
   - thinking-substrate
   - empowerment-pivot
 created: 2026-04-25
-updated: 2026-06-04
+updated: 2026-06-16
 valid_from: 2024-01-01
 learned_at: 2026-04-25
 confidence: high
@@ -42,6 +42,7 @@ related:
   - "[[999-zero-paper-master]]"
   - "[[drive-vault-coverage-audit]]"
   - "[[basira-v4-rebuild]]"
+  - "[[tai-alqaid-closure-gate]]"
 summary: >-
   Single concept node holding the five vocabulary domains in Ahmad's
   empowerment thesis — Critique (pathologies of the medical/custodial model),
@@ -220,6 +221,14 @@ The procedural domain has two **distinct registers** that share the same structu
 - **«الشراكة التكاملية والتفاعلية» vs «رقابة تقليدية»** — integrative-interactive partnership vs traditional oversight. JSONL #22, #51, #60 — *الانتقال بمنهجية الزيارات الإشرافية من مجرد رقابة تقليدية إلى شراكة تكاملية وتفاعلية تدعم التطوير والتحسين المستمر* (#51). Single phrase that makes ministry supervisory practice reformable. Cross-ref [[albaha-regional-admin]], [[hrsd-work]].
 
 - **«نواة لتجربة رائدة قابلة للتعميم»** — nucleus of a pioneering, scalable experiment. JSONL #29 — *مع التركيز على مركز التأهيل الشامل بمنطقة الباحة كـ "نواة لتجربة رائدة قابلة للتعميم".* Justifies pilot-at-Al-Baha as ministry-generative, not regionally-isolated. Cross-ref [[albaha-center-org]], [[999-disability-care-empowerment-strategy]].
+
+### Procedural — Case-disposition (administrative register)
+
+The administrative-procedural terms for moving a case out of (and back into) the residency-records system. Unlike the reformist register above, these are existing ministry process-names, not Ahmad coinages — recorded here as the lookup for the disposition vocabulary.
+
+- **«طي القيد»** — *folding / removing the residency record*. The administrative de-registration process for transitioning a case OUT of the residency-records system — the documentary mirror of community integration. Gated by a **two-committee verify→approve sequence** (Technical verifies the تعميم-117792 dossier → Steering approves). Full governance model in [[tai-alqaid-closure-gate]]; the steering committee is named in [[training-development-project]].
+
+- **«إعادة القيد»** — *re-admission*. Re-opening a closed case; routed through a **separate central committee (تعميم 179291)**, not back through the طي-قيد committees. The relapse-readmission counterpart to طي القيد. Cross-ref [[tai-alqaid-closure-gate]].
 
 ### Procedural — Grievance (confrontational-legal register)
 
