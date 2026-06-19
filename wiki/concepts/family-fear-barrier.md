@@ -16,7 +16,7 @@ tags:
   - crpd
   - disability
 created: 2026-06-10
-updated: 2026-06-16
+updated: 2026-06-19
 valid_from: 2026-06-10
 learned_at: 2026-06-10
 confidence: high
@@ -58,6 +58,8 @@ The load-bearing reframe: **family consent = shared responsibility, not a gate t
 ## Cross-cutting governing principle
 
 **Supported decision-making (CRPD Art. 12 + General Comment No. 1)** `[verified]` dismantles the "he can't decide so he must stay" objection — the family/circle supports the person's own will, not substitute guardianship. The community-living right itself is **CRPD Art. 19 + General Comment No. 5 + the 2022 DI Guidelines** `[verified]` (see [[saudi-disability-rights-framework]]).
+
+G-010 (supported decision-making) mints the rights-side twin of this barrier — the beneficiary's will in his own words. Standard: CRPD Art.12 + General Comment No.1 (2014) `[verified]` (legal capacity ≠ mental capacity; support-not-substitute; best-interpretation-of-will when unascertainable — GC1 §21). Designed-toward, not Saudi-law-mandated: م/27 (2023) **Article 2, Principle 5** — NOT "Article 13" (the saudipedia mislabel) — presumes adult-PWD capacity with a disability exception `[verify-secondary]`, and the domestic ward standard is best-interest (مصلحة), never will-and-preferences — so G-010 records-and-escalates, never gates/overrides. Sovereign-UN principles stay uncited `[CONFIDENTIAL]`.
 
 ## The causal root and the anti-pattern
 
