@@ -45,7 +45,7 @@ summary: >-
   (2) Ahmad as IC committee secretary at Al-Baha (3+ years of signed
   meeting minutes), (3) the 2024 revised policy bundle (Edition 2,
   1446 H) the center implements. Also captures the COVID-19 outbreak-
-  prevention plan, the committee-formation decree #14987 (1445 H), and
+  prevention plan, the committee-formation decree #14687 (1445 H), and
   the social-life model pivot in the BICSL-RC framework.
 ---
 
@@ -126,7 +126,7 @@ The folder contains **three signed committee meeting minutes** with Ahmad as *ك
 - **2023-08-03** (3/8/2023) — same year, ~3 months later
 - **2024-08** — third minutes a year later
 
-The committee itself is constituted by **administrative decree #14987 dated 13/12/1445 H** (~2024-06-29 G), naming the IC committee at Al-Baha Comprehensive Rehab Center with the physician as chair and the nursing supervisor as member.
+The committee itself is constituted by **administrative decree #14687 dated 30/3/1445 H** (≈ mid-Oct 2023 G) *(corrected 2026-06-24 from the previously-recorded #14987 / 13-12-1445 H — the sourced value is #14687 / 30-3-1445 H per the Al-Baha procedural manual, confirmed by Ahmad)*, naming the IC committee at Al-Baha Comprehensive Rehab Center with the physician as chair and the nursing supervisor as member.
 
 **Why this matters institutionally.** *كاتب محاضر* is the role that controls the documentary trail of governance — what gets recorded as discussed, decided, and tracked. Three years of continuous minutes-secretary signing is a documented governance contribution that *predates* Basira's pitch arc and supports the F-5.1 / Basira-evidence-stack claim that Ahmad's institutional credibility is accumulated, not newly claimed.
 
@@ -181,7 +181,7 @@ The folder documents an explicit IC governance hierarchy:
 |---|---|---|
 | **Central** | وحدة مكافحة العدوى, إدارة سلامة المستفيدين (IC Unit under Beneficiary Safety Admin, ministerial level) | Pages 9–15 of the November-2024 governance brief; defines unit duties (policy contribution, KPI monitoring, technical consulting) |
 | **Regional** | لجنة فرعية / منسق مكافحة العدوى بالمنطقة (regional sub-committee under regional IC coordinator) | Implicit; this is one of the layers Ahmad's *كاتب محاضر* role intersects with |
-| **Local (center)** | لجنة مكافحة العدوى بكل (مركز – دار) (per-center IC committee) | Decree #14987 / 13-12-1445 H · physician chair + nursing-supervisor member · Ahmad as secretary across multiple years of minutes |
+| **Local (center)** | لجنة مكافحة العدوى بكل (مركز – دار) (per-center IC committee) | Decree #14687 / 30-3-1445 H · physician chair + nursing-supervisor member · Ahmad as secretary across multiple years of minutes |
 
 This three-tier structure provides the **organisational anchoring** that [[albaha-center-org]] and [[mhrsd-leadership]] reference in their generic "ministerial → regional → center" framing. The IC archive is the most concrete of the worked-out examples currently in the vault.
 
@@ -198,7 +198,7 @@ This material is **historical / preparedness baseline**, not active doctrine. Wo
 ## Cross-references to existing vault content
 
 - [[ahmad-career-arc]] §"Cross-cutting expertise" → "intensive COVID-era training, then certified trainer (مدرب معتمد) for basic infection-control skills." This note is the source-anchor.
-- [[albaha-center-org]] → physician-chaired IC committee + nursing-supervisor member structure documented here as decree #14987.
+- [[albaha-center-org]] → physician-chaired IC committee + nursing-supervisor member structure documented here as decree #14687.
 - [[ahmad-2025-achievements]] item #5 → 2025 IC training manual operationalises the Edition-2 P17 policy.
 - [[ahmad-engineering-substrate]] §"Other co-mingled material in #60" → the BICSL-RC trainee manual mentioned there (file #190 of JSONL #60) is part of *this* folder's training-credential bundle. Cross-folder co-mingling is normal; the credential anchor lives here.
 - [[999-institutional-excellence-innovation]] §"5-star Red Crescent" → the IC-program rigour documented here is structurally upstream of the Red Crescent emergency-safety compliance attestation.
